@@ -179,3 +179,22 @@ public class BinarySearchTree {
         }
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        BinarySearchTree tree = new BinarySearchTree();
+        tree.insert(13);
+        tree.insert(15);
+        tree.insert(20);
+        tree.insert(18);
+        tree.insert(26);
+        tree.insert(22);
+        tree.insert(24);
+        tree.insert(25);
+        tree.insert(17);
+        tree.printPostorder(tree.root);
+        tree.printInorder(tree.root);
+        tree.printLevelorder(tree.root);
+
+    }
+}
