@@ -188,4 +188,21 @@ public class RBT {
 
 // YT vid explaining how RBT works: 
 // https://www.youtube.com/watch?v=qA02XWRTBdw&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=68
+/*
+public class Node {
+    int data;
+    char colour;
+    Node left;
+    Node right;
+    Node parent;
+
+    Node(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+        this.colour = 'R';
+        this.parent = null; // required at time of rechecking.
+    }
+}
+*/
 // https://www.youtube.com/watch?v=w5cvkTXY0vQ&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=66
