@@ -187,22 +187,18 @@ public class RBT {
 // RBT using keys, generics and other stuff a little tough to understand as of now: https://algs4.cs.princeton.edu/33balanced/RedBlackBST.java.html
 
 // YT vid explaining how RBT works: 
-// https://www.youtube.com/watch?v=qA02XWRTBdw&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=68
 /*
-public class Node {
-    int data;
-    char colour;
-    Node left;
-    Node right;
-    Node parent;
-
-    Node(int data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-        this.colour = 'R';
-        this.parent = null; // required at time of rechecking.
-    }
-}
+ Insertion Pseudo-Steps: https://www.youtube.com/watch?v=qA02XWRTBdw&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=68
+ 1. If tree is empty, create newNode as root B.
+ 2. If tree is not empty, create newNode as leaf R.
+ 3. If parent of newNode is B, return
+ 4. while parent of newNode is R, check color of newNode's parent's sibling
+        if (color == B || null), rotate about newNode's parent (15,16 then about middle of 18,16,15) && recolor so that in that subtree, root B & leaves R (why?)
+                                [To determine direction of rotation: check whatever newNode is connected to/in conflict with
+                                                                     newNode is to R of its parent, newNode's parent is to L of its parent
+                                                                     if R&R, do L. if L&L, do R. if R&L, do R&L
+                                [To determine order of rotation: same as flow of tree: R then L]
+        else if (color == R), recolor newNode's parent and parent's sibling
+            if (newNode's parent's parent != root), recolor newNode's parent's parent && recheck if invariant met, if isn't, check 4
 */
 // https://www.youtube.com/watch?v=w5cvkTXY0vQ&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&index=66
