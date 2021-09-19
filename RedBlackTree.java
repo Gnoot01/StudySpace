@@ -1,6 +1,22 @@
 // I find RBT difficult to implement in code, and write in my notes. Hence, I shall leave this here for future reviews, but link to this in my notes.
 
 // https://www.geeksforgeeks.org/red-black-tree-set-2-insert/ , modified
+public class Node {
+    int data;
+    char colour;
+    Node left;
+    Node right;
+    Node parent;
+
+    Node(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+        this.colour = 'R';
+        this.parent = null; // required at time of rechecking.
+    }
+}
+
 public class RBT {
     public Node root;//root node
 
