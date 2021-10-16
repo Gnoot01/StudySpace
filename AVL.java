@@ -127,10 +127,10 @@ public class AVL<T extends Comparable<T>> {
     }
 
     // Insertion
-    public boolean insert(T value) {
-        if (value == null) return false;
-        if (!contains(root, value)) {
-            root = insert(root, value);
+    public boolean insert(T data) {
+        if (data == null) return false;
+        if (!contains(root, data)) {
+            root = insert(root, data);
             return true;
         }
         return false;
@@ -157,12 +157,12 @@ public class AVL<T extends Comparable<T>> {
         return false;
     }
 
-    private Node delete(Node node, T elem) {
+    private Node delete(Node node, T data) {
         if (node == null) return null;
 
-        int cmp = elem.compareTo(node.data);
-        if (cmp < 0) node.left = delete(node.left, elem);
-        else if (cmp > 0) node.right = delete(node.right, elem);
+        int cmp = data.compareTo(node.data);
+        if (cmp < 0) node.left = delete(node.left, data);
+        else if (cmp > 0) node.right = delete(node.right, data);
             // Found
         else {
 
