@@ -2,6 +2,7 @@
  * An implementation of a hash-table using separate chaining with a linked list.
  *
  * @author William Fiset, william.alexandre.fiset@gmail.com
+ https://www.youtube.com/watch?v=Av9kwXkuQFw&list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu&index=32
  */
 package com.williamfiset.algorithms.datastructures.hashtable;
 
