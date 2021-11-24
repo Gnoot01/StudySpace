@@ -41,3 +41,4 @@ for i in range(0,len(password)):
     passwordList[i],passwordList[randomNum]=passwordList[randomNum],passwordList[i]
 for ch in passwordList:result+=ch
 print(f"Your password is: {result}")
+ 
