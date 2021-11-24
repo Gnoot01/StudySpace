@@ -34,9 +34,8 @@ while count_numbers<nr_numbers:
 # Hard Level - Order of characters randomised:
 # e.g. 4 letter, 2 symbol, 2 number = JE&d!9u1
 
-# Simpler: random.shuffle(password_list)
 for ch in password: passwordList+=ch
-print(passwordList)
+# Simpler: random.shuffle(password_list)
 for i in range(0,len(password)):
     randomNum=random.randint(0,len(password)-1)
     passwordList[i],passwordList[randomNum]=passwordList[randomNum],passwordList[i]
