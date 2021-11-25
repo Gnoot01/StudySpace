@@ -17,6 +17,7 @@
 ## Suggestion 3: Add currency (risk!)                                   DONE!
 
 # Learning points:
+# List of dicts are useful
 # "{:.2f}".format(var) OR format(var,"{:.2f}")
 # For anything to save Eg. BTC, need to use arrays/list/tuple/dict due to scope.
 # Unlike java, main is not directly specified, so anything outside naturally is global
@@ -64,6 +65,7 @@ def play():
             print("You win!", winMessage(betAmountInBtc,BTC['dealerBTC'],BTC['yourBTC']))
             endRound()
         elif yourCards[0]['score']>21:
+            # Need to figure out how to better implement this... since I used a dictionary to store
             if "A" in yourCards[1]:
                 del yourCards[1]["A"]
                 yourCards[1]["tempA"]=yourCards[1].get("tempA",0)+1
