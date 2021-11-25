@@ -47,6 +47,7 @@ def calculator():
                 toEnd=True
                 os.system("clear")
                 # To recurse back, a running program like a real calculator
+                # Looping program via recursion instead of while loops
                 calculator()        
                 break
             else: print("Type only y/n")
