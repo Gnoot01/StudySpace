@@ -23,6 +23,8 @@ while not end:
 highestBid=0
 highestBidder=""
 bidContestants=[]
+# Improvement: could have made def findWinner(): instead
+# findWinner()
 for bidder in bids:
     if bids[bidder]>highestBid:
         highestBid=bids[bidder]
