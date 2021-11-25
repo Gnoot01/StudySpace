@@ -10,6 +10,11 @@ while not end:
     name=input("What is your name? ")
     price=float((input("What is your bid?: $")))
     bids[name]=price
+    # A catch 21 conundrum: 
+    # 1. can't ask first, cos then can't while loop without repeating code
+    # 2. can't use as part of while loop (while condition=...!="y" or condition=...!="n":)
+    # 3. can't ask after, cos then what's the condition for while loop?
+    # Only solution I could think of to this was this
     while True:
         condition=input("Are there any other bidders? y/n ").lower()
         if condition=="n":
