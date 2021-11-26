@@ -4,7 +4,7 @@ LIVES=10
 GAMEEND=False
 
 def decLives():
-    # First time using globals, note global usage generally discouraged, okay for simpler programs
+    # First time using globals, note global usage generally discouraged, should use return statements within func instead.
     global LIVES
     global GAMEEND
     LIVES-=1
@@ -20,6 +20,12 @@ difficulty=input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
 if difficulty=="hard":LIVES=5
 
 print(f"Psttt the number is {ans}")
+
+# Should use this instead - initializing then comparing in a while loop, then asking for input 
+# instead of global GAMEEND/while int(input("Make a guess: "))!=ans
+# guess = 0
+# while guess != ans:
+#   guess=int(input("Make a guess: "))
 
 while not GAMEEND:
     print(f"You have {LIVES} attempts remaining to guess the number.")
