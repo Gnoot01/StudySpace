@@ -60,6 +60,7 @@ def play():
         print(f"Dealer drew a {dealerDraw}")
 
     def yourMoves():
+        """While you type 'y', before passing over the turn to dealer"""
         if yourCards[0]['score']==21:
             prntFinal(yourCards,dealerCards)
             print("You win!", winMessage(betAmountInBtc,BTC['dealerBTC'],BTC['yourBTC']))
@@ -81,7 +82,8 @@ def play():
             endRound()
         else:prntCurrent(yourCards,dealerCards)
 
-    def dealerMoves():         
+    def dealerMoves():
+        """After passing the turn to dealer"""
         while dealerCards[0]['score']<17: dealerDraws(dealerCards)
         if dealerCards[0]['score']==21:
             prntFinal(yourCards,dealerCards)
@@ -122,6 +124,7 @@ def play():
         print(f"Dealer's final hand: {dealerCards[1]}, final score: {dealerCards[0]['score']}")
 
     def evaluateScores(dealerScore,yourScore):
+        """After you & the dealer have made moves, and above written conditions didn't trigger"""
         if dealerScore>yourScore:
             prntFinal(yourCards,dealerCards)
             print("Dealer has higher score.",lossMessage(betAmountInBtc,BTC['dealerBTC'],BTC['yourBTC']))
