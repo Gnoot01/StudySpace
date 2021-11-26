@@ -1,33 +1,33 @@
 import random
 ans=random.randint(1,100)
-lives=10
-gameEnd=False
+LIVES=10
+GAMEEND=False
 
 def decLives():
     # First time using globals, note global usage generally discouraged, okay for simpler programs
-    global lives
-    global gameEnd
-    lives-=1
-    if lives==0:
+    global LIVES
+    global GAMEEND
+    LIVES-=1
+    if LIVES==0:
         print("You've run out of guesses, you lose.")
-        gameEnd=True
+        GAMEEND=True
     else: print("Guess again! ")
 
 # from GuessTheNumberArt import logo
 # print(logo)
 print("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100.")
 difficulty=input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
-if difficulty=="hard":lives=5
+if difficulty=="hard":LIVES=5
 
 print(f"Psttt the number is {ans}")
 
-while not gameEnd:
-    print(f"You have {lives} attempts remaining to guess the number.")
+while not GAMEEND:
+    print(f"You have {LIVES} attempts remaining to guess the number.")
     guess=int(input("Make a guess: "))
     assert 0<guess<101,"Please guess only between 1 and 100."
     if guess==ans:
         print(f"You got it! The answer was {ans}.")
-        gameEnd=True
+        GAMEEND=True
     elif guess<ans:
         print("Too low.")
         decLives()
