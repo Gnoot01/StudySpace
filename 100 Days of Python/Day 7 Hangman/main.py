@@ -43,3 +43,4 @@ while not gameEnded:
 
     from art import stages
     print(stages[lives])
+ 
