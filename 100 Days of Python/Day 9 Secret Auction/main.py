@@ -41,3 +41,4 @@ for bidder in bids:
 
 if len(bidContestants)>0: highestBidder=random.choice(bidContestants)
 print(f"The winner is {highestBidder} with a bid of ${'{:.2f}'.format(highestBid)}. Congrats!")
+ 
