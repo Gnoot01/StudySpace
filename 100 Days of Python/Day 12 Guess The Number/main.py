@@ -40,3 +40,4 @@ while not GAMEEND:
     else:
         print("Too high.")
         decLives()
+ 
