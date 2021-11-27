@@ -172,8 +172,8 @@ def play():
 
 
 
-    # from BJArt import logo
-    # print(logo)
+    from art import logo
+    print(logo)
     while not gameEnd:
         if input("Do you want to play a game of BlackJack? Type 'y' or 'n': ").lower()=="y":
             print(f"You've {BTC['yourBTC']} BTC(${format((amountInFiat(BTC['yourBTC'])),'.2f')}).")
@@ -424,8 +424,8 @@ def play():
 
 
 
-    # from BJArt import logo
-    # print(logo)
+    from art import logo
+    print(logo)
     while not gameEnd:
         if input("Do you want to play a game of BlackJack? Type 'y' or 'n': ").lower()=="y":
             print(f"You've {BTC['yourBTC']} BTC(${format((amountInFiat(BTC['yourBTC'])),'.2f')}).")
