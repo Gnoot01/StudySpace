@@ -9,5 +9,8 @@ Algorithms Visualization: https://www.cs.usfca.edu/~galles/visualization/Algorit
 
 ## Python:
 Python Visualiser: www.pythontutor.com
+
 ASCII Art: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
+
+Download Packages: pypi.org
 
