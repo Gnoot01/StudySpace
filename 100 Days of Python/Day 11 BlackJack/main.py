@@ -60,7 +60,7 @@ def play():
         dealerCards[1][dealerDraw]=dealerCards[1].get(dealerDraw,0)+1
         dealerCards[0]['score']+=getValue(dealerDraw)
         print(f"Dealer drew a {dealerDraw}")
-
+ 
     def yourMoves():
         """While you type 'y', before passing over the turn to dealer"""
         while input("Type 'y' to draw another card, type 'n' to pass: ")=="y":
