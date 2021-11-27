@@ -61,3 +61,4 @@ Also, simulates scrolling in a sense
       print(f"Sorry, that's wrong. Final score: {score}")
 
 game()
+ 
