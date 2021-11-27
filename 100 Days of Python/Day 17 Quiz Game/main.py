@@ -12,5 +12,5 @@ quiz = QuizBrain(question_bank)
 
 while quiz.still_has_questions(): quiz.get_questions()
 quiz.end()
-
+ 
 
