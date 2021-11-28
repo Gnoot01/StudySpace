@@ -62,4 +62,4 @@ while game_is_ongoing:
 
     # TODO: Idea! Pacman..? (How would I make those obstacle collisions though? Coordinates are points) Hmmmm...
 
-screen.exitonclick()
+screen.exitonclick() 
