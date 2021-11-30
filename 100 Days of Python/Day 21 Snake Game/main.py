@@ -11,7 +11,7 @@ screen.title("SnakeSSSSSSSSSSSSSS!")
 screen.colormode(255)
 # Without screen tracer, screen update, time.sleep, snake will keep flickering (due to fast movement)
 # and will see snake move very erratically, segment by segment (not smooth animation)
-screen.tracer(0)    # 0 to turn off
+screen.tracer(0)    # 0 turns off animation
 game_is_ongoing = True
 
 snake = Snake()
@@ -31,7 +31,7 @@ screen.onkey(snake.turn_east, "Right")
 
 
 while game_is_ongoing:
-    screen.update()
+    screen.update()  # When game_is_ongoing, first thing you see is the animation updated after everything has moved into place 
     time.sleep(0.1)  # sleep for 0.1 second
 
     snake.move()
