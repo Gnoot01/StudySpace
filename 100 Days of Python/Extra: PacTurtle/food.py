@@ -98,7 +98,7 @@ class Food(Turtle):
         self.clear()
         self.setup_normal()
         self.setup_powerup()
-        # How to get cherry to display only after say 5s timed?
+        # How to get cherry to display only after 20s timed?
         self.setup_cherry()
 
     def setup_normal(self):
