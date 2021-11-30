@@ -3,6 +3,9 @@ MOVE_DISTANCE = 5
 
 # Pacman animation: https://www.youtube.com/watch?v=cJGwQwlH-Pw
 
+# Inherit only if creating 1 object, and modifying it with self.
+# If creating multiple objects (food,scoreboard), cannot inherit, cannot modify with self.
+
 class PacTurtle(Turtle):
     def __init__(self):
         super().__init__()
