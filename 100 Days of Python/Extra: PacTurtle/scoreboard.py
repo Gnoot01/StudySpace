@@ -4,7 +4,7 @@ from pacturtle import PacTurtle
 import time
 
 LIVES_LOCATION = [(-280, -105), (-260, -105), (-240, -105)]
-# To inherit only if creating 1 object, but since multiple objects in scoreboard, cannot inherit, must create
+
 class ScoreBoard():
     def __init__(self):
         self.score = 0
