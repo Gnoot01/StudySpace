@@ -32,7 +32,7 @@ screen.onkey(snake.turn_east, "Right")
 
 while game_is_ongoing:
     screen.update()  # When game_is_ongoing, first thing you see is the animation updated after everything has moved into place 
-    time.sleep(0.1)  # sleep for 0.1 second
+    time.sleep(0.1)  # To sleep between each while loop. sleep for 0.1 second
 
     snake.move()
     # Snake head collide with food
