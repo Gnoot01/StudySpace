@@ -30,8 +30,8 @@ game_ongoing = True
 
 pacturtle = PacTurtle()
 food = Food()
-scoreboard = ScoreBoard()
 walls = Walls()
+scoreboard = ScoreBoard()
 screen.listen()
 
 screen.onkey(pacturtle.turn_north, "w")
@@ -45,25 +45,38 @@ screen.onkey(pacturtle.turn_east, "Right")
 
 while game_ongoing:
     screen.update()
-    # sleep for 0.1 second
+    time.sleep(0.1)
     pacturtle.move()
-    NORMAL_LOCATIONS = food.get_normal_locations()
-    POWERUP_LOCATIONS = food.get_powerup_locations()
-    CHERRY_LOCATIONS = food.get_cherry_locations()
-    for normal_location in NORMAL_LOCATIONS:
+
+    # Handles eating food
+    for normal_location in food.NORMAL_LOCATIONS:
         if pacturtle.distance(normal_location) < 10:
             scoreboard.increase_score(NORMAL_POINTS)
-            NORMAL_LOCATIONS.remove(normal_location)
-            # food.remove(normal_location)
-    for powerup_location in POWERUP_LOCATIONS:
+            food.remove(normal_location)
+    for powerup_location in food.POWERUP_LOCATIONS:
         if pacturtle.distance(powerup_location) < 10:
             scoreboard.increase_score(POWERUP_POINTS)
-            POWERUP_LOCATIONS.remove(powerup_location)
-    for cherry_location in CHERRY_LOCATIONS:
+            food.remove(powerup_location)
+    for cherry_location in food.CHERRY_LOCATIONS:
         if pacturtle.distance(cherry_location) < 10:
             scoreboard.increase_score(CHERRY_POINTS)
-            CHERRY_LOCATIONS.remove(cherry_location)
+            food.remove(cherry_location)
+
+    # Handles pacturtle going to 1 side of the screen and coming out the other
+    if pacturtle.xcor() < -280 and -10 <= pacturtle.ycor() <= 10: pacturtle.tp_l_to_r()
+    if pacturtle.xcor() > 280 and -10 <= pacturtle.ycor() <= 10: pacturtle.tp_r_to_l()
+
+    # Handles collision with walls
+    # Edges first (because I actually dk how to get this to work)
+    # for coords in walls.edges_coords:
+    #     if pacturtle.distance(coords) <= 10:
+    #         pacturtle.backward(5)
+
+    # Handles collision with ghost
     # scoreboard.decrease_lives()
+    # if len(scoreboard.lives) == 0:
+    #   scoreboard.game_over()
+    #   game_ongoing = False
 
 
 
@@ -83,4 +96,3 @@ while game_ongoing:
 
 
 screen.exitonclick()
-
