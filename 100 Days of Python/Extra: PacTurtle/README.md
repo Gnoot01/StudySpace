@@ -10,7 +10,7 @@ Take-away points:
 To control multiple objects with diff states but same class,
 1. Inherit Turtle, use SELF, create multiple objects in main.py (paddle in Day 22: ponGArt)
    (Exception: food in Extra: PacTurtle as self.clear() can clear .write() & .dot())
-2. Don't inherit turtle, use LIST to control (snake in Day 21: Snake Game)
+2. Don't inherit turtle, use LIST to control (snake in Day 21: Snake Game) (car_manager in Day 23: Turtle Crossing)
 
 To control single object,
 1. Inherit Turtle, use SELF
