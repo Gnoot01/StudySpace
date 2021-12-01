@@ -31,7 +31,7 @@ screen.onkey(snake.turn_east, "Right")
 
 
 while game_is_ongoing:
-    screen.update()  # When game_is_ongoing, first thing you see is the animation updated after everything has moved into place 
+    screen.update()  # When game_is_ongoing, first thing you see is the animation updated after everything has moved into place
     time.sleep(0.1)  # To sleep between each while loop. sleep for 0.1 second
 
     snake.move()
@@ -57,9 +57,11 @@ while game_is_ongoing:
     # Snake head collide with tail
     for segment in snake.segments[1:]:
         if snake.head.distance(segment) < 10:
-            scoreboard.game_over()
-            game_is_ongoing = False
+            scoreboard.reset()
+            snake.reset()
+            # scoreboard.game_over()
+            # game_is_ongoing = False
 
     # TODO: Idea! Pacman..? (How would I make those obstacle collisions though? Coordinates are points) Hmmmm...
 
-screen.exitonclick()  
+screen.exitonclick()
