@@ -41,4 +41,4 @@ while len(guessed_correct) < 50:
 turtle.mainloop()
 # screen.exitonclick() cannot be used as need to get coordinates by clicking on screen, but this makes screen exit on click
 
-
+ 
