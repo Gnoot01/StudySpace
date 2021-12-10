@@ -12,7 +12,7 @@ response.raise_for_status()
 question_data = response.json()["results"]
 # But this question_data contains HTML entities we need to unescape for readability (Eg. &quot; for ", &#39; for ', found at https://www.w3schools.com/html/html_entities.asp)
 # This is done in quiz_brain.py
-
+ 
 # question_data = [
 #     {"category": "General Knowledge", "difficulty": "medium",
 #      "question": "The US emergency hotline is 911 because of the September 11th terrorist attacks.",
