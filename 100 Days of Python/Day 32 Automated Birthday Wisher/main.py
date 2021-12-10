@@ -21,8 +21,8 @@ NOW_DAY = datetime.datetime.now().day
 
 SMTP_INFO = ["smtp.gmail.com", "smtp.mail.yahoo.com", "smtp.live.com", "outlook.office365.com"]
 email_addrs = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com"]
-my_email = "testestpython@gmail.com"
-password = "abcd1234()"
+my_email = "pythontestosterone@gmail.com"
+password = "---------" # purposely left as is
 
 data = pandas.read_csv("birthdays.csv")
 birthdays_dict = {(row.month, row.day): row for index, row in data.iterrows()}
