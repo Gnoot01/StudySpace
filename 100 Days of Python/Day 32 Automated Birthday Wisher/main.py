@@ -52,5 +52,5 @@ if (NOW_MONTH, NOW_DAY) in birthdays_dict:
             msg=f"Subject:Happy Birthday! \n\n{content}")
 
 
-
+ 
 
