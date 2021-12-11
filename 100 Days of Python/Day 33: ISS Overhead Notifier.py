@@ -35,7 +35,7 @@ while True:
             connection.login(user=email, password=password)
             connection.sendmail(
                 from_addr=email,
-                to_addrs="honourandrespect81@gmail.com",
+                to_addrs="...",
                 msg="Subject:LOOK UP!\n\nISS above ya")
 
 
