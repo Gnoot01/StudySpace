@@ -3,12 +3,13 @@ import datetime
 from twilio.rest import Client
 import smtplib
 import time
+import os
 
 # Crypto Whale Alert, maybe can expand to post on social media (Twitter)?
 TICKER = "IOTX"
 SYMBOL = "UP" # Because UnicodeEncodeError: 'ascii' codec can't encode character '\U0001f53b' in position 31: ordinal not in range(128)
 
-CRYPTO_API_KEY = "..."
+CRYPTO_API_KEY = os.environ.get(CRYPTO_API_KEY)
 CRYPTO_URL = "https://www.alphavantage.co/query"
 CRYPTO_PARAMS = {
     "function": "CRYPTO_INTRADAY",
@@ -17,7 +18,7 @@ CRYPTO_PARAMS = {
     "interval": "1min",
     "apikey": CRYPTO_API_KEY,
 }
-NEWS_API_KEY = "..."
+NEWS_API_KEY = os.environ.get(NEWS_API_KEY)
 NEWS_URL = "https://newsapi.org/v2/everything"
 NEWS_PARAMS = {
     "apiKey": NEWS_API_KEY,
@@ -50,8 +51,8 @@ while True:
             # converted back into string to split and etc. BUT the general gist is here. If I really need to brute force it, guess I can use a list or sth.
             msg += f"\033[1mHeadline\033[0m: {article['title']}\n\033[1mBrief\033[0m: {article['description']}\n" \
                    f"\033[1mLink\033[0m: {article['url']}\n\033[1mTime\033[0m: {article['publishedAt']}\n\n"
-        # TWILIO_ACC_SID = "..."
-        # TWILIO_API_KEY = "..."
+        # TWILIO_ACC_SID = os.environ.get(TWILIO_ACC_SID)
+        # TWILIO_API_KEY = os.environ.get(TWILIO_API_KEY)
         # client = Client(TWILIO_ACC_SID, TWILIO_API_KEY)
         # message = client.messages.create(
         #     body=f'\n❗❗WHALE ALERT❗❗\n{TICKER}: $({SYMBOL}{price_percentage_diff}%), Volume(🔺{volume_percentage_diff}%)\n{msg}',
@@ -59,10 +60,10 @@ while True:
         #     to='...(must be verified in account first!)...'
         # )
         my_email = "pythontestosterone@gmail.com"
-        password = "..."
+        PASSWORD = os.environ.get(PASSWORD)
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
-            connection.login(user=my_email, password=password)
+            connection.login(user=my_email, password=PASSWORD)
             connection.sendmail(
                 from_addr=my_email,
                 to_addrs="...",
