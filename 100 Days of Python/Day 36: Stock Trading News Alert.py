@@ -24,7 +24,7 @@ def price_percent_diff(response_data: requests, first_day: str, second_day: str)
 # When STOCK price increases/decreases by 5% between yesterday and the day before then print("Get News").
 
 STOCK_API_KEY = "..."
-STOCK_URL = "https://www.alphavantage.co/query"
+STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 stock_parameters = {
     "function": "TIME_SERIES_DAILY",
     "symbol": TICKER,
@@ -39,7 +39,7 @@ if datetime.datetime.now().weekday() not in [0, 1, 6]:
     # Hence, data_list = [value for key, value in response.json()["Time Series (Daily)"].items()], price_ystd = data_list[0]["4. close"]
     date_ystd = get_date(datetime.datetime.now(), 1)
     date_day_before = get_date(datetime.datetime.now(), 2)
-    response = requests.get(url=STOCK_URL, params=stock_parameters)
+    response = requests.get(url=STOCK_ENDPOINT, params=stock_parameters)
     response.raise_for_status()
     percentage_diff = price_percent_diff(response.json(), date_ystd, date_day_before)
     if float(percentage_diff) >= 5:
@@ -47,7 +47,7 @@ if datetime.datetime.now().weekday() not in [0, 1, 6]:
 ## STEP 2: Use https://newsapi.org
 # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
         NEWS_API_KEY = "..."
-        NEWS_URL = "https://newsapi.org/v2/everything"
+        NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
         news_parameters = {
             "apiKey": NEWS_API_KEY,
             "qInTitle": COMPANY_NAME,
@@ -56,7 +56,7 @@ if datetime.datetime.now().weekday() not in [0, 1, 6]:
             # "domains": "reuters.com,bloomberg.com,etc",
             # "sortBy": "popularity",
         }
-        response = requests.get(url=NEWS_URL, params=news_parameters)
+        response = requests.get(url=NEWS_ENDPOINT, params=news_parameters)
         response.raise_for_status()
         articles = response.json()["articles"][:3]
         msg = ""
