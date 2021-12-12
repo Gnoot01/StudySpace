@@ -10,7 +10,7 @@ TICKER = "IOTX"
 SYMBOL = "UP" # Because UnicodeEncodeError: 'ascii' codec can't encode character '\U0001f53b' in position 31: ordinal not in range(128)
 
 CRYPTO_API_KEY = os.environ.get(CRYPTO_API_KEY)
-CRYPTO_URL = "https://www.alphavantage.co/query"
+CRYPTO_ENDPOINT = "https://www.alphavantage.co/query"
 CRYPTO_PARAMS = {
     "function": "CRYPTO_INTRADAY",
     "symbol": TICKER,
@@ -19,7 +19,7 @@ CRYPTO_PARAMS = {
     "apikey": CRYPTO_API_KEY,
 }
 NEWS_API_KEY = os.environ.get(NEWS_API_KEY)
-NEWS_URL = "https://newsapi.org/v2/everything"
+NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 NEWS_PARAMS = {
     "apiKey": NEWS_API_KEY,
     "q": "bitcoin AND btc", # cos of macroeconomic effect (not sure I'm using this term correctly 😅
@@ -29,7 +29,7 @@ NEWS_PARAMS = {
     # "sortBy": "popularity",
 }
 while True:
-    response = requests.get(url=CRYPTO_URL, params=CRYPTO_PARAMS)
+    response = requests.get(url=CRYPTO_ENDPOINT, params=CRYPTO_PARAMS)
     response.raise_for_status()
     data = [value for key, value in response.json()["Time Series Crypto (1min)"].items()]
     print(data)
@@ -41,7 +41,7 @@ while True:
     price_percentage_diff = "{:.5f}".format((abs(latest_price - earlier_price)/earlier_price) * 100)
     if float(volume_percentage_diff) >= 50 and float(price_percentage_diff) >= 1:  # Adjust sensitivity of whale action depending on ticker's marketcap
         if latest_price < earlier_price: SYMBOL = "DOWN"
-        response = requests.get(url=NEWS_URL, params=NEWS_PARAMS)
+        response = requests.get(url=NEWS_ENDPOINT, params=NEWS_PARAMS)
         response.raise_for_status()
         articles = response.json()["articles"]
         msg = ""
