@@ -81,6 +81,6 @@ TSLA: 🔻5.99%
 Headline[BOLD]: Tesla, Southwest Airlines, Snap Inc, Moderna, SM Energy - Reuters
 Brief[BOLD]: U.S. stock indexes rose on Friday after data showed consumer prices rose largely in line with estimates last month, taking some pressure off investors concerned about the Federal Reserve's aggressive tightening of its monetary policy.
 Link[BOLD]: https://www.reuters.com/markets/asia/tesla-southwest-airlines-snap-inc-moderna-sm-energy-2021-12-10/
-
+ 
 ...
 """
