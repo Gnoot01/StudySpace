@@ -47,8 +47,8 @@ while True:
         msg = ""
         for article in articles:
             # \033[1m: start of bold, \033[0m: end of bold
-            # Problematic UnicodeEncodeError converting u/2018 (') using ASCII. Tried googling, but comes with other issues like byte b'...' that cannot be
-            # converted back into string to split and etc. BUT the general gist is here. If I really need to brute force it, guess I can use a list or sth.
+            # Problematic UnicodeEncodeError converting u/2018 (') using ASCII. Tried googling (text.encode('utf-8')) but comes with other issues like byte b'...' 
+            # that cannot be converted back into string to split and etc. BUT the general gist is here. If I really need to brute force it, guess I can use a list or sth.
             msg += f"\033[1mHeadline\033[0m: {article['title']}\n\033[1mBrief\033[0m: {article['description']}\n" \
                    f"\033[1mLink\033[0m: {article['url']}\n\033[1mTime\033[0m: {article['publishedAt']}\n\n"
         # TWILIO_ACC_SID = os.environ.get(TWILIO_ACC_SID)
