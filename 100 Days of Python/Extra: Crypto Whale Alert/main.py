@@ -27,7 +27,7 @@ NEWS_PARAMS = {
     "from": datetime.datetime.now() - datetime.timedelta(hours=6), #  6-hourly data refresh
     # "domains": "reuters.com,bloomberg.com,etc",
     # "sortBy": "popularity",
-}
+} 
 while True:
     response = requests.get(url=CRYPTO_ENDPOINT, params=CRYPTO_PARAMS)
     response.raise_for_status()
