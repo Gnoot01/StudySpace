@@ -70,3 +70,4 @@ for exercise in exercises:
 # SHEETY_ENDPOINT = f"https://api.sheety.co/{SHEETY_KEY}/myWorkouts/sheet1/{row_num}"
 # response = requests.delete(url=SHEETY_ENDPOINT, headers=SHEETY_HEADERS)
 # print(response.text)
+ 
