@@ -17,4 +17,4 @@ Download Packages/Modules: pypi.org
 Python documentation: https://www.w3schools.com/python/default.asp
 
 ## Webdev:
-Documentation & Best Practices: https://devdocs.io/
+Documentation & Best Practices: https://devdocs.io/ / https://developer.mozilla.org/en-US/
