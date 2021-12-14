@@ -15,3 +15,6 @@ ASCII Art: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Somet
 Download Packages/Modules: pypi.org
 
 Python documentation: https://www.w3schools.com/python/default.asp
+
+## Webdev:
+Documentation & Best Practices: https://devdocs.io/
