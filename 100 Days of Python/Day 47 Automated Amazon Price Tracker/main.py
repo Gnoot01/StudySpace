@@ -7,9 +7,9 @@ import os
 # Otherwise, just proxy/rotating IP Address, etc
 URL = "https://www.amazon.com/dp/B00X9JNWGS/ref=sbl_dpx_kitchen-electric-cookware_B08GC6PL3D_0"
 HEADERS = {
-    "User-Agent": "https://www.amazon.com/dp/B00X9JNWGS/ref=sbl_dpx_kitchen-electric-cookware_B08GC6PL3D_0",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62",
     # User-Agent first check to identify sus requests. If numerous & identical, seems like bot activity so blocked
-    "Accept-Language": "https://www.amazon.com/dp/B00X9JNWGS/ref=sbl_dpx_kitchen-electric-cookware_B08GC6PL3D_0",
+    "Accept-Language": "en-US,en;q=0.9",
     # Ensures set languages are in accordance with the data-target domain and user’s IP location. If same user yet multiple languages, blocked
     # Accept-Encoding: "gzip, deflate" [compresses data & reduces traffic volume]
     # Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,/;q=0.8" [to configure accordingly to the web server’s accepted format, so more organic communication]
