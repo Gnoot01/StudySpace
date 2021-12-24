@@ -28,7 +28,7 @@ def start(HP_NUM: str):
             time.sleep(1.5)
             driver.get(job_link)
             time.sleep(1)
-             
+              
             # If not comfortable applying yet, simply save posting & follow company
             # try:
             #     driver.find_element("class name", "jobs-save-button").click() # Save
