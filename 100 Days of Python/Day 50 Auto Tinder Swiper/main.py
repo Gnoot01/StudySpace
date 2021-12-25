@@ -29,7 +29,7 @@ Solution 2: Getting Selenium to automate by adding .crx file upon browser launch
 Doesn't work, tried googling for solution, other extensions work, but not this vpn one, and is unsolved online sooooo 🤷‍♂️
 """
 # driver = webdriver.Chrome(service=webdriver.chrome.service.Service(executable_path=CHROME_DRIVER_PATH), options=webdriver.ChromeOptions().add_extension("vpn_extension.crx"))
-# driver.get('http://www.tinder.com')
+# driver.get('http://www.tinder.com') 
 
 """
 Solution 3: From personal experience, I know using mobile data works for bypassing ISP-blocked websites. Should have thought of this sooner...
