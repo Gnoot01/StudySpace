@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
 import time
 
-CHROME_DRIVER_PATH = r"C:\Users\Andrew\Desktop\Python\chromedriver.exe"
+CHROME_DRIVER_PATH = r"C:\Users\Andrew\Desktop\Python\V96_chromedriver.exe" # V no. must match Chrome V no. See notes for exact help.
 driver = webdriver.Chrome(service=webdriver.chrome.service.Service(executable_path=CHROME_DRIVER_PATH))
 UNTIL_PAGE = 5
 HP_NUM = "12345678"
