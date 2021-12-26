@@ -84,7 +84,7 @@ def ready_alts():
     users = [data[i].text for i in range(0, no_of_accounts, 3)]
     passwords = [data[i].text for i in range(1, no_of_accounts, 3)]
     print(users)
-    print(passwords)
+    print(passwords) 
     # Can insert own list of desired display_names here
     display_names = ["Amber", "Ambrosia", "Amdis", "Celeste", "Dawn", "Drusilla", "Elena", "Elisabeta", "Katherine",
                      "Lenora", "Lilith", "Lucinda", "Miriam", "Jezebel", "Thana", "Victoria", "Alaric", "Blade",
