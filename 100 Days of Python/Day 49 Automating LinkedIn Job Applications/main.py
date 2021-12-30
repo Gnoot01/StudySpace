@@ -12,6 +12,8 @@ CHROME_DRIVER_PATH = r"C:\Users\Andrew\Desktop\Python\V96_chromedriver.exe" # V 
 driver = webdriver.Chrome(service=webdriver.chrome.service.Service(executable_path=CHROME_DRIVER_PATH))
 UNTIL_PAGE = 5
 HP_NUM = "12345678"
+EMAIL = "..."
+PASS = "..."
 
 def start(HP_NUM: str):
     # Enable scroll to bottom to load max results, otherwise only 8
@@ -79,9 +81,9 @@ time.sleep(1)
 driver.find_element("link text", "Sign in").click()
 time.sleep(1)
 email = driver.find_element("name", "session_key")
-email.send_keys("...")
+email.send_keys(EMAIL)
 password = driver.find_element("name", "session_password")
-password.send_keys("...")
+password.send_keys(PASS)
 driver.find_element("css selector", ".login__form_action_container button").click()
 # OR
 # password.send_keys(webdriver.Keys.ENTER)
