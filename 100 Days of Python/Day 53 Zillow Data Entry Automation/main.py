@@ -16,7 +16,6 @@ response = requests.get(
     headers=HEADERS)
 content = response.text
 soup = BeautifulSoup(content, "html.parser")
-print(soup.prettify())
 addresses = [address.getText() for address in soup.find_all(name="address", class_="list-card-addr")]
 prices = [price.getText().split("/")[0].split("+")[0] for price in soup.find_all(name="div", class_="list-card-price")]
 link_elements = soup.select(selector=".list-card-info a")
