@@ -10,5 +10,9 @@ Useful Websites:
 3. Mock-up via Photoshop, Illustrator
 4. Prototype via animated replica
 
-- Web icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2
+- Favicon (Tab icon): favicon.ico
+- Apple,Instagram logo, etc icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2, https://www.flaticon.com/
+- Gifs: giphy.com
+- Colors: search <colors> MDN, colorhunt.io
+- Fonts: fonts.googleapis.com, cssfontstack.com
 - Mobile-friendly test affecting google searching rankings: https://search.google.com/test/mobile-friendly
