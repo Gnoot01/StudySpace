@@ -4,8 +4,8 @@ To host website on Github:
 3. Ensure .html files can be accessed (not in folders, etc?)
 
 Useful Websites:
-1A. BS syntax, docs, examples: https://getbootstrap.com/docs/5.1/, test on https://www.codeply.com/
-1B. Learn UI-UX design patterns: http://ui-patterns.com/patterns , Inspiration: https://dribbble.com/search
+1. BS syntax, docs, examples: https://getbootstrap.com/docs/5.1/, test on https://www.codeply.com/
+1. Learn UI-UX design patterns: http://ui-patterns.com/patterns , Inspiration: https://dribbble.com/search
 2. Wireframe via sketching:https://sneakpeekit.com/  / templating: https://balsamiq.cloud/
 3. Mock-up via Photoshop, Illustrator
 4. Prototype via animated replica
