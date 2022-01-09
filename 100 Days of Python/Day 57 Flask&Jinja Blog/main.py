@@ -10,6 +10,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html", post_objects=post_objects)
 
+# Very impt snippet of code to click on post & get result
 @app.route('/post/<int:blog_id>')
 def get_post(blog_id):
     req_post = None
@@ -32,7 +33,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html", posts=posts)
 
-
+# Very impt snippet of code to click on post & get result
 @app.route('/post/<int:blog_id>')
 def get_post(blog_id):
     req_post = None
