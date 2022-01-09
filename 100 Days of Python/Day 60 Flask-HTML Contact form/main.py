@@ -10,6 +10,7 @@ PASSWORD = "..."
 
 @app.route("/")
 @app.route("/index.html")
+# for some reason, website loads .../index.html instead of .../index
 def home():
     return render_template("index.html", posts=posts)
 
