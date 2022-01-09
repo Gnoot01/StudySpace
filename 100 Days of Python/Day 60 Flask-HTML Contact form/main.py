@@ -27,7 +27,7 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/contact.html", methods=["GET", "POST"])
+@app.route("/contact.html", methods=["GET", "POST"]) 
 def contact():
     if request.method == "POST":
         with smtplib.SMTP("smtp.gmail.com") as connection:
