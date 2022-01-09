@@ -19,4 +19,27 @@ def get_post(blog_id):
 
 
 if __name__ == "__main__": app.run(debug=True)
- 
+#################################################################################################################################################################################
+# An alternative to creating a custom class 'Post' and instead just using in-built Flask . method
+from flask import Flask, render_template
+import requests
+
+posts = requests.get("https://api.npoint.io/46c980af38f59842b5b7").json()
+app = Flask(__name__)
+
+
+@app.route('/')
+def home():
+    return render_template("index.html", posts=posts)
+
+
+@app.route('/post/<int:blog_id>')
+def get_post(blog_id):
+    req_post = None
+    for post in posts:
+        if post["id"] == blog_id: req_post = post
+    return render_template("post.html", post=req_post)
+
+
+if __name__ == "__main__": app.run(debug=True)
+
