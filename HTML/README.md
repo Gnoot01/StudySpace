@@ -10,6 +10,7 @@ Useful Websites:
 3. Mock-up via Photoshop, Illustrator
 4. Prototype via animated replica
 
+- BS theme templates: https://startbootstrap.com/themes
 - Favicon (Tab icon): favicon.ico
 - Apple,Instagram logo, etc icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2, https://www.flaticon.com/
 - Gifs: giphy.com
