@@ -4,6 +4,7 @@
 
 {% block styles %}
 {{super()}}
+<!--Even tho  external css file, just put into block styles-->
 <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
 {% endblock %}
 
