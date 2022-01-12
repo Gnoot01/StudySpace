@@ -14,6 +14,6 @@ Useful Websites:
 - Favicon (Tab icon): favicon.ico
 - Apple,Instagram logo, etc icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2, https://www.flaticon.com/
 - Gifs: giphy.com
-- Colors: search <colors> MDN, colorhunt.io
+- Colors: search <colors> MDN, colorhunt.co, https://color.adobe.com/create/color-wheel (Color Theory)
 - Fonts: fonts.googleapis.com, cssfontstack.com
 - Mobile-friendly test affecting google searching rankings: https://search.google.com/test/mobile-friendly
