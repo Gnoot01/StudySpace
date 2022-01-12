@@ -19,7 +19,7 @@ Useful Websites:
 - Mobile-friendly test affecting google searching rankings: https://search.google.com/test/mobile-friendly
 
 Some important notes:
-<!-- 4 pillars of Good Design - 1. Color Theory, 2. Typography, 3.UI, 4.UX
+4 pillars of Good Design - 1. Color Theory, 2. Typography, 3.UI, 4.UX
 Color Theory - mood to predominant color (Red:Love, Energy, Intensity|Yellow:Joy, Intellect, Attention|Green:Freshness, Safety, Growth|Blue:Stability, Trust, Serenity|Purple:Royalty, Wealth, Femininity)
                           Egs.   Car                          Workout                         Food                            Paypal, Coinbase                Payday Loans
                secondary color: color diff shade of predominant color to create analogous color palette (navigation bars, body, logo & background) +:eye-soothing -:doesn't stand out
@@ -30,4 +30,4 @@ Typography - (PHOTO)
 UI - Perception Hierarchy via colors, size, weight, layout (eg. 40-60 chars per line for non-tedious, non-choppy+awkward to read),
                               alignment (draw a line going thru beginning of each item - TICK less lines), white space (minimalistic, isolate prdt & inject exclusivity, impt), target audience
 UX - 1. Simplicity 2.Consistency(navbar) 3.Reading Patterns(F pattern 1->2 then -DOWNARROW3 then ->4 generally, Z pattern for more sparse, more img/vid content)
-     4.Responsiveness 5.X Dark Patterns (Trickery to get ppl to do sth they didn't mean/want to) Eg. Shopee, Amazon auto selecting express delivery & making it stand out to profit/Curved line as a hair on mobile to click on website & profit/Purposely confusing checkboxes for email newsletter, etc -->
+     4.Responsiveness 5.X Dark Patterns (Trickery to get ppl to do sth they didn't mean/want to) Eg. Shopee, Amazon auto selecting express delivery & making it stand out to profit/Curved line as a hair on mobile to click on website & profit/Purposely confusing checkboxes for email newsletter, etc
