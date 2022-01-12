@@ -112,5 +112,5 @@ def search():
     db.session.commit()
     return redirect(url_for('edit', id=new_movie.id))
 
-
+ 
 if __name__ == '__main__': app.run(debug=True)
