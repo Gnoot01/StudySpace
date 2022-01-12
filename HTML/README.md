@@ -19,7 +19,8 @@ Useful Websites:
 - Mobile-friendly test affecting google searching rankings: https://search.google.com/test/mobile-friendly
 
 Some important notes:
-```4 pillars of Good Design - 1. Color Theory, 2. Typography, 3.UI, 4.UX
+```
+4 pillars of Good Design - 1. Color Theory, 2. Typography, 3.UI, 4.UX
 Color Theory - mood to predominant color 
   (Red:Love, Energy, Intensity|Yellow:Joy, Intellect, Attention|Green:Freshness, Safety, Growth|Blue:Stability, Trust, Serenity|Purple:Royalty, Wealth, Femininity)
    Egs. Car                         Workout                         Food                            Paypal, Coinbase                Payday Loans
