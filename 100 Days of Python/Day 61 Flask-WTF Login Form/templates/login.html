@@ -38,6 +38,7 @@
 <!--		<h1>Login</h1>-->
 
 (Auto generates form from WTForm object(email,password,submit) passed to variable form=login_form with token, label, size, err, novalidate)
-<!--        {{ wtf.quick_form(form, method="POST", novalidate=True, extra_classes/id/role="")}}-->
+								(Making submit button blue instead of default white)
+<!--        {{ wtf.quick_form(form, method="POST", novalidate=True, button_map={"submit": "primary"}, extra_classes/id/role="")}}-->
 <!--    </div>-->
 <!--{% endblock %}-->
