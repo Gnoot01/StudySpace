@@ -9,7 +9,7 @@ from wtforms import StringField, SubmitField, validators
 from flask_ckeditor import CKEditor, CKEditorField
 import datetime
 
-
+ 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
