@@ -1,6 +1,7 @@
 """
-Instead of testing API with parameters by typing them all out in URL,
-use Postman:https://www.postman.com/downloads/ to add key-value pairs for request parameters and auto format URL
+Postman: https://www.postman.com/downloads/ for 1. creating & documenting own API, 
+2. testing diff HTTP requests with parameters to add key-value pairs for request parameters and auto format URL instead of typing them all out in URL,
+3. when jsonify() data is returned
 To make POST request: POST>Body>x-www-form-urlencoded, basically <body><form action=... method=...><input name=k value=v>... for k-v pair
 Save all requests, name & describe them in Postman>Publish to auto generate API documentation: https://documenter.getpostman.com/view/19140750/UVXhqcPC
 """
