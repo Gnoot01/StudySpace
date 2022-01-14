@@ -100,8 +100,7 @@ def delete_post(id):
 
 @app.route("/search/<author>", methods=["GET", "POST"])
 def search_author_posts(author):
-    author_posts = [post for post in BlogPost.query.all() if post.author == author]
-    return render_template('index.html', all_posts=author_posts)
+    return render_template('index.html', all_posts=BlogPost.query.filter_by(author=author))
 
 
 @app.route("/about")
