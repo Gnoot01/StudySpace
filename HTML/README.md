@@ -4,11 +4,11 @@ Hosting website on Github:
 3. Ensure .html files can be accessed (not in folders, etc?)
 
 Deploying Webapp using Heroku (https://www.heroku.com/), gunicorn
-1. Create new app>input unique App name>Create app
-2. Deploy>(Deployment method>GitHub>Connect + Automatic Deploys>Enable Automatic Deploys + Manual Deploy>Deploy Branch)>View (Success should see 'Application error')
-3. Viewing Heroku logs: On your Webapp's dashboard page, More>View Logs (If 'No web processes running', successfully hosted on Heroku, but doesn't know how to run app (need to setup WebServerGatewayInterface server with gunicorn which standardises language and protocols b/w Python Flask application & host server since normal web servers can't run Python applications. Python->WSGI via gunicorn->Heroku))
+1. Create new app > input unique App name > Create app
+2. Deploy > (Deployment method > GitHub > Connect + Automatic Deploys > Enable Automatic Deploys + Manual Deploy > Deploy Branch) > View (Success should see 'Application error')
+3. Viewing Heroku logs: On your Webapp's dashboard page, More > View Logs (If 'No web processes running', successfully hosted on Heroku, but doesn't know how to run app (need to setup WebServerGatewayInterface server with gunicorn which standardises language and protocols b/w Python Flask application & host server since normal web servers can't run Python applications. Python->WSGI via gunicorn->Heroku))
 Hence,
-1. Files>Settings>Project:...>Python Interpretor>+>gunicorn (Note version number)
+1. Files > Settings > Project:... > Python Interpretor > + > gunicorn (Note version number)
 2. Create/Add to requirements.txt 'gunicorn==(version number)'
 3. Create Procfile file, 'web: gunicorn main:app'  (Telling Heroku to create a web worker able to receive HTTP requests, use gunicorn to serve Webapp, which is the Flask app object in main.py)
 4. On Heroku on your Webapp's dashboard page, Open app
