@@ -7,11 +7,22 @@ Deploying Webapp using Heroku (https://www.heroku.com/), gunicorn
 1. Create new app > input unique App name > Create app
 2. Deploy > (Deployment method > GitHub > Connect + Automatic Deploys > Enable Automatic Deploys + Manual Deploy > Deploy Branch) > View (Success should see 'Application error')
 3. Viewing Heroku logs: On your Webapp's dashboard page, More > View Logs (If 'No web processes running', successfully hosted on Heroku, but doesn't know how to run app (need to setup WebServerGatewayInterface server with gunicorn which standardises language and protocols b/w Python Flask application & host server since normal web servers can't run Python applications. Python->WSGI via gunicorn->Heroku))
+
+
 Hence,
-1. Files > Settings > Project:... > Python Interpretor > + > gunicorn (Note version number)
-2. Create/Add to requirements.txt 'gunicorn==(version number)'
-3. Create Procfile file, 'web: gunicorn main:app'  (Telling Heroku to create a web worker able to receive HTTP requests, use gunicorn to serve Webapp, which is the Flask app object in main.py)
-4. On Heroku on your Webapp's dashboard page, Open app
+4. Files > Settings > Project:... > Python Interpretor > + > gunicorn (Note version number)
+5. Create/Add to requirements.txt 'gunicorn==(version number)'
+6. Create Procfile file, 'web: gunicorn main:app'  (Telling Heroku to create a web worker able to receive HTTP requests, use gunicorn to serve Webapp, which is the Flask app object in main.py)
+7. Commit & Push updated to GitHub, on dashboard, Open app
+
+
+SQLite -> PostgreSQL in Heroku
+1. Files > Settings > Project:... > Python Interpretor > + > psycopg2-binary (Note version number)
+2. Create/Add to requirements.txt 'psycopg2-binary==(version number)'
+3. Commit & Push updated to GitHub (delete & ensure no pipfile/pipfile.lock files in GitHub repo)
+4. On dashboard, Resources > Add-ons > Heroku Postgres > Hobby Dev-Free > Submit Order Form
+5. On dashboard, Settings > Reveal Config Vars (same as .env file)
+6. Copy name of the database config var (Eg. DATABASE_URL), replace app.config["SQLALCHEMY_DATABASE_URI"] to = os.environ.get("DATABASE_URL", "sqlite:///___.db") so will use either depending on if run on Heroku or locally
 
 Useful Websites:
 1. BS syntax, docs, examples: https://getbootstrap.com/docs/5.1/, test on https://www.codeply.com/
