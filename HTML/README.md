@@ -7,15 +7,13 @@ Deploying Webapp using Heroku (https://www.heroku.com/), gunicorn
 1. Create new app > input unique App name > Create app
 2. Deploy > (Deployment method > GitHub > Connect + Automatic Deploys > Enable Automatic Deploys + Manual Deploy > Deploy Branch) > View (Success should see 'Application error')
 3. Viewing Heroku logs: On your Webapp's dashboard page, More > View Logs (If 'No web processes running', successfully hosted on Heroku, but doesn't know how to run app (need to setup WebServerGatewayInterface server with gunicorn which standardises language and protocols b/w Python Flask application & host server since normal web servers can't run Python applications. Python->WSGI via gunicorn->Heroku))
-
-
+```
 Hence,
 4. Files > Settings > Project:... > Python Interpretor > + > gunicorn (Note version number)
 5. Create/Add to requirements.txt 'gunicorn==(version number)'
 6. Create Procfile file, 'web: gunicorn main:app'  (Telling Heroku to create a web worker able to receive HTTP requests, use gunicorn to serve Webapp, which is the Flask app object in main.py)
 7. Commit & Push updated to GitHub, on dashboard, Open app
-
-
+```
 SQLite -> PostgreSQL in Heroku
 1. Files > Settings > Project:... > Python Interpretor > + > psycopg2-binary (Note version number)
 2. Create/Add to requirements.txt 'psycopg2-binary==(version number)'
@@ -53,3 +51,4 @@ UI - Perception Hierarchy via 1.colors 2.size 3.weight 4.layout (eg. 40-60 chars
                               5.alignment (draw a line going thru beginning of each item - TICK less lines) 6.white space (minimalistic, isolate prdt & inject exclusivity, impt)                               7.target audience
 UX - 1.Simplicity 2.Consistency(navbar) 3.Reading Patterns(F pattern generally, Z pattern for more sparse, more img/vid content)
      4.Responsiveness 5.X Dark Patterns (Trickery to get ppl to do sth they didn't mean/want to) Eg. Shopee, Amazon auto selecting express delivery & making it stand out to profit/Curved line as a hair on mobile to click on website & profit/Purposely confusing checkboxes for email newsletter, etc
+```
