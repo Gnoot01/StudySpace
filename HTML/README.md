@@ -23,7 +23,7 @@ SQLite -> PostgreSQL in Heroku
 6. Copy name of the database config var (Eg. DATABASE_URL), replace app.config["SQLALCHEMY_DATABASE_URI"] to = os.environ.get("DATABASE_URL", "sqlite:///___.db") so will use either depending on if run on Heroku or locally
 
 Useful Websites:
-1. [BS syntax, docs, examples](https://getbootstrap.com/docs/5.1/), test on https://www.codeply.com/
+1. [BS syntax, docs, examples](https://getbootstrap.com/docs/5.1/), test on [CodePly](https://www.codeply.com/)
 2. [Learn UI-UX design patterns](http://ui-patterns.com/patterns) , [Inspiration](https://dribbble.com/search)
 3. [Wireframe via sketching](https://sneakpeekit.com/)  / [templating](https://balsamiq.cloud/)
 4. Mock-up via Photoshop, Illustrator
@@ -34,7 +34,7 @@ Useful Websites:
 - Apple,Instagram logo, etc icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2, https://www.flaticon.com/
 - [Gifs](giphy.com)
 - Colors: search <colors> MDN, colorhunt.co, [Color Theory](https://color.adobe.com/create/color-wheel)
-- Fonts: fonts.googleapis.com, cssfontstack.com
+- Fonts: [Google Fonts](fonts.googleapis.com), [Font Family](cssfontstack.com)
 - [Mobile-friendly test affecting google searching rankings](https://search.google.com/test/mobile-friendly)
 
 Some important notes:
