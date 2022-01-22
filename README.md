@@ -5,7 +5,7 @@ toDo: Graphs, check out below
 
 [Algs4 syllabus & cheatsheet](https://algs4.cs.princeton.edu/cheatsheet/)
 
-[Algorithms Visualization 1](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)/ [Algorithms Visualization 2](https://visualgo.net/en)
+[Algorithms Visualization 1](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) / [Algorithms Visualization 2](https://visualgo.net/en)
 
 ## Python:
 [Python Visualiser](www.pythontutor.com)
