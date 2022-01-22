@@ -3,18 +3,18 @@ Data Structures &amp; Algorithms
 
 toDo: Graphs, check out below
 
-Algs4 syllabus & cheatsheet: https://algs4.cs.princeton.edu/cheatsheet/
+[Algs4 syllabus & cheatsheet](https://algs4.cs.princeton.edu/cheatsheet/)
 
-Algorithms Visualization: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html, https://visualgo.net/en
+[Algorithms Visualization 1](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)/ [Algorithms Visualization 2](https://visualgo.net/en)
 
 ## Python:
-Python Visualiser: www.pythontutor.com
+[Python Visualiser](www.pythontutor.com)
 
-ASCII Art: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
+[ASCII Art](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
-Download Packages/Modules: pypi.org
+[Download Packages/Modules](pypi.org)
 
-Python documentation: https://www.w3schools.com/python/default.asp
+[Python documentation](https://www.w3schools.com/python/default.asp)
 
 ## Webdev:
-Documentation & Best Practices: https://devdocs.io/ / https://developer.mozilla.org/en-US/
+[Documentation & Best Practices 1](https://devdocs.io/) / [Documentation & Best Practices 2](https://developer.mozilla.org/en-US/)
