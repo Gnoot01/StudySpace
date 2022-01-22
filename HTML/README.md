@@ -30,11 +30,11 @@ Useful Websites:
 5. Prototype via animated replica
 
 - [BS theme templates](https://startbootstrap.com/themes)
-- [Favicon (Tab icon)](favicon.ico)
+- [Favicon (Tab icon)](https://favicon.io/)
 - Apple,Instagram logo, etc icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2, https://www.flaticon.com/
-- [Gifs](giphy.com)
+- [Gifs](https://giphy.com/)
 - Colors: search <colors> MDN, colorhunt.co, [Color Theory](https://color.adobe.com/create/color-wheel)
-- Fonts: [Google Fonts](fonts.googleapis.com), [Font Families](cssfontstack.com)
+- Fonts: [Google Fonts](https://fonts.google.com/), [Font Families](https://www.cssfontstack.com/)
 - [Mobile-friendly test affecting google searching rankings](https://search.google.com/test/mobile-friendly)
 
 Some important notes:
