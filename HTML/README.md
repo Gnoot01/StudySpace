@@ -34,7 +34,7 @@ Useful Websites:
 - Apple,Instagram logo, etc icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2, https://www.flaticon.com/
 - [Gifs](giphy.com)
 - Colors: search <colors> MDN, colorhunt.co, [Color Theory](https://color.adobe.com/create/color-wheel)
-- Fonts: [Google Fonts](fonts.googleapis.com), [Font Family](cssfontstack.com)
+- Fonts: [Google Fonts](fonts.googleapis.com), [Font Families](cssfontstack.com)
 - [Mobile-friendly test affecting google searching rankings](https://search.google.com/test/mobile-friendly)
 
 Some important notes:
