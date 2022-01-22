@@ -12,7 +12,7 @@ toDo: Graphs, check out below
 
 [ASCII Art](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
-[Download Packages/Modules](pypi.org)
+[Download Packages/Modules](https://pypi.org/)
 
 [Python documentation](https://www.w3schools.com/python/default.asp)
 
