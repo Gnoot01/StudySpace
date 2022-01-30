@@ -61,7 +61,7 @@ for i in range(0, 1000, 7):
         game_hover_info = WebDriverWait(driver, 3).until(EC.presence_of_element_located(("id", f'js-hover-app-{game_id}'))) # Hover menu pops up
         # for &amp;
         developer = html.unescape(game_hover_info.find_element("css selector", ".hover_body b").text) # Developer:
-        time.sleep(0.5)
+        time.sleep(0.5) 
         genres = [genre.text for genre in game_hover_info.find_elements("css selector", ".hover_tag_row a")[:3]] # Genre Tags
         time.sleep(0.5)
         release_date = game_hover_info.find_elements("class name", "hover_body")[1].text # Publiser:/Release Date:
