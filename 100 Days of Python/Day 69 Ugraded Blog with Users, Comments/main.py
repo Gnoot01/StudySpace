@@ -8,7 +8,7 @@ from functools import wraps
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship 
 from sqlalchemy.exc import IntegrityError
 import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
