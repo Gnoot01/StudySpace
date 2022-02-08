@@ -1,6 +1,7 @@
 """
 'pip install flask_gravatar'
 Gravatar images to auto-gen an avatar image for blog commenters.
+Can add https://www.perfecttense.com/api to CKEditor to enable grammar, spelling, tense, sentence structure check
 """
 from flask import Flask, render_template, redirect, url_for, flash, abort
 from functools import wraps
