@@ -218,7 +218,9 @@ class Generator:
                     shorter_timing = last_timing_split[0].split(":")[0] + last_timing_split[1]
                     result += f'*{shorter_timing}*: {" ".join(last_timing_split[2:])}\n'
                 result += "-----------------------------------------------------------\n\n"
-            result += "Capacity Data Courtesy of [GymTracker](https://gym-tracker.data.gov.sg/)\n"
+            # Don't want GymTracker link showing if "Swim" or "No available slots found!" to not confuse users
+            if self.activity_id == 1031 and type(data) is not str:
+                result += "Capacity Data Courtesy of [GymTracker](https://gym-tracker.data.gov.sg/)\n"
             return result
 
         for datee in avail_slots.keys():
