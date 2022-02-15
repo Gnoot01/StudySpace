@@ -291,7 +291,8 @@ def for_fun(update: Update, context: CallbackContext) -> Message:
 
 def error(update: Update, context: CallbackContext) -> Message:
     """Error messages during bot usage"""
-    print(f"ALERT! {update.message.from_user.first_name} caused error: {context.error}")
+    user = update.message.from_user
+    logger.info(f"ALERT! {user.first_name} caused error: {context.error}")
     return update.message.reply_text("You caused error:\n"
                                      f"{context.error}\n\n"
                                      f"YOU KILLED THE BOT!! Kidding, screenshot and send to my hooman please C:")
