@@ -26,7 +26,7 @@ import random
 from generator import Generator
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, ParseMode, Message
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, ConversationHandler, Filters
-
+ 
 # Enable logging
 # Eg. 14/02/2022 08:00:00 | start() in main.py | LogLvl=INFO, Line 5: ..., level: only severity level >= specified will be shown (DEBUG<INFO<WARNING<ERROR<CRITICAL)
 # can add filename='logs.log', filemode='a' to append logs into logs.log file instead of displaying in terminal
