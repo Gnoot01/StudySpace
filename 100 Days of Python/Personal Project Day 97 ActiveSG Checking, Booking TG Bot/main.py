@@ -18,6 +18,11 @@ Try as I might, cannot seem to find a way to use beautifulsoup+requests instead 
 Other projects involving ActiveSG are at least 5 years old, and I tried their methods but unsuccessful:
 https://github.com/davidheryanto/activesg/blob/master/activesg.py, https://github.com/zhangyongsong/badminton_court_booking/blob/master/book_court.py
 From what I take away, is that the form has 4 fields: login, ecpassword (encrypted by what method?? using what??), rsapublickey, _csrf
+
+OMG I managed to deploy to Heroku - everyone saying pythonanywhere easier etc etc but man couldn't figure out where to start
+Massive kudos to this GOAT: https://www.youtube.com/watch?v=rfdNIOYGYVI
+Learning points, and necessary changes to deploy on Heroku on my deploy_aktivesgbot repo
+:D :D :D :D
 """
 import os
 import logging
