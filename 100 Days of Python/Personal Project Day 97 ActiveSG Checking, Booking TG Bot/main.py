@@ -69,18 +69,19 @@ def check(update: Update, context: CallbackContext) -> int:
 # from telegram.ext import CallbackQueryHandler
 # def check(...): ...
 #     # Inline keyboard
-#     reply_keyboard = InlineKeyboardMarkup([
-#                        [InlineKeyboardButton("Badminton", callback_data='badminton')],
-#                        [InlineKeyboardButton("Basketball", callback_data='basketball')],
-#                        [...]...
-#                      ])
-#     ...
+#     reply_keyboard = [[InlineKeyboardButton("Badminton", callback_data='OPTION1')],
+#                       [InlineKeyboardButton("Basketball", callback_data='OPTION2')],
+#                       [...]...
+#                      ]
+#     update.message.reply_text("", reply_markup=InlineKeyboardMarkup(reply_keyboard))
 
-# def button(update: Update, context: CallbackContext) -> None:
+# def button(...):
 #     query_data = update.callback_query.data
+#     update.callback_query.answer() # Need, if not will have clock-waiting-symbol on button clicked. Can put text inside to send user notification msg on click
 #     # Remove buttons, same as ReplyKeyboardMarkup's one_time_keyboard=True
 #     update.callback_query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup([]))
-#     ...
+#     # CANNOT update.message.reply_text as update.message is None since no msg sent by user!
+#     context.bot.send_message(chat_id=update.effective_chat.id, text=f"Chosen {query_data}") # Eg. Clicking Badminton->Notify (if any)->Remove Buttons->bot send msg: "Chosen OPTION1"
 
 # updater.dispatcher.add_handler(CommandHandler('check', check))
 # updater.dispatcher.add_handler(CallbackQueryHandler(button))
