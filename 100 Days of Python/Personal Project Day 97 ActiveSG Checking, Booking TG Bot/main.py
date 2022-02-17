@@ -64,19 +64,25 @@ def check(update: Update, context: CallbackContext) -> int:
                               reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True, input_field_placeholder='or type, in lower case please!'))
     return ACTIVITY
 
-#     Inline keyboard functionality with ?callback?
-#     InlineKeyboardMarkup([
-#         [InlineKeyboardButton("Badminton", callback_data='🎲')],
-#          [InlineKeyboardButton("Basketball", callback_data='🎯')],
-#          [...]...
-#          ])
-# def button(update: Update, context: CallbackContext) -> None:
-#     # Must call answer!
-#     update.callback_query.answer()
-#     # Remove buttons
-#     update.callback_query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup([]))
-#     update.callback_query.message.reply_dice(emoji=update.callback_query.data)
+# Basically, when press button on Inline Keyboard, there's callback_query in the msg sent. Can then retrieve query_data by callback_query.data 
+# from telegram import InlineKeyboardMarkup, InlineKeyboardButton
+# from telegram.ext import CallbackQueryHandler
+# def check(...): ...
+#     # Inline keyboard
+#     reply_keyboard = InlineKeyboardMarkup([
+#                        [InlineKeyboardButton("Badminton", callback_data='badminton')],
+#                        [InlineKeyboardButton("Basketball", callback_data='basketball')],
+#                        [...]...
+#                      ])
+#     ...
 
+# def button(update: Update, context: CallbackContext) -> None:
+#     query_data = update.callback_query.data
+#     # Remove buttons, same as ReplyKeyboardMarkup's one_time_keyboard=True
+#     update.callback_query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup([]))
+#     ...
+
+# updater.dispatcher.add_handler(CommandHandler('check', check))
 # updater.dispatcher.add_handler(CallbackQueryHandler(button))
 
 
