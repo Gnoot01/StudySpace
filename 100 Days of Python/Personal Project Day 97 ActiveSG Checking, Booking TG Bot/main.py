@@ -67,7 +67,8 @@ def check(update: Update, context: CallbackContext) -> int:
 # Basically, when press button on Inline Keyboard, there's callback_query in the msg sent. Can then retrieve query_data by callback_query.data 
 # from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 # from telegram.ext import CallbackQueryHandler
-# def check(...): ...
+
+# def check(...):
 #     # Inline keyboard: callback_data is simply text (NOT FUNC/VAR) sent by bot (NOT USER)
 #     reply_keyboard = [[InlineKeyboardButton("Badminton", callback_data='OPTION1')], 
 #                       [InlineKeyboardButton("Basketball", callback_data='OPTION2')],
@@ -78,14 +79,22 @@ def check(update: Update, context: CallbackContext) -> int:
 # def button(...):
 #     query_data = update.callback_query.data
 #     update.callback_query.answer() # Need, if not will have clock-waiting-symbol on button clicked. Can put text inside to send user notification msg on click
-#     # Remove buttons, same as ReplyKeyboardMarkup's one_time_keyboard=True
+
+#     process_callback_data(query_data, ...) # convert callback_data text into func
+
+#     # 1. Edit to remove buttons, same as ReplyKeyboardMarkup's one_time_keyboard=True
 #     update.callback_query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup([]))
+#     # OR 2. Delete keyboard msg entirely (update.callback_query.delete_message())
+#     # For "Back to Menu" button, 2+send new keyboard > 1 as more flexible and since send new keyboard, will be most recent msg.
+
 #     # CANNOT update.message.reply_text as update.message is None since no msg sent by user!
 #     context.bot.send_message(chat_id=update.effective_chat.id, text=f"Chosen {query_data}") # Eg. Clicking Badminton->Notify (if any)->Remove Buttons->bot send msg: "Chosen OPTION1"
 
 # updater.dispatcher.add_handler(CommandHandler('check', check))
 # updater.dispatcher.add_handler(CallbackQueryHandler(button))
 
+# def process_callback_data(query_data, ...):
+#     if query_data == "": ...
 
 def activity(update: Update, context: CallbackContext) -> int:
     """Stores the selected activity then asks for desired venue."""
