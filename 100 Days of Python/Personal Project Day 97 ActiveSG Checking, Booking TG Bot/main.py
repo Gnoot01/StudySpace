@@ -68,8 +68,8 @@ def check(update: Update, context: CallbackContext) -> int:
 # from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 # from telegram.ext import CallbackQueryHandler
 # def check(...): ...
-#     # Inline keyboard
-#     reply_keyboard = [[InlineKeyboardButton("Badminton", callback_data='OPTION1')],
+#     # Inline keyboard: callback_data is simply text (NOT FUNC/VAR) sent by bot (NOT USER)
+#     reply_keyboard = [[InlineKeyboardButton("Badminton", callback_data='OPTION1')], 
 #                       [InlineKeyboardButton("Basketball", callback_data='OPTION2')],
 #                       [...]...
 #                      ]
