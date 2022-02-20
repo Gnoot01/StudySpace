@@ -9,3 +9,9 @@ And I'm so glad I tried! :D :D :D :D
 Learning points, and necessary changes to deploy on Heroku on my deploy_aktivesgbot repo
 
 Update: However, reportedly by my users (just my sis actl), it's still a tad too slow compared to the app which already cached the log in. So discovered the purpose of this bot is simply to check and book spontaneously, not competitively in wee hours of the morning when slots open up. I'll figure out a different bot for that, solving captchas should be fun...
+
+Ideas for improvement: 
+```
+1. use Persistence to remember user's data choices/watchlist for slots that free up when users cancel their booking, if they opt to. Hourly checking frequency?
+2. Competitive Booking during slot-opening time
+```
