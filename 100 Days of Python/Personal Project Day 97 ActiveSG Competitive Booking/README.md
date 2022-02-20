@@ -7,6 +7,6 @@ click location history tied to your acc), browser fingerprint, Google cookies & 
 
 Bypass Method 1: Often most reliable, allow some time.sleep() to do it yourself
 
-Bypass Method 2: (Captcha services)[https://2captcha.com/] $3/1000 recaptchas
+Bypass Method 2: [Captcha services](https://2captcha.com/) $3/1000 recaptchas
 
 Bypass Method 3: Open-sourced captcha bypass
