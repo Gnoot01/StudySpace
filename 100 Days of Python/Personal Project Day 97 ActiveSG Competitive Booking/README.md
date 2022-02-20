@@ -5,8 +5,8 @@ ActiveSG utilizes Google recaptchav2, which enables users to pass the captcha ju
 how your cursor moved on its way to the check (organic path/acceleration), which part of the checkbox was clicked (random places, or dead on center every time using 
 click location history tied to your acc), browser fingerprint, Google cookies & contents
 
-Bypass Method 1: Often most reliable, allow some time.sleep() to do it yourself
+Bypass Method 1: Often most reliable and because activesg doesn't really protect against this, allow some time.sleep() to do it yourself
 
-Bypass Method 2: [Captcha services](https://2captcha.com/) $3/1000 recaptchas
+Bypass Method 2: [Captcha services](https://2captcha.com/) $3/1000 recaptchas, can use their API or library
 
-Bypass Method 3: Open-sourced captcha bypass
+Bypass Method 3: [Open-sourced captcha bypass](https://github.com/ecthros/uncaptcha2) but this is for the audio-images version of uncaptcha2, unlike the click-and-go version on activeSG.
