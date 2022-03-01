@@ -1,7 +1,7 @@
 <p align="center">
 <img width="" src="https://media.giphy.com/media/kPVTbiTORIopy/giphy.gif" align="center" alt="gif" />
 <h1 align="center">100 Days of Python 🐍 
-    <a href="https://twitter.com/intent/tweet?&url=https://github.com/Gnoo01/Study_Space/100_Days_of_Python&via=Gnoot01&hashtags=html,css,bootstrap,js,python,flask,100daysofcode,developers">
+    <a href="https://twitter.com/intent/tweet?&url=https://github.com/Gnoo01/Study_Space/tree/main/100_Days_of_Python&via=Gnoot01&hashtags=html,css,bootstrap,js,python,flask,100daysofcode,developers">
       <img alt="Tweet" src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
     </a>
 </h1>
