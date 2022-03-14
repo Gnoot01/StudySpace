@@ -7,3 +7,7 @@ Learnt this on the fly in the week before my first job specializing in Microsoft
 - Check in, Check out
 - Workflows
 - to be updated
+
+
+[Insert SharePoint 2013 Complete Training cert here?]
+- Slightly outdated, but more thorough
