@@ -3,6 +3,10 @@
 - [Extra: About Me](Extra_About_Me): 
 - [Extra: CV](Extra_CV): 
 - [Extra: TinDog](Extra_TinDog): Learnt CSS advanced concepts,ordering & Bootstrap
+- [Section_8_Challenge_1](Section_8_Challenge_1): functions, De Morgan's Law, .includes
+- [Section_8_Challenge_2](Section_8_Challenge_2): for...of (iterable)
+- [Section_8_Challenge_3](Section_8_Challenge_3): 
+- [Section_8_Challenge_4](Section_8_Challenge_4): Math.floor(Math.random() * n) = [0,n-1]/[0,n)
 
 
 ## Hosting website on Github:
