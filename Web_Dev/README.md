@@ -42,9 +42,9 @@ Hence,
 
 - [BS theme templates](https://startbootstrap.com/themes)
 - [Favicon (Tab icon)](https://favicon.io/)
-- Apple,Instagram logo, etc icons: https://fontawesome.com/v5.15/icons?d=gallery&p=2, https://www.flaticon.com/
+- Apple,Instagram logo, etc icons: [Font Awesome](https://fontawesome.com/icons), [Flat icon](https://www.flaticon.com/)
 - [Gifs](https://giphy.com/)
-- Colors: search <colors> MDN, colorhunt.co, [Color Theory](https://color.adobe.com/create/color-wheel)
+- Colors: search <colors> MDN, [Color Hunt](colorhunt.co), [Color Theory](https://color.adobe.com/create/color-wheel)
 - Fonts: [Google Fonts](https://fonts.google.com/), [Font Families](https://www.cssfontstack.com/)
 - [Mobile-friendly test affecting google searching rankings](https://search.google.com/test/mobile-friendly)
 
