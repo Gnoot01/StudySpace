@@ -41,6 +41,7 @@ Hence,
 5. Prototype via animated replica
 
 - [BS theme templates](https://startbootstrap.com/themes)
+- [Download JS library files](https://cdnjs.com/)
 - [Favicon (Tab icon)](https://favicon.io/)
 - Apple,Instagram logo, etc icons: [Font Awesome](https://fontawesome.com/icons), [Flat icon](https://www.flaticon.com/)
 - [Gifs](https://giphy.com/)
