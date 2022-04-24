@@ -8,7 +8,7 @@
 - [Section_8_Challenge_3](Section_8_Challenge_3): 
 - [Section_8_Challenge_4](Section_8_Challenge_4): Math.floor(Math.random() * n) = [0,n-1]/[0,n)
 - [Section_14_NBA_Scores_Chart](Section_14_NBA_Scores_Chart): Destructuring ftw
-- [Section 20 Timer](Section_20_Timer): Class, optional args, "this" in arrow func refers to that class' object since underlying implemention hoists func into constructor (as evident in Babel), "get" and "set" keywords enable usage as if an attribute
+- [Section_20_Timer](Section_20_Timer): Class, optional args, "this" in arrow func refers to that class' object since underlying implemention hoists func into constructor (as evident in Babel), "get" and "set" keywords enable usage as if an attribute
 
 
 ## Hosting website on Github:
