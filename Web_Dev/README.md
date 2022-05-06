@@ -20,6 +20,13 @@
 - Bulma framework
 - emphasis on independence of .html & .js files/reusability & zero knowledge of project
 - Abstraction via helper funcs (input debounce)
+- Closing dropdown on click outside
+// e.target reveals the element clicked on, anywhere in the document.
+document.addEventListener("click", (e) => {
+ // If any element in the root is clicked, dropdown will remain open. Otherwise, will close.
+ if (!root.contains(e.target)) dropdown.classList.remove("is-active");
+ });
+};
 ```
 
 
