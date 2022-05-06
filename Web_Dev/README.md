@@ -16,7 +16,7 @@
 ```
 - [Section_21_Movie_Fight](Section_21_Movie_Fight): 
 ```
-- Drawing diagrams to help planning & visualization
+- Drawing [diagrams](https://app.diagrams.net/) to help planning & visualization
 - Bulma framework
 - emphasis on independence of .html & .js files/reusability & zero knowledge of project
 - Abstraction via helper funcs (input debounce)
