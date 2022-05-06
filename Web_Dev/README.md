@@ -27,6 +27,7 @@ document.addEventListener("click", (e) => {
  if (!root.contains(e.target)) dropdown.classList.remove("is-active");
  });
 };
+- HTML data attributes (data-xxxx is in .dataset.xxxx)
 ```
 
 
