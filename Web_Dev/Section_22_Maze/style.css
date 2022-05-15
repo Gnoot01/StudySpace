@@ -1,0 +1,29 @@
+body {
+    /* To ensure able to do window.innerWidth/Height without margin on borders*/
+    margin: 0;
+}
+
+.hidden {
+    /* To ensure 100% won't show up on screen */
+    display: none !important;
+}
+
+h1 {
+    color: white;
+    font-size: 56px;
+}
+
+.winner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+#playAgain{
+    text-decoration-color: white;
+    font-size: 56px;
+}
