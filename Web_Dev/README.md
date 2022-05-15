@@ -67,6 +67,12 @@ document.addEventListener("click", (e) => {
     render.context = null;
     render.textures = {};
 ```
+- [Section_23_Secret_Msg_Sharing_App](Section_23_Secret_Msg_Sharing_App):
+```
+- event.preventDefault(): prevents default browser behavior to submit info in form to a backend server (appearing as if refreshing)
+- b64-encoding is basically combining all bits then splitting from ASCII (8) to base64 (6) (ASCII<->base64 = btoa(...)<->atob(...))
+- Deploying live via "npx now" in console with NodeJS installed
+```
 
 
 ## Hosting website on Github:
