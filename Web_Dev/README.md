@@ -29,7 +29,7 @@ document.addEventListener("click", (e) => {
 };
 - HTML data attributes (data-xxxx is in .dataset.xxxx)
 ```
-- [Section_22_Maze](Section_21_Maze): 
+- [Section_22_Maze](Section_22_Maze): 
 ```
 - MatterJS Physics <canvas> API
 - const {World, Engine, Runner, Render, Bodies, Body, Mouse, MouseConstraint, Events} = Matter;
