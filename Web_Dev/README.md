@@ -29,6 +29,44 @@ document.addEventListener("click", (e) => {
 };
 - HTML data attributes (data-xxxx is in .dataset.xxxx)
 ```
+- [Section_22_Maze](Section_21_Maze): 
+```
+- MatterJS Physics <canvas> API
+- const {World, Engine, Runner, Render, Bodies, Body, Mouse, MouseConstraint, Events} = Matter;
+  const engine = Engine.create();
+  const {world} = engine;
+  const render = Render.create({
+    element: ...,
+    engine: engine,
+    options: {...},
+  });
+  const runner = Runner.create();
+  Render.run(render);
+  Runner.run(runner, engine);
+  // World.add(world, ...);
+  // Bodies.[shape](...)
+  // Body.setVelocity(...)
+  // MouseConstraint.create(engine, {mouse: Mouse.create(render.canvas)})
+- const grid = Array(cellsVertical) // Rows
+    .fill(null) // Cannot just do .fill([false, false, false]), as they are the exact same arrays in memory, hence Eg. grid[0].push(true) will edit all 3 arrays
+    .map(() => Array(cellsHorizontal).fill(false)); // Columns
+- Bodies....(..., {label: "...", isStatic: true, render: {fillStyle: "..."}}
+- Workaround for clipping issues due to current lack of CCP
+- // Listening for events inside world object allows to create Win Condition
+  Events.on(engine, "collisionStart", (e) => {
+    // Chrome reuses the e each time, overwriting all info of prev es, hence need to loop thru e.pairs array
+    e.pairs.forEach((collision) => {
+      // collision array: {id: '...', bodyA: {…}, bodyB: {…}, collision: {…}, ...}
+- // clearing MatterJS-related, so doesn't affect the next run thru recursion, etc
+    World.clear(world);
+    Engine.clear(engine);
+    Render.stop(render);
+    Runner.stop(runner);
+    render.canvas.remove();
+    render.canvas = null;
+    render.context = null;
+    render.textures = {};
+```
 
 
 ## Hosting website on Github:
