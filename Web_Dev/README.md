@@ -90,6 +90,7 @@ document.addEventListener("click", (e) => {
 - [Section_25_NodeJS_CLI_watch](Section_25_NodeJS_CLI_watch):
 ```
 - Lodash.debounce, Chokidar, Caporal, child_process
+- Details on StdIO and child_process, in C notes.
 ```
 
 
