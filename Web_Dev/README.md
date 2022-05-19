@@ -73,6 +73,24 @@ document.addEventListener("click", (e) => {
 - b64-encoding is basically combining all bits then splitting from ASCII (8) to base64 (6) (ASCII<->base64 = btoa(...)<->atob(...))
 - Deploying live via "npx now" in console with NodeJS installed
 ```
+- [Section_24_NodeJS_CLI_nls](Section_24_NodeJS_CLI_nls):
+```
+- Creating a command
+1. cd into most direct parent folder of index.js
+2. #!/usr/bin/env node (1st line of index.js, to treat like an executable)
+3. "npm init -y" (package.jsonl, containing impt "scripts", "dependencies")
+4. bin (alternative command to execute binary, executable)
+5. "npm link" (package-lock.json)
+6. "npm i NAME/NAME@VERSION_NO" (install any libraries from npmjs.com)
+7. "npm exec CMD_NAME" / "npx CMD_NAME" to run CMD_NAME
+- fs, util, path, chalk
+- Callback (confusing quickly esp if adding more layers of complexity (unscalable)) vs Promise (Runs sequentially awaiting for each lstat, so quite slow) vs Promise.all (Runs parallel, seems sychronous)
+- process.argv for array of CLI args
+```
+- [Section_25_NodeJS_CLI_watch](Section_25_NodeJS_CLI_watch):
+```
+- Lodash.debounce, Chokidar, Caporal, child_process
+```
 
 
 ## Hosting website on Github:
