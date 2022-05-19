@@ -81,7 +81,7 @@ document.addEventListener("click", (e) => {
 3. "npm init -y" (package.jsonl, containing impt "scripts", "dependencies")
 4. bin (alternative command to execute binary, executable)
 5. "npm link" (package-lock.json)
-6. "npm i NAME/NAME@VERSION_NO" (install any libraries from npmjs.com)
+6. "npm i NAME/NAME@VERSION_NO" (libraries installed from npmjs.com, node_modules)
 7. "npm exec CMD_NAME" / "npx CMD_NAME" to run CMD_NAME
 8. Executables bin commands are in "%appdata%\npm"
 - fs, util, path, chalk
