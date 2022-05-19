@@ -83,6 +83,7 @@ document.addEventListener("click", (e) => {
 5. "npm link" (package-lock.json)
 6. "npm i NAME/NAME@VERSION_NO" (install any libraries from npmjs.com)
 7. "npm exec CMD_NAME" / "npx CMD_NAME" to run CMD_NAME
+8. Executables bin commands are in "%appdata%\npm"
 - fs, util, path, chalk
 - Callback (confusing quickly esp if adding more layers of complexity (unscalable)) vs Promise (Runs sequentially awaiting for each lstat, so quite slow) vs Promise.all (Runs parallel, seems sychronous)
 - process.argv for array of CLI args
