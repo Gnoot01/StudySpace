@@ -2,6 +2,7 @@
 
 // Emulating the "ls" CLI command
 // Executable bin "nls" is in %appdata%\npm. Refer to "Where_executable_bin_are"
+// fs: Node File System, https://nodejs.org/api/fs.html
 // Chalk: color terminal, https://www.npmjs.com/package/chalk, "npm i chalk"
 
 const fs = require("fs");
