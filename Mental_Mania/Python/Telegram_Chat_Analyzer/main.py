@@ -24,7 +24,6 @@ MSGS_FOLDER = "..."
 # All files: len(next(os.walk(r'C:\Users\Andrew\Desktop\ChatExport_2022-05-29'))[2])
 # Super fast, all files matching extension only
 FILES = fnmatch.filter(os.listdir(MSGS_FOLDER), '*.html')
-i = 1
 # can be edited in nltk_data\corpora\stopwords\english
 STOP_WORDS = set(stopwords.words("english"))
 MEANINGLESS_WORDS = ["v", "s", "t", "ll", "d", "am", "m", "im", "o", "re", "ve", "y", "ma", "mma", "u", "r", "re",
