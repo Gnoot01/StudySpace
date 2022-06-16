@@ -3,7 +3,8 @@
 </p>
 
 Some of the project ideas noted down in my Mental Mania notes, brought to life.
-Each of them has some idea for enhancement in future.
+
+Each of them has some notion for enhancement in future.
 
 ## Projects
 - [Telegram_Chat_Analyzer](Telegram_Chat_Analyzer):
