@@ -40,7 +40,7 @@ import pickle
 
 SP_CLIENT_ID = os.environ.get("SP_CLIENT_ID")
 SP_CLIENT_SECRET = os.environ.get("SP_CLIENT_SECRET")
-SP_REDIRECT_URI = os.environ.get("SP_REDIRECT_URI")
+SP_REDIRECT_URI = "http://example.com"
 # YT_API_KEY = os.environ.get("YT_API_KEY")
 ARTISTS_TO_WATCH = ["IU", "BTS", "王七七"]
 VERSIONS_TO_WATCH = ["instrumental", "karaoke", "piano", "violin", "cover", "acoustic", "drum"]
@@ -115,7 +115,7 @@ def yt_to_sp(YT_URL: str, SP_URL: str):
         if "?" in SP_URL: SP_URL = SP_URL.split("?")[0]
         driver.get(SP_URL)
         sp_playlist_to_clone = "New " + WebDriverWait(driver, 10).until(EC.presence_of_element_located(('xpath', '//*[@id="main"]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/div/section/div[1]/div[5]/span/h1'))).text + " " + date
-        # Spotipy uses pagination, default limit on 1 page = 100, so need while loop to get full list
+        # Spotify uses pagination, default limit on 1 page = 100, so need while loop to get full list
         results = sp.playlist_items(SP_URL.split("playlist/")[1])
         sp_tracks = results["items"]
         while results['next']:
