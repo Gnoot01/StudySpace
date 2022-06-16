@@ -229,10 +229,10 @@ def sp_to_yt(YT_URL: str, SP_URL: str):
                 add_to_yt_playlist(uc_driver, yt_playlist_to_clone)
 
         # # B: YT API to clone playlist
-        # results = yt.playlistItems().list(part="snippet", playlistId="PLkQdFmaFUTcL2MbCuiov14qZo-WJr9SdM", maxResults=50).execute()
+        # results = yt.playlistItems().list(part="snippet", playlistId=yt_new_playlist_id, maxResults=50).execute()
         # yt_tracks = results["items"]
         # while results.get('nextPageToken'):
-        #     results = yt.playlistItems().list(part="snippet", playlistId="PLkQdFmaFUTcL2MbCuiov14qZo-WJr9SdM", maxResults=50, pageToken=results["nextPageToken"]).execute()
+        #     results = yt.playlistItems().list(part="snippet", playlistId=yt_new_playlist_id, maxResults=50, pageToken=results["nextPageToken"]).execute()
         #     yt_tracks.extend(results['items'])
         # yt_tracks_resources = [yt_track["snippet"]["resourceId"] for yt_track in yt_tracks]
         # for yt_tracks_resource in yt_tracks_resources:
