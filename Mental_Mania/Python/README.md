@@ -22,6 +22,7 @@ NEED BOTH encoding="utf-8" & ensure_ascii=False to force UNICODE-representation 
 ```
 - [SP_YT_Playlist_Converter](SP_YT_Playlist_Converter):
 ```
+emoji to manipulate emoji unicodes
 undetected_chromedriver as one of bypasses to using Selenium to sign in to Google account
 OAuth 2.0 flow and pickles
 Handling pagination of results to get full results
