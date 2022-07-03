@@ -1,3 +1,5 @@
+// mocha: Testing Library Framework, https://mochajs.org/, "npm i --global mocha"
+
 const waitFor = (selector) => {
   return new Promise((resolve, reject) => {
     const interval = setInterval(() => {
