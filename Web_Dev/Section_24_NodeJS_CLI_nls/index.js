@@ -3,7 +3,7 @@
 // Emulating the "ls" CLI command
 // Executable bin "nls" is in %appdata%\npm. Refer to "Where_executable_bin_are"
 // fs: Node File System, https://nodejs.org/api/fs.html
-// Chalk: color terminal, https://www.npmjs.com/package/chalk, "npm i chalk"
+// Chalk: color terminal, https://www.npmjs.com/package/chalk, "npm i chalk@4.1.2" (latest version built with CommonJS), to prevent "[ERR_REQUIRE_ESM]: require() not supported"
 
 const fs = require("fs");
 const util = require("util");
