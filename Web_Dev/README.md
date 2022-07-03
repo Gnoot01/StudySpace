@@ -94,7 +94,19 @@ document.addEventListener("click", (e) => {
 - Lodash.debounce, Chokidar, Caporal, child_process
 - Details on StdIO and child_process, in C notes.
 ```
-
+- [Section_26_Future_Amazon](Section_26_Future_Amazon):
+```
+- require("FILE_PATH"), module.exports = ...
+- fs (.access, .writeFile, .readFile
+- crypto (.randomBytes(NUM).toString("hex"), .scrypt(PASSWORD, SALT, BITS)
+- ExpressJS (express(), .Router(), .static("PUBLIC_DIR"), .use, .listen, .get/post(ROUTE (Eg. /:id can get id variable from URL), [ANY_VALIDATORS], ANY_MIDDLEWARE_FUNCS, (req, res)=>{}), req["session"], res.send/redirect
+- Nodemon
+- Cookie-session (cookieSession({keys: ["RANDOM_ENCRYPTION_KEY"]})
+- Express-validator (check(...).trim/normalizeEmail/isEmail/isLength/isFloat/withMessage/custom(), errors.mapped()[property].msg to convert [errors]->{property: {msg: "..."}}
+- Multer (({storage: multer.memoryStorage()}), .single("image"))
+- Funcs in constructors CANNOT be async in nature. HENCE use sync versions all sync versions inside / async funcs outside & invoke separately 
+- Object.assign(record, attrs): k-v pairs of later (attrs) copies (if doesn't exist) & overwrites (if exists) earlier (record) objects
+```
 
 ## Hosting website on Github:
 1. make repo public
