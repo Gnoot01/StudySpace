@@ -85,13 +85,13 @@ document.addEventListener("click", (e) => {
 6. "npm i NAME/NAME@VERSION_NO" (libraries installed from npmjs.com, node_modules)
 7. "npm exec CMD_NAME" / "npx CMD_NAME" to run CMD_NAME
 8. Executables bin commands are in "%appdata%\npm"
-- fs, util, path, chalk
+- fs (.lstat, .readdir), util (.promisify), path (.join(DIR, FILE), chalk (.bold, .blue)
 - Callback (confusing quickly esp if adding more layers of complexity (unscalable)) vs Promise (Runs sequentially awaiting for each lstat, so quite slow) vs Promise.all (Runs parallel, seems sychronous)
 - process.argv for array of CLI args
 ```
 - [Section_25_NodeJS_CLI_watch](Section_25_NodeJS_CLI_watch):
 ```
-- Lodash.debounce, Chokidar, Caporal, child_process
+- Lodash.debounce, Chokidar (.watch, .on), Caporal (.version, .argument, .action, .parse), child_process (spawn, .kill)
 - Details on StdIO and child_process, in C notes.
 ```
 - [Section_26_Future_Amazon](Section_26_Future_Amazon):
