@@ -88,7 +88,7 @@ document.addEventListener("click", (e) => {
 8. Executables bin commands are in "%appdata%\npm"
 - fs (.lstat, .readdir), util (.promisify), path (.join(DIR, FILE), chalk (.bold, .blue)
 - Callback (confusing quickly esp if adding more layers of complexity (unscalable)) vs Promise (Runs sequentially awaiting for each lstat, so quite slow) vs Promise.all (Runs parallel, seems sychronous)
-- process.argv for array of CLI args
+- process.argv for array of CLI args, process.cwd() for cwd path
 ```
 - [Section_25_NodeJS_CLI_watch](Section_25_NodeJS_CLI_watch):
 ```
