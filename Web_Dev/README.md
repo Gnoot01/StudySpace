@@ -86,7 +86,7 @@ document.addEventListener("click", (e) => {
 7. "npm exec CMD_NAME" / "npx CMD_NAME" to run CMD_NAME
    If some Windows Error: Invalid character 800A03F6, right-click any .js file, "Properties">"Open with">Locate Eg. C:\Program Files\nodejs\node.exe
 8. Executables bin commands are in "%appdata%\npm"
-- fs (.lstat, .readdir), util (.promisify), path (.join(DIR, FILE), chalk (.bold, .blue)
+- fs (.lstat to know if file or folder, .readdir), util (.promisify), path (.join(DIR, FILE), chalk (.bold, .blue)
 - Callback (confusing quickly esp if adding more layers of complexity (unscalable)) vs Promise (Runs sequentially awaiting for each lstat, so quite slow) vs Promise.all (Runs parallel, seems sychronous)
 - process.argv for array of CLI args, process.cwd() for cwd path
 ```
