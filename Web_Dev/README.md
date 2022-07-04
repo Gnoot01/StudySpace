@@ -108,6 +108,12 @@ document.addEventListener("click", (e) => {
 - Funcs in constructors CANNOT be async in nature. HENCE use sync versions all sync versions inside / async funcs outside & invoke separately 
 - Object.assign(record, attrs): k-v pairs of later (attrs) copies (if doesn't exist) & overwrites (if exists) earlier (record) objects
 ```
+- [Section_33_TME](Section_33_TME):
+```
+- jsdom ({JSDOM}.fromFile().window.document...)
+- addEventListener("DOMContentLoaded", ...) to wait for all JS files to be loaded first
+- global.STH (Node will first find if "STH" was defined anywhere in current file. If not, will find in global variables which are shared between ALL diff files)
+```
 
 ## Hosting website on Github:
 1. make repo public
