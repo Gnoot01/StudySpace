@@ -164,3 +164,11 @@ UI - Perception Hierarchy via 1.colors 2.size 3.weight 4.layout (eg. 40-60 chars
 UX - 1.Simplicity 2.Consistency(navbar) 3.Reading Patterns(F pattern generally, Z pattern for more sparse, more img/vid content)
      4.Responsiveness 5.X Dark Patterns (Trickery to get ppl to do sth they didn't mean/want to) Eg. Shopee, Amazon auto selecting express delivery & making it stand out to profit/Curved line as a hair on mobile to click on website & profit/Purposely confusing checkboxes for email newsletter, etc
 ```
+
+![certificate](certificate.jpg)
+
+
+This certificate above verifies that Andrew Yu Ming Xin successfully completed the course [The Modern Javascript Bootcamp Course (2022)](https://www.udemy.com/course/javascript-beginners-complete-tutorial/) on 07/03/2022 as taught by Colt Steele, Stephen Grider on Udemy.
+The certificate indicates the entire course was completed as validated by the student.
+The course duration represents the total video hours of the course at time of most recent completion.
+
