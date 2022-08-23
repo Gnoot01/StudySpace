@@ -11,15 +11,15 @@ The certificate indicates the entire course was completed as validated by the st
 The course duration represents the total video hours of the course at time of most recent completion.
 
 - [Exercise 1](Exercise_1_Jupyter_Basics.ipynb):
-- [Exercise 2](Exercise_2_Dataframe_Basics):
-- [Exercise 3](Exercise_3_DF_Analysis):
-- [Exercise 4](Exercise_4_Series):
-- [Exercise 5](Exercise_5_Indexes_Sorting):
-- [Exercise 6](Exercise_6_Filtering):
-- [Exercise 7](Exercise_7_Adding_Removing_Columns):
-- [Exercise 8](Exercise_8_Updating_Data):
-- [Exercise 9](Exercise_9_Types_NaN):
-- [Exercise 10](Exercise_10_Dates):
-- [Exercise 11](Exercise_11_Matplotlib):
-- [Exercise 12](Exercise_12_Pandas_Plotting):
-- [Exercise 13](Exercise_13_GroupBy):
+- [Exercise 2](Exercise_2_Dataframe_Basics.ipynb):
+- [Exercise 3](Exercise_3_DF_Analysis.ipynb):
+- [Exercise 4](Exercise_4_Series.ipynb):
+- [Exercise 5](Exercise_5_Indexes_Sorting.ipynb):
+- [Exercise 6](Exercise_6_Filtering.ipynb):
+- [Exercise 7](Exercise_7_Adding_Removing_Columns.ipynb):
+- [Exercise 8](Exercise_8_Updating_Data.ipynb):
+- [Exercise 9](Exercise_9_Types_NaN.ipynb):
+- [Exercise 10](Exercise_10_Dates.ipynb):
+- [Exercise 11](Exercise_11_Matplotlib.ipynb):
+- [Exercise 12](Exercise_12_Pandas_Plotting.ipynb):
+- [Exercise 13](Exercise_13_GroupBy.ipynb):
