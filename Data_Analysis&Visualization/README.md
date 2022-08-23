@@ -10,7 +10,7 @@ This certificate above verifies that Andrew Yu Ming Xin successfully completed t
 The certificate indicates the entire course was completed as validated by the student. 
 The course duration represents the total video hours of the course at time of most recent completion.
 
-- [Exercise 1](Exercise_1_Jupyter_Basics):
+- [Exercise 1](Exercise_1_Jupyter_Basics.ipynb):
 - [Exercise 2](Exercise_2_Dataframe_Basics):
 - [Exercise 3](Exercise_3_DF_Analysis):
 - [Exercise 4](Exercise_4_Series):
