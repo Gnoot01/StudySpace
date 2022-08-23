@@ -131,7 +131,19 @@ functools.wraps: to create decorator for flask_login
 sqlalchemy.orm.relationships: relational tables within same .db eg. ForeignKey('users.id'), relationship("User", back_populates="comments")
 flask_gravatar: auto-gen an avatar image for blog commenters, with {{<img src="{{ comment.comment_author.email | gravatar }}"/>}} in .html
 ```
-- [Day 80](Day_80_DS): 
+- [Day 80](Day_80_Home_Price_Prediction): 
+```
+Multivariable Regression Modelling, Training, Predicting
+sb.pairplot(), sb.jointplot()
+train_test_split(features, target, test_size, random_state)
+reg = LinearRegression()
+reg.fit(X_train, y_train) (r_sq = reg.score(X_train, y_train, m=reg.coef_, c=reg.intercept_)
+predicted = reg.predict(X_train)
+residuals = y_train - predicted
+res_mean = residuals.mean()
+res_skew = residuals.skew()
+Transformation of data for a better fitting model
+```
 
 ## 👨‍💻 Professional
 - [Personal Project Day 90](Personal_Project_Day_90_PDF_to_Audiobook): TODO, cool idea
@@ -158,7 +170,11 @@ Proper OOP style,  numbing formatting annoying data
 Most importantly - It's applicable to real life, fully functional and deployed! :)
 ```
 - [Personal Project Day 97](Personal_Project_Day_97_ActiveSG_Competitive_Booking): Discovered, Learnt some Captcha bypass methods
-- [Personal Project Day 98](Personal_Project_Day_98_DS): 
+- [Personal Project Day 98](Personal_Project_Day_98_Space_Missions): 
+```
+Very good Data Analysis/Science Practice
+plotly.express.choropleth/sunburst
+```
 - [Personal Project Day 99](Personal_Project_Day_99_DS): 
 - [Personal Project Day 100](Personal_Project_Day_100_DS): 
 
