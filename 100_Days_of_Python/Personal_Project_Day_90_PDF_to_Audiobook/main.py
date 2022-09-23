@@ -16,4 +16,6 @@ tired/lazy synonyms: <prosody pitch="low">
 <amazon:auto-breaths>
 However, needs credit card details to even register so opted for https://www.ispeech.org/
 Update: Never mind, requires credit card details too. I'll come back to this.
+
+Some insightful research and libraries (pyttsx3, pdfplumber, PyPDF2): https://thecleverprogrammer.com/2020/11/15/convert-pdf-to-audiobook-using-python/
 """
