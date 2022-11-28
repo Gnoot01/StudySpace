@@ -1,10 +1,10 @@
 from libdw import pyrebase
 
 # Copying reference url at the top
-dburl = "https://ctd-rpi-default-rtdb.asia-southeast1.firebasedatabase.app/"
-email = "test@gmail.com"
-password = "test123"
-apikey = "AIzaSyCtgSS9bNj2Fiu0lUgcCGACqgl8vw_hVTM"
+dburl = ""
+email = ""
+password = ""
+apikey = ""
 authdomain = dburl.replace("https://","")
 
 
