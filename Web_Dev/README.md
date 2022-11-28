@@ -139,12 +139,13 @@ Hence,
 5. On dashboard, Settings > Reveal Config Vars (same as .env file)
 6. Copy name of the database config var (Eg. DATABASE_URL), replace app.config["SQLALCHEMY_DATABASE_URI"] to = os.environ.get("DATABASE_URL", "sqlite:///___.db") so will use either depending on if run on Heroku or locally
 
-## Deploying using Firebase (Backend/Database)
+## Firebase (Backend/Database)
 1. http://console.firebase.google.com/
 2. Create Project
 3. Build > Realtime Database > Create Database, Test Mode, Enable > Rules > change "now < ..." to "auth.uid != null"
 4. Build > Authentication > Get Started > Enable Email/Password
 5. Project Overview icon > Project Settings > Web API Key 
+6. Eg. [FirebaseGuide](FirebaseGuide.py)
 
 ## Useful Websites:
 1. [BS syntax, docs, examples](https://getbootstrap.com/docs/5.1/), test on [CodePly](https://www.codeply.com/)
