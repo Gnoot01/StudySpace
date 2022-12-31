@@ -34,6 +34,13 @@ Accessing files works as a pointer, so reading once through leaves pointer at la
 Hence f.read() again will read nth. Need to reset pointer or store file contents
 file.tell() to give position, .seek() to a position, .truncate(_) to _ bytes, .flush() to write cache
 ```
+- [Physics_Practices_Scrapper](Physics_Practices_Scrapper):
+```
+with open(..., "wb")... to save images as .jpg
+docx Document(), .add_heading(), .add_picture(), .save()
+docx2pdf.convert() to convert .docx to .pdf
+os.remove() to delete specified files
+```
 
 ## Tools and technologies
 - YT Data v3 API
