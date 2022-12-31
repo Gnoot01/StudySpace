@@ -1,0 +1,8 @@
+10.013 | Math | Maths Modelling Analysis
+Class Participation: (3.6, 4)
+Homework: (14.0, 16)
+1D: (15.0, 15)
+2D: (14.7, 15)
+Midterm: (22.5, 25)
+Finals: (0, 25)
+Credits: (8.38, 12)
