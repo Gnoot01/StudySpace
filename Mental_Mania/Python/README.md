@@ -27,6 +27,13 @@ undetected_chromedriver as one of bypasses to using Selenium to sign in to Googl
 OAuth 2.0 flow and pickles
 Handling pagination of results to get full results
 ```
+- [SUTD_GPACalculator](SUTD_GPACalculator):
+```
+Exemplar modularity and programming practices
+Accessing files works as a pointer, so reading once through leaves pointer at last char
+Hence f.read() again will read nth. Need to reset pointer or store file contents
+file.tell() to give position, .seek() to a position, .truncate(_) to _ bytes, .flush() to write cache
+```
 
 ## Tools and technologies
 - YT Data v3 API
