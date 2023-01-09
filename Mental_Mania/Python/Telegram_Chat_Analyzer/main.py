@@ -5,6 +5,7 @@
 Can go to ...\venv\Lib\site-packages\nltk\data.py to edit "SEARCH PATH" if want to move stopwords from downloaded location
 
 Enhancement: Can be converted to Data Analysis Project by simply integrating matplotlib
+             Replace emoji/emoticons w meaningful text: https://medium.com/geekculture/text-preprocessing-how-to-handle-emoji-emoticon-641bbfa6e9e7
 Issues: Untested with > 2 users (group chat)
 """
 
@@ -62,6 +63,8 @@ def tally_word_count(driver, user, word_count, a):
                 bracketed_phrase = ""
                 bracketed_phrase_count = 0
                 for word in msg.split(" "):
+                    # from nltk.stem.porter import PorterStemmer + ps = PorterStemmer() + ps.stem(word)
+                    # Conjugations Eg. loved/ing -> love. But what happens to emoji/emoticons?
                     word = word.lower().rstrip("!?$%^.,").replace(r"\n", "").replace("’", "").replace("'", "")
                     if "(" in word:
                         # Accounting for the case with multiple bracketed phrases in 1 msg
