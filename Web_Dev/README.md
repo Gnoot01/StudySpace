@@ -118,7 +118,7 @@ document.addEventListener("click", (e) => {
 ```
 <hr>
 
-- [Exercise_1_Life_Left](Exercise_1_Life_Left): let, `${}`
+- [Exercise_1_Life_Left](Exercise_1_Life_Left): let, \`${}\`
 - [Exercise_2_BMI_Calc](Exercise_2_BMI_Calc): let VAR;
 - [Exercise_3_FibonacciGenerator](Exercise_3_FibonacciGenerator): const for arrays, array methods
 - [Exercise_4_DiceGame](Exercise_4_DiceGame): 
