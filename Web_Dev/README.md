@@ -4,6 +4,7 @@
 - [Extra: CV](Extra_CV): 
 - [Extra: TinDog](Extra_TinDog): Learnt CSS advanced concepts,ordering & Bootstrap
 <hr>
+
 - [Section_8_Challenge_1](Section_8_Challenge_1): functions, De Morgan's Law, .includes
 - [Section_8_Challenge_2](Section_8_Challenge_2): for...of (iterable)
 - [Section_8_Challenge_3](Section_8_Challenge_3): 
@@ -116,6 +117,7 @@ document.addEventListener("click", (e) => {
 - global.STH (Node will first find if "STH" was defined anywhere in current file. If not, will find in global variables which are shared between ALL diff files)
 ```
 <hr>
+
 - [Exercise_1_Life_Left](Exercise_1_Life_Left): let, `${}`
 - [Exercise_2_BMI_Calc](Exercise_2_BMI_Calc): let VAR;
 - [Exercise_3_FibonacciGenerator](Exercise_3_FibonacciGenerator): const for arrays, array methods
