@@ -3,6 +3,7 @@
 - [Extra: About Me](Extra_About_Me): 
 - [Extra: CV](Extra_CV): 
 - [Extra: TinDog](Extra_TinDog): Learnt CSS advanced concepts,ordering & Bootstrap
+<hr>
 - [Section_8_Challenge_1](Section_8_Challenge_1): functions, De Morgan's Law, .includes
 - [Section_8_Challenge_2](Section_8_Challenge_2): for...of (iterable)
 - [Section_8_Challenge_3](Section_8_Challenge_3): 
@@ -114,6 +115,19 @@ document.addEventListener("click", (e) => {
 - addEventListener("DOMContentLoaded", ...) to wait for all JS files to be loaded first
 - global.STH (Node will first find if "STH" was defined anywhere in current file. If not, will find in global variables which are shared between ALL diff files)
 ```
+<hr>
+- [Exercise_1_Life_Left](Exercise_1_Life_Left): let, `${}`
+- [Exercise_2_BMI_Calc](Exercise_2_BMI_Calc): let VAR;
+- [Exercise_3_FibonacciGenerator](Exercise_3_FibonacciGenerator): const for arrays, array methods
+- [Exercise_4_DiceGame](Exercise_4_DiceGame): 
+```
+document.getElementsbyTagName(), .getElementsbyClassName(), .getElementById(), .querySelector(), .querySelectorAll()
+ELE.attributes, .getAttribute, .setAttribute, .classList.add/remove/toggle, .style vs getComputedStyle()
+ELE.innertext, .textcontent, .innerHTML, .insertAdjacentHTML
+```
+- [Exercise_5_DrumKit](Exercise_5_DrumKit): switch, Audio, addEventListener, setTimeout
+- [Extra_Exercise_5_Piano](Extra_Exercise_5_Piano): Just a fun variation of Drumkit, with Piano Keys instead!
+- [Exercise_6_SimonGame](Exercise_6_SimonGame): A bit more complicated logic
 
 ## Hosting website on Github:
 1. make repo public
@@ -185,4 +199,5 @@ UX - 1.Simplicity 2.Consistency(navbar) 3.Reading Patterns(F pattern generally, 
 This certificate above verifies that Andrew Yu Ming Xin successfully completed the course [The Modern Javascript Bootcamp Course (2022)](https://www.udemy.com/course/javascript-beginners-complete-tutorial/) on 07/03/2022 as taught by Colt Steele, Stephen Grider on Udemy.
 The certificate indicates the entire course was completed as validated by the student.
 The course duration represents the total video hours of the course at time of most recent completion.
+<hr>
 
