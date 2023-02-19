@@ -17,4 +17,8 @@ toDo: Graphs, check out below
 [Python documentation](https://www.w3schools.com/python/default.asp)
 
 ## Webdev:
-[Documentation & Best Practices 1](https://devdocs.io/) / [Documentation & Best Practices 2](https://developer.mozilla.org/en-US/)
+[Documentation & Best Practices 1](https://devdocs.io/)
+
+[Documentation & Best Practices 2](https://developer.mozilla.org/en-US/)
+
+[Fast Frontend Mockup w/o backend server](https://jsfiddle.net/)
