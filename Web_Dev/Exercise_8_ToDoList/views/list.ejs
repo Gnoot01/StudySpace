@@ -1,0 +1,21 @@
+<%- include("header") -%>
+    <div class="box" id="heading">
+        <h1> <%= listTitle %> </h1> 
+    </div>
+
+    <div class="box">
+        <% for (item of items) { %> 
+        <div class="item">
+            <input type="checkbox">
+            <p><%= item %></p>
+        </div>
+        <% } %>
+        <form class="item" action="/" method="post"> 
+            <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+            <!-- name, value here will be {name: value} in req["body"] 
+                 ∴ Can use if conditional  -->
+            <button type="submit" name="list" value=<%= listTitle %>>+</button> 
+    </div>
+</form>
+
+<%- include("footer") -%>
