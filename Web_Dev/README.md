@@ -130,6 +130,20 @@ ELE.innertext, .textcontent, .innerHTML, .insertAdjacentHTML
 - [Exercise_5_DrumKit](Exercise_5_DrumKit): switch, Audio, addEventListener, setTimeout
 - [Extra_Exercise_5_Piano](Extra_Exercise_5_Piano): Just a fun variation of Drumkit, with Piano Keys instead!
 - [Exercise_6_SimonGame](Exercise_6_SimonGame): A bit more complicated logic
+- [Exercise_7_BMI_Calc_Server](Exercise_7_BMI_Calc_Server): 
+```
+Web app version of [Exercise_2_BMI_Calc](Exercise_2_BMI_Calc)
+HTML forms with Javascript
+body-parser middleware integrated into native ExpressJS via express.urlencoded({extended: true})
+res.write/.send/.sendFile/.render/.redirect()
+In serving local ∴ static files, use __dirname, app.use(express.static("public"));
+```
+- [Exercise_8_ToDoList](Exercise_8_ToDoList):
+```
+EJS Templating: app.set("view engine", "ejs"), <%= %>, <% %>, usage of name="" + value="" to redirect to diff POST path
+HTML Layout/Partials: <%- include("header/footer/AnotherHTMLfile") -%>
+module.exports / exports / exports.someFunc = someFunc + require...
+```
 
 ## Hosting website on Github:
 1. make repo public
