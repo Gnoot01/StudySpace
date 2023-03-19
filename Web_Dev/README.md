@@ -144,7 +144,14 @@ EJS Templating: app.set("view engine", "ejs"), <%= %>, <% %>, usage of name="" +
 HTML Layout/Partials: <%- include("header/footer/AnotherHTMLfile") -%>
 module.exports / exports / exports.someFunc = someFunc + require...
 ```
-
+- [exercise_10_react_emojipedia](exercise_10_react_emojipedia):
+```
+Babel, JSX
+Inline CSS for updating on-the-fly
+React, ReactDOM, ReactDOM.createRoot(document.querySelector("#root")).render(<App />);
+export default NAME
+React Custom Props
+```
 ## Hosting website on Github:
 1. make repo public
 2. Settings>Pages>Source (main), save>if error 404, wait ~30 mins & try again 
