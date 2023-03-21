@@ -148,9 +148,17 @@ module.exports / exports / exports.someFunc = someFunc + require...
 ```
 Babel, JSX
 Inline CSS for updating on-the-fly
-React, ReactDOM, ReactDOM.createRoot(document.querySelector("#root")).render(<App />);
+import React from "react"
+import ReactDOM from "react-dom/client", ReactDOM.createRoot(document.querySelector("#root")).render(<App />);
 export default NAME
 React Custom Props
+```
+- [exercise_11_react_todolist](exercise_11_react_todolist):
+```
+import {useState} from "react"
+useState Hooks
+Array, Object Destructuring
+Arrow funcs () => {} for delayed execution
 ```
 ## Hosting website on Github:
 1. make repo public
