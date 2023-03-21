@@ -144,6 +144,20 @@ EJS Templating: app.set("view engine", "ejs"), <%= %>, <% %>, usage of name="" +
 HTML Layout/Partials: <%- include("header/footer/AnotherHTMLfile") -%>
 module.exports / exports / exports.someFunc = someFunc + require...
 ```
+- [exercise_9_react_notes](exercise_9_react_notes):
+```
+// IMPT
+function deleteNote(id){
+        setNotes((prevNotes) => {
+            return prevNotes.filter((note, index) => index !== id)
+        })
+    }
+// Adding id to note
+{notes.map((note, index) => <Note key={index} id={index} }/>)}
+
+Material-UI Core + Icons
+Pre-built using Google's Design Concept React Components (∴ > bootstrap/favicons)
+```
 - [exercise_10_react_emojipedia](exercise_10_react_emojipedia):
 ```
 Babel, JSX
