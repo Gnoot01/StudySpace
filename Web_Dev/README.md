@@ -216,7 +216,7 @@ Hence,
 - [BS theme templates](https://startbootstrap.com/themes)
 - [Download JS library files](https://cdnjs.com/)
 - [Favicon (Tab icon)](https://favicon.io/)
-- Apple,Instagram logo, etc icons: [Font Awesome (Add images to HTML class)](https://fontawesome.com/icons), [Flat icon for Graphics](https://www.flaticon.com/), [Alternate Graphics] (https://storyset.com/)
+- Apple,Instagram logo, etc icons: [Font Awesome (Add images to HTML class)](https://fontawesome.com/icons), [Flat icon for Graphics](https://www.flaticon.com/), [StorySet for Graphics](https://storyset.com/)
 - [Gifs](https://giphy.com/)
 - Colors: search <colors> MDN, [Color Hunt](colorhunt.co), [Color Theory](https://color.adobe.com/create/color-wheel)
 - Fonts: [Google Fonts](https://fonts.google.com/), [Font Families](https://www.cssfontstack.com/)
