@@ -73,3 +73,11 @@ Fills in the gaps of the previous course. Expounds further, reinforces on
 
 ![certificate](cert_Linux.jpg)
 - to learn
+
+![certificate](cert_NanyangPoly_NetworkTechnology.jpg)
+- Transmission Media (Copper Media, Fiber Media, Wireless Media, Transmission Considerations)
+- Network Standards (Internet and the Web, OSI Model, Overview of TCP/IP Protocol Suite, IP Addressing Basics)
+- LAN Technologies and Systems (LAN Topology and Devices, Ethernet LANs, Fast and Gigabit Ethernets, Routing and Switching Concepts)
+- Wireless LANs (Wireless LAN Fundamentals, IEEE 802.11)
+- WAN and Access Technologies (Network Transport Technology, Broadband Access Technology)
+- Network Security and Management (Network Security, Network Management)
