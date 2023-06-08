@@ -16,7 +16,7 @@ class DiceRoller extends StatefulWidget {
 }
 
 class _DiceRollerState extends State<DiceRoller> {
-  var currentDiceRoll = 1;
+  int currentDiceRoll = 1;
 
   @override
   Widget build(BuildContext context) {
