@@ -18,4 +18,12 @@
 - WidgetType widget1(a, {required b}) {...}
 
 - Classes, StatelessWidgets, StatefulWidget, setState, "${}"
+
+- +Widgets used: Scaffold, Container, BoxDecoration, LinearGradient, Center, Column, TextButton
+- Classes used: Alignment, MainAxisSize, Image, EdgeInsets, Colors, TextStyle, Text
+```
+
+- [exercise_2_quiz](exercise_2_quiz): 
+```
+- +Widgets used: SizedBox
 ```
