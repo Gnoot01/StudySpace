@@ -15,7 +15,7 @@ Explored the more theoretical side of Data Science
 - Political Polarization
 - School Choice & Segregation
 - Climate Mitigation
-- Final Project on “How should Twitter balance Machine Learning with Human Input in their hate speech detection framework to minimize racial discrimination against minority users on their platform?”
+- Final Project: “How should Twitter balance Machine Learning with Human Input in their hate speech detection framework to minimize racial discrimination against minority users on their platform?”
 - [ESR_Examples](DATASCI_154/ESR_Examples/Ethics_and_Society_Review.docx): Ethics and Society Review (ESR) vs Institutional Review Boards (IRB) Statement
 - [PS3](DATASCI_154/PS3/PS3_AndrewYu.ipynb): importing custom module on Google Colab, np.linspace()
 - [PS4](DATASCI_154/PS4/PS4_AndrewYu.ipynb): Open source “reduced complexity” climate model FaIR, General circulation models (GCMs)
@@ -42,3 +42,4 @@ Google Search Interest: Pytrends
 - Topic Modelling: CountVectorizer, WordNetLemmatizer, LatentDirichletAllocation (LDA), GridSearchCV
 - Maps and Spatial Data: geopandas, shapely, pygris
 - Networks and Inequality: measures of centrality, igraph
+- Final Project: "What can we learn about climate change through sentiment analysis across different social media platforms?"
