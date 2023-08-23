@@ -13,3 +13,7 @@ Human-out-of-the-loop: Human cannot easily override, AI takes full control
 - Data Assessment: What/How/When data collected, what is missed out/over-represented? Eg. Biased data creates biased models
 - De-identify data (mask/delete fields like name, address, etc), Restrict data access
 - Test models thoroughly, across different subgroups Eg. Race, Gender, Age, Socio-economic status
+
+![Foundations_in_AI_certificate](Foundations_in_AI_certificate.jpg)
+
+Learnt about ...
