@@ -1,0 +1,855 @@
+congress,chamber,icpsr,district_code,state_abbrev,party,bioname,extremism
+50,House,403,6.0,AL,D,"BANKHEAD, John Hollis",0.517
+50,House,1869,5.0,AL,D,"COBB, James Edward",0.628
+50,House,2364,4.0,AL,D,"DAVIDSON, Alexander Caldwell",0.521
+50,House,3283,7.0,AL,D,"FORNEY, William Henry",0.575
+50,House,4349,2.0,AL,D,"HERBERT, Hilary Abner",0.516
+50,House,5043,1.0,AL,D,"JONES, James Taylor",0.617
+50,House,6996,3.0,AL,D,"OATES, William Calvin",0.475
+50,House,9992,8.0,AL,D,"WHEELER, Joseph",0.422
+50,House,991,2.0,AR,D,"BRECKINRIDGE, Clifton Rodes",0.523
+50,House,2775,1.0,AR,D,"DUNN, Poindexter",0.433
+50,House,6379,3.0,AR,D,"McRAE, Thomas Chipman",0.441
+50,House,7302,5.0,AR,D,"PEEL, Samuel West",0.447
+50,House,8030,4.0,AR,D,"ROGERS, John Henry",0.579
+50,House,708,2.0,CA,D,"BIGGS, Marion",0.236
+50,House,3098,5.0,CA,R,"FELTON, Charles Norton",0.17
+50,House,6294,3.0,CA,R,"McKENNA, Joseph",0.287
+50,House,6731,4.0,CA,R,"MORROW, William W.",0.409
+50,House,9340,1.0,CA,D,"THOMPSON, Thomas Larkin",0.207
+50,House,9607,6.0,CA,R,"VANDEVER, William",0.429
+50,House,9140,1.0,CO,R,"SYMES, George Gifford",0.212
+50,House,3368,2.0,CT,D,"FRENCH, Carlos",0.292
+50,House,3751,4.0,CT,D,"GRANGER, Miles Tobey",0.485
+50,House,8124,3.0,CT,R,"RUSSELL, Charles Addison",0.5
+50,House,9600,1.0,CT,D,"VANCE, Robert Johnstone",0.22
+50,House,7325,1.0,DE,D,"PENINGTON, John Brown",0.387
+50,House,2367,1.0,FL,D,"DAVIDSON, Robert Hamilton McWhorta",0.461
+50,House,2682,2.0,FL,D,"DOUGHERTY, Charles",0.399
+50,House,447,10.0,GA,D,"BARNES, George Thomas",0.551
+50,House,804,6.0,GA,D,"BLOUNT, James Henderson",0.611
+50,House,1472,9.0,GA,D,"CANDLER, Allen Daniel",0.508
+50,House,1511,8.0,GA,D,"CARLTON, Henry Hull",0.673
+50,House,1833,7.0,GA,D,"CLEMENTS, Judson Claudius",0.658
+50,House,2177,3.0,GA,D,"CRISP, Charles Frederick",0.671
+50,House,3835,4.0,GA,D,"GRIMES, Thomas Wingfield",0.567
+50,House,6978,1.0,GA,D,"NORWOOD, Thomas Manson",0.513
+50,House,8940,5.0,GA,D,"STEWART, John David",0.502
+50,House,9516,2.0,GA,D,"TURNER, Henry Gray",0.763
+50,House,27,4.0,IL,R,"ADAMS, George Everett",0.593
+50,House,166,12.0,IL,D,"ANDERSON, George Alburtus",0.405
+50,House,366,18.0,IL,R,"BAKER, Jehu",0.089
+50,House,1483,15.0,IL,R,"CANNON, Joseph Gurney",0.332
+50,House,2766,1.0,IL,R,"DUNHAM, Ransom Williams",0.629
+50,House,3546,11.0,IL,R,"GEST, William Harrison",0.374
+50,House,4316,7.0,IL,R,"HENDERSON, Thomas Jefferson",0.281
+50,House,4458,6.0,IL,R,"HITT, Robert Roberts",0.402
+50,House,4564,5.0,IL,R,"HOPKINS, Albert Jarvis",0.431
+50,House,5431,16.0,IL,D,"LANDES, Silas Zephaniah",0.497
+50,House,5440,17.0,IL,D,"LANE, Edward",0.412
+50,House,5505,2.0,IL,D,"LAWLER, Frank",0.3
+50,House,6065,3.0,IL,R,"MASON, William Ernest",0.453
+50,House,7277,9.0,IL,R,"PAYSON, Lewis Edwin",0.248
+50,House,7490,8.0,IL,R,"PLUMB, Ralph",0.636
+50,House,7548,10.0,IL,R,"POST, Philip Sidney",0.431
+50,House,8094,14.0,IL,R,"ROWELL, Jonathan Harvey",0.452
+50,House,8815,13.0,IL,D,"SPRINGER, William McKendree",0.324
+50,House,9302,20.0,IL,R,"THOMAS, John Robert",0.486
+50,House,9443,19.0,IL,D,"TOWNSHEND, Richard Wellington",0.175
+50,House,1146,6.0,IN,R,"BROWNE, Thomas McLelland",0.412
+50,House,1363,7.0,IN,D,"BYNUM, William Dallas",0.345
+50,House,1679,9.0,IN,R,"CHEADLE, Joseph Bonaparte",0.219
+50,House,4529,4.0,IN,D,"HOLMAN, William Steele",0.267
+50,House,4621,1.0,IN,R,"HOVEY, Alvin Peterson",0.467
+50,House,4629,3.0,IN,D,"HOWARD, Jonas George",0.343
+50,House,5003,8.0,IN,R,"JOHNSTON, James Thomas",0.311
+50,House,6081,5.0,IN,D,"MATSON, Courtland Cushing",0.295
+50,House,7074,2.0,IN,D,"O'NEALL, John Henry",0.429
+50,House,7135,10.0,IN,R,"OWEN, William Dale",0.522
+50,House,7542,1.0,IN,R,"POSEY, Francis Blackburn",0.513
+50,House,8478,13.0,IN,D,"SHIVELY, Benjamin Franklin",0.291
+50,House,8867,11.0,IN,R,"STEELE, George Washington",0.36
+50,House,10031,12.0,IN,R,"WHITE, James Bain",0.272
+50,House,159,8.0,IA,,"ANDERSON, Albert Raney",0.053
+50,House,1978,7.0,IA,R,"CONGER, Edwin Hurd",0.361
+50,House,3401,4.0,IA,R,"FULLER, William Elijah",0.212
+50,House,3517,1.0,IA,R,"GEAR, John Henry",0.552
+50,House,4233,2.0,IA,D,"HAYES, Walter Ingalls",0.422
+50,House,4306,3.0,IA,R,"HENDERSON, David Bremner",0.309
+50,House,4530,10.0,IA,R,"HOLMES, Adoniram Judson",0.349
+50,House,5203,5.0,IA,R,"KERR, Daniel",0.128
+50,House,5848,9.0,IA,R,"LYMAN, Joseph",0.608
+50,House,9047,11.0,IA,R,"STRUBLE, Isaac S.",0.221
+50,House,9894,6.0,IA,,"WEAVER, James Baird",0.237
+50,House,172,5.0,KS,,"ANDERSON, John Alexander",0.226
+50,House,3414,2.0,KS,R,"FUNSTON, Edward Hogue",0.388
+50,House,6695,1.0,KS,R,"MORRILL, Edmund Needham",0.365
+50,House,7342,3.0,KS,R,"PERKINS, Bishop Walden",0.34
+50,House,7369,7.0,KS,R,"PETERS, Samuel Ritter",0.323
+50,House,8157,4.0,KS,R,"RYAN, Thomas",0.301
+50,House,9514,6.0,KS,R,"TURNER, Erastus Johnson",0.467
+50,House,996,7.0,KY,D,"BRECKINRIDGE, William Campbell Preston",0.506
+50,House,1509,6.0,KY,D,"CARLISLE, John Griffin",0.448
+50,House,1557,5.0,KY,D,"CARUTH, Asher Graham",0.304
+50,House,3155,11.0,KY,R,"FINLEY, Hugh Franklin",0.411
+50,House,4760,3.0,KY,R,"HUNTER, Whiteside Godfrey",0.456
+50,House,5398,2.0,KY,D,"LAFFOON, Polk",0.411
+50,House,6194,8.0,KY,D,"McCREARY, James Bennett",0.352
+50,House,6600,4.0,KY,D,"MONTGOMERY, Alexander Brooks",0.358
+50,House,8990,1.0,KY,D,"STONE, William Johnson",0.457
+50,House,9191,10.0,KY,D,"TAULBEE, William Preston",0.235
+50,House,9293,9.0,KY,R,"THOMAS, George Morgan",0.53
+50,House,781,4.0,LA,D,"BLANCHARD, Newton Crain",0.459
+50,House,3511,3.0,LA,D,"GAY, Edward James",0.321
+50,House,5405,2.0,LA,D,"LAGAN, Matthew Diamond",0.384
+50,House,6902,5.0,LA,D,"NEWTON, Cherubusco",0.433
+50,House,7961,6.0,LA,D,"ROBERTSON, Edward White",
+50,House,7964,6.0,LA,D,"ROBERTSON, Samuel Matthews",0.403
+50,House,10122,1.0,LA,D,"WILKINSON, Theodore Stark",0.205
+50,House,888,4.0,ME,R,"BOUTELLE, Charles Addison",0.489
+50,House,2606,2.0,ME,R,"DINGLEY, Nelson, Jr.",0.388
+50,House,6523,3.0,ME,R,"MILLIKEN, Seth Llewellyn",0.44
+50,House,7795,1.0,ME,R,"REED, Thomas Brackett",0.485
+50,House,1965,5.0,MD,D,"COMPTON, Barnes",0.291
+50,House,3557,1.0,MD,D,"GIBSON, Charles Hopper",0.361
+50,House,6165,6.0,MD,R,"McCOMAS, Louis Emory",0.324
+50,House,7757,4.0,MD,D,"RAYNER, Isidor",0.245
+50,House,8119,3.0,MD,D,"RUSK, Harry Welles",0.228
+50,House,8415,2.0,MD,D,"SHAW, Frank Thomas",0.376
+50,House,102,8.0,MA,R,"ALLEN, Charles Herbert",0.583
+50,House,1289,9.0,MA,D,"BURNETT, Edward",0.2
+50,House,1910,7.0,MA,R,"COGSWELL, William",0.337
+50,House,1948,4.0,MA,D,"COLLINS, Patrick Andrew",0.223
+50,House,2407,1.0,MA,R,"DAVIS, Robert Thompson",0.479
+50,House,4228,5.0,MA,R,"HAYDEN, Edward Daniel",0.319
+50,House,5738,6.0,MA,R,"LODGE, Henry Cabot",0.46
+50,House,5762,2.0,MA,R,"LONG, John Davis",0.252
+50,House,6736,3.0,MA,D,"MORSE, Leopold",0.255
+50,House,8001,12.0,MA,R,"ROCKWELL, Francis Williams",0.344
+50,House,8132,10.0,MA,D,"RUSSELL, John Edwards",0.316
+50,House,10067,11.0,MA,R,"WHITING, William",0.358
+50,House,104,2.0,MI,R,"ALLEN, Edward Payson",0.278
+50,House,1016,6.0,MI,R,"BREWER, Mark Spencer",0.346
+50,House,1310,4.0,MI,R,"BURROWS, Julius Caesar",0.522
+50,House,1704,1.0,MI,D,"CHIPMAN, John Logan",0.183
+50,House,2283,9.0,MI,R,"CUTCHEON, Byron M.",0.376
+50,House,3172,10.0,MI,D,"FISHER, Spencer Oliver",0.233
+50,House,3271,5.0,MI,D,"FORD, Melbourne Haddock",0.257
+50,House,6580,11.0,MI,R,"MOFFATT, Seth Crittenden",
+50,House,7027,3.0,MI,R,"O'DONNELL, James",0.216
+50,House,8384,11.0,MI,R,"SEYMOUR, Henry William",0.229
+50,House,9182,8.0,MI,D,"TARSNEY, Timothy Edward",0.28
+50,House,10064,7.0,MI,D,"WHITING, Justin Rice",0.362
+50,House,5672,2.0,MN,R,"LIND, John",0.15
+50,House,5871,3.0,MN,D,"MacDONALD, John Lewis",0.126
+50,House,6870,5.0,MN,R,"NELSON, Knute",0.134
+50,House,7852,4.0,MN,D,"RICE, Edmund",0.174
+50,House,10255,1.0,MN,D,"WILSON, Thomas",0.351
+50,House,117,1.0,MS,D,"ALLEN, John Mills",0.6
+50,House,162,5.0,MS,D,"ANDERSON, Chapman Levy",0.519
+50,House,474,4.0,MS,D,"BARRY, Frederick George",0.568
+50,House,1595,3.0,MS,D,"CATCHINGS, Thomas Clendinen",0.416
+50,House,4553,7.0,MS,D,"HOOKER, Charles Edward",0.451
+50,House,6680,2.0,MS,D,"MORGAN, James Bright",0.512
+50,House,8959,6.0,MS,D,"STOCKDALE, Thomas Ringland",0.421
+50,House,784,11.0,MO,D,"BLAND, Richard Parks",0.508
+50,House,850,4.0,MO,D,"BOOHER, Charles Ferris",0.52
+50,House,1286,4.0,MO,D,"BURNES, James Nelson",0.449
+50,House,1749,10.0,MO,D,"CLARDY, Martin Linn",0.361
+50,House,2631,3.0,MO,D,"DOCKERY, Alexander Monroe",0.316
+50,House,3635,9.0,MO,D,"GLOVER, John Milton",0.208
+50,House,4188,1.0,MO,D,"HATCH, William Henry",0.478
+50,House,4265,6.0,MO,D,"HEARD, John Taddeus",0.245
+50,House,4783,7.0,MO,D,"HUTTON, John Edward",0.529
+50,House,5969,2.0,MO,D,"MANSUR, Charles Harley",0.234
+50,House,7080,8.0,MO,D,"O'NEILL, John Joseph",0.13
+50,House,8989,12.0,MO,D,"STONE, William Joel",0.412
+50,House,9701,13.0,MO,R,"WADE, William Henry",0.25
+50,House,9746,14.0,MO,D,"WALKER, James Peter",0.448
+50,House,9838,5.0,MO,R,"WARNER, William",0.171
+50,House,2676,3.0,NE,R,"DORSEY, George Washington Emery",0.323
+50,House,5409,2.0,NE,R,"LAIRD, James",0.314
+50,House,6383,1.0,NE,D,"McSHANE, John Albert",0.178
+50,House,10340,1.0,NV,R,"WOODBURN, William",0.195
+50,House,3439,2.0,NH,R,"GALLINGER, Jacob Harold",0.401
+50,House,6316,1.0,NH,D,"McKINNEY, Luther Franklin",0.291
+50,House,1187,2.0,NJ,R,"BUCHANAN, James",0.419
+50,House,4451,1.0,NJ,R,"HIRES, George",0.426
+50,House,5108,3.0,NJ,R,"KEAN, John",0.385
+50,House,5590,6.0,NJ,R,"LEHLBACH, Herman",0.683
+50,House,6118,7.0,NJ,D,"McADOO, William",0.201
+50,House,7407,5.0,NJ,R,"PHELPS, William Walter",0.493
+50,House,7433,4.0,NJ,D,"PIDCOCK, James Nelson",0.262
+50,House,324,15.0,NY,D,"BACON, Henry",0.425
+50,House,359,30.0,NY,R,"BAKER, Charles Simeon",0.442
+50,House,592,25.0,NY,R,"BELDEN, James Jerome",0.766
+50,House,618,1.0,NY,D,"BELMONT, Perry",0.335
+50,House,795,5.0,NY,D,"BLISS, Archibald Meserole",0.097
+50,House,1180,7.0,NY,D,"BRYCE, Lloyd Stephens",0.21
+50,House,1447,2.0,NY,D,"CAMPBELL, Felix",0.18
+50,House,1467,8.0,NY,D,"CAMPBELL, Timothy John",0.187
+50,House,1891,12.0,NY,D,"COCKRAN, William Bourke",0.182
+50,House,2118,9.0,NY,D,"COX, Samuel Sullivan",0.249
+50,House,2248,6.0,NY,D,"CUMMINGS, Amos Jay",0.319
+50,House,2354,29.0,NY,R,"DAVENPORT, Ira",0.258
+50,House,2480,26.0,NY,R,"DE LANO, Milton",0.791
+50,House,3066,32.0,NY,R,"FARQUHAR, John McCreath",0.383
+50,House,3176,13.0,NY,R,"FITCH, Ashbel Parmelee",0.137
+50,House,3227,28.0,NY,R,"FLOOD, Thomas Schmeck",0.316
+50,House,3797,18.0,NY,D,"GREENMAN, Edward Whitford",0.095
+50,House,4575,17.0,NY,R,"HOPKINS, Stephen Tyng",0.551
+50,House,5094,19.0,NY,D,"KANE, Nicholas Thomas",
+50,House,5219,16.0,NY,R,"KETCHAM, John Henry",0.382
+50,House,5408,34.0,NY,R,"LAIDLAW, William Grant",0.375
+50,House,5927,4.0,NY,D,"MAHONEY, Peter Paul",0.16
+50,House,6431,11.0,NY,D,"MERRIMAN, Truman Adams",0.138
+50,House,6583,21.0,NY,R,"MOFFITT, John Henry",0.399
+50,House,6989,27.0,NY,R,"NUTTING, Newton Wright",0.415
+50,House,7187,22.0,NY,R,"PARKER, Abraham X.",0.299
+50,House,8236,31.0,NY,R,"SAWYER, John Gilbert",0.562
+50,House,8453,23.0,NY,R,"SHERMAN, James Schoolcraft",0.33
+50,House,8798,10.0,NY,D,"SPINOLA, Francis Barretto",0.259
+50,House,8826,14.0,NY,D,"STAHLNECKER, William Griggs",0.165
+50,House,9445,19.0,NY,D,"TRACEY, Charles",0.232
+50,House,9902,33.0,NY,R,"WEBER, John Baptiste",0.391
+50,House,9960,20.0,NY,R,"WEST, George",0.618
+50,House,10046,3.0,NY,R,"WHITE, Stephen Van Culen",0.291
+50,House,10097,24.0,NY,R,"WILBER, David",0.583
+50,House,1093,5.0,NC,R,"BROWER, John Morehead",0.424
+50,House,2110,8.0,NC,D,"COWLES, William Henry Harrison",0.463
+50,House,4312,7.0,NC,D,"HENDERSON, John Steele",0.418
+50,House,5013,9.0,NC,D,"JOHNSTON, Thomas Dillard",0.406
+50,House,5489,1.0,NC,D,"LATHAM, Louis Charles",0.359
+50,House,6143,3.0,NC,D,"McCLAMMY, Charles Washington",0.373
+50,House,6918,4.0,NC,,"NICHOLS, John",0.333
+50,House,8095,6.0,NC,D,"ROWLAND, Alfred",0.396
+50,House,8514,2.0,NC,D,"SIMMONS, Furnifold McLendel",0.295
+50,House,856,6.0,OH,R,"BOOTHMAN, Melvin Morella",0.37
+50,House,1102,2.0,OH,R,"BROWN, Charles Elwood",0.42
+50,House,1360,1.0,OH,R,"BUTTERWORTH, Benjamin",0.269
+50,House,1452,7.0,OH,D,"CAMPBELL, James Edwin",0.205
+50,House,2059,9.0,OH,R,"COOPER, William Craig",0.402
+50,House,2203,20.0,OH,R,"CROUSE, George Washington",0.373
+50,House,3263,21.0,OH,D,"FORAN, Martin Ambrose",0.244
+50,House,3855,15.0,OH,R,"GROSVENOR, Charles Henry",0.679
+50,House,5185,8.0,OH,R,"KENNEDY, Robert Patterson",0.55
+50,House,6312,18.0,OH,R,"McKINLEY, William, Jr.",0.409
+50,House,7116,13.0,OH,D,"OUTHWAITE, Joseph Hodson",0.217
+50,House,7649,12.0,OH,R,"PUGSLEY, Jacob Joseph",0.571
+50,House,8045,10.0,OH,R,"ROMEIS, Jacob",0.394
+50,House,8362,5.0,OH,D,"SENEY, George Ebbert",0.162
+50,House,9206,19.0,OH,R,"TAYLOR, Ezra Booth",0.462
+50,House,9224,17.0,OH,R,"TAYLOR, Joseph Danner",0.391
+50,House,9314,11.0,OH,R,"THOMPSON, Albert Clifton",0.445
+50,House,10087,14.0,OH,R,"WICKHAM, Charles Preston",0.604
+50,House,10119,16.0,OH,D,"WILKINS, Beriah",0.179
+50,House,10141,3.0,OH,R,"WILLIAMS, Elihu Stephen",0.421
+50,House,10427,4.0,OH,D,"YODER, Samuel S.",0.143
+50,House,4355,1.0,OR,R,"HERMANN, Binger",0.304
+50,House,285,18.0,PA,R,"ATKINSON, Louis Evans",0.428
+50,House,536,23.0,PA,R,"BAYNE, Thomas McKee",0.416
+50,House,715,1.0,PA,R,"BINGHAM, Henry Harrison",0.54
+50,House,883,14.0,PA,R,"BOUND, Franklin",0.359
+50,House,1162,13.0,PA,R,"BRUMM, Charles Napoleon",0.545
+50,House,1200,11.0,PA,D,"BUCKALEW, Charles Rollin",0.465
+50,House,1241,15.0,PA,R,"BUNNELL, Frank Charles",0.497
+50,House,2310,22.0,PA,R,"DALZELL, John",0.384
+50,House,2342,6.0,PA,R,"DARLINGTON, Smedley",0.372
+50,House,2982,8.0,PA,D,"ERMENTROUT, Daniel",0.206
+50,House,3949,26.0,PA,D,"HALL, Norman",0.33
+50,House,4080,5.0,PA,R,"HARMER, Alfred Crout",0.288
+50,House,4389,9.0,PA,R,"HIESTAND, John Andrew",0.507
+50,House,4861,24.0,PA,R,"JACKSON, Oscar Lawrence",0.635
+50,House,5140,4.0,PA,R,"KELLEY, William Darrah",0.622
+50,House,5854,12.0,PA,D,"LYNCH, John",0.391
+50,House,5904,25.0,PA,R,"MAFFETT, James Thompson",
+50,House,5931,19.0,PA,D,"MAISH, Levi",0.333
+50,House,6178,16.0,PA,R,"McCORMICK, Henry Clay",0.41
+50,House,6205,21.0,PA,R,"McCULLOGH, Welty",0.608
+50,House,7076,2.0,PA,R,"O'NEILL, Charles",0.489
+50,House,7091,99.0,PA,R,"OSBORNE, Edwin Sylvanus",0.399
+50,House,7262,20.0,PA,R,"PATTON, John",0.35
+50,House,7715,3.0,PA,D,"RANDALL, Samuel Jackson",0.216
+50,House,8314,27.0,PA,D,"SCOTT, William Lawrence",0.306
+50,House,8329,17.0,PA,R,"SCULL, Edward",0.581
+50,House,8755,10.0,PA,D,"SOWDEN, William Henry",0.063
+50,House,10415,7.0,PA,R,"YARDLEY, Robert Morris",0.448
+50,House,250,2.0,RI,R,"ARNOLD, Warren Otis",0.661
+50,House,8799,1.0,RI,R,"SPOONER, Henry Joshua",0.619
+50,House,2084,3.0,SC,D,"COTHRAN, James Sproull",0.443
+50,House,2337,6.0,SC,D,"DARGAN, George William",0.474
+50,House,2553,1.0,SC,D,"DIBBLE, Samuel",0.266
+50,House,2918,7.0,SC,D,"ELLIOTT, William",0.378
+50,House,4297,5.0,SC,D,"HEMPHILL, John James",0.452
+50,House,7359,4.0,SC,D,"PERRY, William Hayne",0.391
+50,House,9387,2.0,SC,D,"TILLMAN, George Dionysius",0.424
+50,House,1348,1.0,TN,R,"BUTLER, Roderick Randum",0.659
+50,House,2973,8.0,TN,D,"ENLOE, Benjamin Augustine",0.549
+50,House,3626,9.0,TN,D,"GLASS, Presley Thornton",0.447
+50,House,4606,2.0,TN,R,"HOUK, Leonidas Campbell",0.416
+50,House,6359,4.0,TN,D,"McMILLIN, Benton",0.586
+50,House,6849,3.0,TN,D,"NEAL, John Randolph",0.493
+50,House,7394,10.0,TN,D,"PHELAN, James",0.381
+50,House,7877,5.0,TN,D,"RICHARDSON, James Daniel",0.582
+50,House,9857,6.0,TN,D,"WASHINGTON, Joseph Edwin",0.478
+50,House,10076,7.0,TN,D,"WHITTHORNE, Washington Curran",0.494
+50,House,4,6.0,TX,D,"ABBOTT, Jo (Joseph)",0.638
+50,House,2141,7.0,TX,D,"CRAIN, William Henry",0.465
+50,House,2230,4.0,TX,D,"CULBERSON, David Browning",0.435
+50,House,4070,5.0,TX,D,"HARE, Silas",0.58
+50,House,5237,3.0,TX,D,"KILGORE, Constantine Buckley",0.624
+50,House,5460,11.0,TX,D,"LANHAM, Samuel Willis Tucker",0.554
+50,House,6043,2.0,TX,D,"MARTIN, William Harrison",0.593
+50,House,6531,9.0,TX,D,"MILLS, Roger Quarles",0.584
+50,House,6642,8.0,TX,D,"MOORE, Littleton Wilde",0.573
+50,House,7769,2.0,TX,D,"REAGAN, John Henninger",
+50,House,8244,10.0,TX,D,"SAYERS, Joseph Draper",0.562
+50,House,8931,1.0,TX,D,"STEWART, Charles",0.447
+50,House,3858,2.0,VT,R,"GROUT, William Wallace",0.441
+50,House,8943,1.0,VT,R,"STEWART, John Wolcott",0.443
+50,House,892,2.0,VA,R,"BOWDEN, George Edwin",0.399
+50,House,897,9.0,VA,R,"BOWEN, Henry",0.323
+50,House,1121,5.0,VA,R,"BROWN, John Robert",0.295
+50,House,1145,1.0,VA,R,"BROWNE, Thomas Henry Bayly",0.189
+50,House,3427,4.0,VA,R,"GAINES, William Embre",0.465
+50,House,4572,6.0,VA,,"HOPKINS, Samuel Isaac",0.163
+50,House,5572,8.0,VA,D,"LEE, William Henry Fitzhugh",0.305
+50,House,7028,7.0,VA,D,"O'FERRALL, Charles Triplett",0.217
+50,House,10285,3.0,VA,D,"WISE, George Douglas",0.326
+50,House,10432,10.0,VA,R,"YOST, Jacob",0.313
+50,House,3646,1.0,WV,R,"GOFF, Nathan",0.297
+50,House,4504,4.0,WV,D,"HOGG, Charles Edgar",0.357
+50,House,8732,3.0,WV,D,"SNYDER, Charles Philip",0.312
+50,House,10262,2.0,WV,D,"WILSON, William Lyne",0.392
+50,House,1593,1.0,WI,R,"CASWELL, Lucien Bonaparte",0.336
+50,House,1754,6.0,WI,R,"CLARK, Charles Benjamin",0.402
+50,House,3869,2.0,WI,R,"GUENTHER, Richard William",0.293
+50,House,4196,8.0,WI,R,"HAUGEN, Nils Pederson",0.355
+50,House,4684,5.0,WI,D,"HUDD, Thomas Richard",0.316
+50,House,5401,3.0,WI,R,"LA FOLLETTE, Robert Marion",0.279
+50,House,8629,4.0,WI,,"SMITH, Henry",0.159
+50,House,8893,9.0,WI,R,"STEPHENSON, Isaac",0.407
+50,House,9305,7.0,WI,R,"THOMAS, Ormsby Brunson",0.315
+50,Senate,6682,0.0,AL,D,"MORGAN, John Tyler",0.427
+50,Senate,7644,0.0,AL,D,"PUGH, James Lawrence",0.426
+50,Senate,674,0.0,AR,D,"BERRY, James Henderson",0.732
+50,Senate,5042,0.0,AR,D,"JONES, James Kimbrough",0.542
+50,Senate,4266,0.0,CA,D,"HEARST, George",0.319
+50,Senate,8836,0.0,CA,R,"STANFORD, Leland",0.159
+50,Senate,900,0.0,CO,R,"BOWEN, Thomas Mead",0.333
+50,Senate,9246,0.0,CO,R,"TELLER, Henry Moore",0.285
+50,Senate,4220,0.0,CT,R,"HAWLEY, Joseph Roswell",0.281
+50,Senate,7482,0.0,CT,R,"PLATT, Orville Hitchcock",0.595
+50,Senate,3765,0.0,DE,D,"GRAY, George",0.496
+50,Senate,8222,0.0,DE,D,"SAULSBURY, Eli",0.618
+50,Senate,1425,0.0,FL,D,"CALL, Wilkinson",0.424
+50,Senate,7227,0.0,FL,D,"PASCO, Samuel",0.577
+50,Senate,1126,0.0,GA,D,"BROWN, Joseph Emerson",0.241
+50,Senate,1953,0.0,GA,D,"COLQUITT, Alfred Holt",0.501
+50,Senate,2239,0.0,IL,R,"CULLOM, Shelby Moore",0.309
+50,Senate,3075,0.0,IL,R,"FARWELL, Charles Benjamin",0.319
+50,Senate,9526,0.0,IN,D,"TURPIE, David",0.38
+50,Senate,9685,0.0,IN,D,"VOORHEES, Daniel Wolsey",0.403
+50,Senate,141,0.0,IA,R,"ALLISON, William Boyd",0.328
+50,Senate,10234,0.0,IA,R,"WILSON, James Falconer",0.384
+50,Senate,4801,0.0,KS,R,"INGALLS, John James",0.253
+50,Senate,7489,0.0,KS,R,"PLUMB, Preston B.",0.201
+50,Senate,560,0.0,KY,D,"BECK, James Burnie",0.461
+50,Senate,751,0.0,KY,D,"BLACKBURN, Joseph Clay Stiles",0.532
+50,Senate,3000,0.0,LA,D,"EUSTIS, James Biddle",0.411
+50,Senate,3565,0.0,LA,D,"GIBSON, Randall Lee",0.43
+50,Senate,3385,0.0,ME,R,"FRYE, William Pierce",0.375
+50,Senate,3917,0.0,ME,R,"HALE, Eugene",0.266
+50,Senate,3709,0.0,MD,D,"GORMAN, Arthur Pue",0.335
+50,Senate,10217,0.0,MD,D,"WILSON, Ephraim King",0.523
+50,Senate,2423,0.0,MA,R,"DAWES, Henry Laurens",0.372
+50,Senate,4462,0.0,MA,R,"HOAR, George Frisbie",0.261
+50,Senate,7181,0.0,MI,R,"PALMER, Thomas Witherell",0.313
+50,Senate,8957,0.0,MI,R,"STOCKBRIDGE, Francis Brown",0.348
+50,Senate,2377,0.0,MN,R,"DAVIS, Cushman Kellogg",0.256
+50,Senate,8165,0.0,MN,R,"SABIN, Dwight May",0.228
+50,Senate,3532,0.0,MS,D,"GEORGE, James Zachariah",0.451
+50,Senate,9793,0.0,MS,D,"WALTHALL, Edward Cary",0.45
+50,Senate,1892,0.0,MO,D,"COCKRELL, Francis Marion",0.59
+50,Senate,9665,0.0,MO,D,"VEST, George Graham",0.563
+50,Senate,5951,0.0,NE,R,"MANDERSON, Charles Frederick",0.207
+50,Senate,7148,0.0,NE,R,"PADDOCK, Algernon Sidney",0.238
+50,Senate,5046,0.0,NV,R,"JONES, John Percival",0.204
+50,Senate,8948,0.0,NV,R,"STEWART, William Morris",0.207
+50,Senate,765,0.0,NH,R,"BLAIR, Henry William",0.466
+50,Senate,1641,0.0,NH,R,"CHANDLER, William Eaton",0.381
+50,Senate,1683,0.0,NH,R,"CHENEY, Person Colby",
+50,Senate,799,0.0,NJ,D,"BLODGETT, Rufus",0.346
+50,Senate,6375,0.0,NJ,D,"McPHERSON, John Rhoderic",0.313
+50,Senate,3024,0.0,NY,R,"EVARTS, William Maxwell",0.32
+50,Senate,4452,0.0,NY,R,"HISCOCK, Frank",0.366
+50,Senate,7737,0.0,NC,D,"RANSOM, Matt Whitaker",0.489
+50,Senate,9601,0.0,NC,D,"VANCE, Zebulon Baird",0.79
+50,Senate,7272,0.0,OH,D,"PAYNE, Henry B.",0.227
+50,Senate,8454,0.0,OH,R,"SHERMAN, John",0.492
+50,Senate,2649,0.0,OR,R,"DOLPH, Joseph Norton",0.37
+50,Senate,6565,0.0,OR,R,"MITCHELL, John Hipple",0.274
+50,Senate,1435,0.0,PA,R,"CAMERON, James Donald",0.121
+50,Senate,7668,0.0,PA,R,"QUAY, Matthew Stanley",0.088
+50,Senate,71,0.0,RI,R,"ALDRICH, Nelson Wilmarth",0.295
+50,Senate,1613,0.0,RI,R,"CHACE, Jonathan",0.287
+50,Senate,1344,0.0,SC,D,"BUTLER, Matthew Calbraith",0.434
+50,Senate,4020,0.0,SC,D,"HAMPTON, Wade",0.487
+50,Senate,508,0.0,TN,D,"BATE, William Brimage",0.55
+50,Senate,4104,0.0,TN,D,"HARRIS, Isham Green",0.615
+50,Senate,1915,0.0,TX,D,"COKE, Richard",0.759
+50,Senate,7769,0.0,TX,D,"REAGAN, John Henninger",0.991
+50,Senate,2855,0.0,VT,R,"EDMUNDS, George Franklin",0.338
+50,Senate,6696,0.0,VT,R,"MORRILL, Justin Smith",0.324
+50,Senate,2325,0.0,VA,D,"DANIEL, John Warwick",0.434
+50,Senate,7894,0.0,VA,R,"RIDDLEBERGER, Harrison Holt",0.046
+50,Senate,3081,0.0,WV,D,"FAULKNER, Charles James",0.375
+50,Senate,5173,0.0,WV,D,"KENNA, John Edward",0.369
+50,Senate,8239,0.0,WI,R,"SAWYER, Philetus",0.387
+50,Senate,8800,0.0,WI,R,"SPOONER, John Coit",0.196
+51,House,403,6.0,AL,D,"BANKHEAD, John Hollis",0.473
+51,House,1799,1.0,AL,D,"CLARKE, Richard Henry",0.467
+51,House,1869,5.0,AL,D,"COBB, James Edward",0.593
+51,House,3283,7.0,AL,D,"FORNEY, William Henry",0.47
+51,House,4349,2.0,AL,D,"HERBERT, Hilary Abner",0.432
+51,House,6234,4.0,AL,R,"McDUFFIE, John Van",0.443
+51,House,6996,3.0,AL,D,"OATES, William Calvin",0.325
+51,House,9528,4.0,AL,D,"TURPIN, Louis Washington",0.416
+51,House,9992,8.0,AL,D,"WHEELER, Joseph",0.419
+51,House,991,2.0,AR,D,"BRECKINRIDGE, Clifton Rodes",0.569
+51,House,1597,1.0,AR,D,"CATE, William Henderson",0.393
+51,House,3089,1.0,AR,,"FEATHERSTONE, Lewis Porter",0.176
+51,House,6379,3.0,AR,D,"McRAE, Thomas Chipman",0.528
+51,House,7302,5.0,AR,D,"PEEL, Samuel West",0.6
+51,House,8030,4.0,AR,D,"ROGERS, John Henry",0.502
+51,House,708,2.0,CA,D,"BIGGS, Marion",0.152
+51,House,1858,5.0,CA,D,"CLUNIE, Thomas Jefferson",0.17
+51,House,2470,1.0,CA,R,"DE HAVEN, John Jefferson",0.131
+51,House,3520,1.0,CA,D,"GEARY, Thomas J.",0.441
+51,House,6294,3.0,CA,R,"McKENNA, Joseph",0.465
+51,House,6731,4.0,CA,R,"MORROW, William W.",0.288
+51,House,9607,6.0,CA,R,"VANDEVER, William",0.411
+51,House,9438,1.0,CO,R,"TOWNSEND, Hosea",0.288
+51,House,6465,4.0,CT,R,"MILES, Frederick",0.512
+51,House,8124,3.0,CT,R,"RUSSELL, Charles Addison",0.518
+51,House,8522,1.0,CT,R,"SIMONDS, William Edgar",0.377
+51,House,10125,2.0,CT,D,"WILLCOX, Washington Frederick",0.258
+51,House,7325,1.0,DE,D,"PENINGTON, John Brown",0.382
+51,House,1231,2.0,FL,D,"BULLOCK, Robert",0.403
+51,House,2367,1.0,FL,D,"DAVIDSON, Robert Hamilton McWhorta",0.439
+51,House,447,10.0,GA,D,"BARNES, George Thomas",0.515
+51,House,804,6.0,GA,D,"BLOUNT, James Henderson",0.476
+51,House,1472,9.0,GA,D,"CANDLER, Allen Daniel",0.47
+51,House,1511,8.0,GA,D,"CARLTON, Henry Hull",0.48
+51,House,1833,7.0,GA,D,"CLEMENTS, Judson Claudius",0.524
+51,House,2177,3.0,GA,D,"CRISP, Charles Frederick",0.589
+51,House,3835,4.0,GA,D,"GRIMES, Thomas Wingfield",0.498
+51,House,5620,1.0,GA,D,"LESTER, Rufus Ezekiel",0.475
+51,House,8940,5.0,GA,D,"STEWART, John David",0.478
+51,House,9516,2.0,GA,D,"TURNER, Henry Gray",0.578
+51,House,9120,1.0,ID,R,"SWEET, Willis",0.467
+51,House,27,4.0,IL,R,"ADAMS, George Everett",0.466
+51,House,1483,15.0,IL,R,"CANNON, Joseph Gurney",0.432
+51,House,3180,16.0,IL,D,"FITHIAN, George Washington",0.383
+51,House,3278,18.0,IL,D,"FORMAN, William St. John",0.344
+51,House,3546,11.0,IL,R,"GEST, William Harrison",0.405
+51,House,4316,7.0,IL,R,"HENDERSON, Thomas Jefferson",0.405
+51,House,4406,8.0,IL,R,"HILL, Charles Augustus",0.267
+51,House,4458,6.0,IL,R,"HITT, Robert Roberts",0.461
+51,House,4564,5.0,IL,R,"HOPKINS, Albert Jarvis",0.33
+51,House,5440,17.0,IL,D,"LANE, Edward",0.462
+51,House,5505,2.0,IL,D,"LAWLER, Frank",0.232
+51,House,6065,3.0,IL,R,"MASON, William Ernest",0.48
+51,House,7277,9.0,IL,R,"PAYSON, Lewis Edwin",0.327
+51,House,7548,10.0,IL,R,"POST, Philip Sidney",0.359
+51,House,8094,14.0,IL,R,"ROWELL, Jonathan Harvey",0.547
+51,House,8624,20.0,IL,R,"SMITH, George Washington",0.422
+51,House,8815,13.0,IL,D,"SPRINGER, William McKendree",0.287
+51,House,9196,1.0,IL,R,"TAYLOR, Abner",0.237
+51,House,9443,19.0,IL,D,"TOWNSHEND, Richard Wellington",
+51,House,10096,12.0,IL,D,"WIKE, Scott",0.447
+51,House,10153,19.0,IL,D,"WILLIAMS, James Robert",0.348
+51,House,1083,8.0,IN,D,"BROOKSHIRE, Elijah Voorhees",0.351
+51,House,1114,3.0,IN,D,"BROWN, Jason Brevoort",0.349
+51,House,1146,6.0,IN,R,"BROWNE, Thomas McLelland",0.531
+51,House,1363,7.0,IN,D,"BYNUM, William Dallas",0.323
+51,House,1679,9.0,IN,R,"CHEADLE, Joseph Bonaparte",0.167
+51,House,2045,5.0,IN,D,"COOPER, George William",0.4
+51,House,4529,4.0,IN,D,"HOLMAN, William Steele",0.348
+51,House,6013,11.0,IN,D,"MARTIN, Augustus Newton",0.35
+51,House,6148,12.0,IN,D,"McCLELLAN, Charles A. O.",0.34
+51,House,7074,2.0,IN,D,"O'NEALL, John Henry",0.386
+51,House,7135,10.0,IN,R,"OWEN, William Dale",0.297
+51,House,7211,1.0,IN,D,"PARRETT, William Fletcher",0.297
+51,House,8478,13.0,IN,D,"SHIVELY, Benjamin Franklin",0.276
+51,House,1978,7.0,IA,R,"CONGER, Edwin Hurd",0.469
+51,House,2648,10.0,IA,R,"DOLLIVER, Jonathan Prentiss",0.331
+51,House,3222,8.0,IA,R,"FLICK, James Patton",0.289
+51,House,3517,1.0,IA,R,"GEAR, John Henry",0.568
+51,House,4233,2.0,IA,D,"HAYES, Walter Ingalls",0.246
+51,House,4243,7.0,IA,R,"HAYS, Edward Retilla",0.243
+51,House,4306,3.0,IA,R,"HENDERSON, David Bremner",0.041
+51,House,5203,5.0,IA,R,"KERR, Daniel",0.177
+51,House,5391,6.0,IA,R,"LACEY, John Fletcher",0.277
+51,House,7791,9.0,IA,R,"REED, Joseph Rea",0.427
+51,House,9047,11.0,IA,R,"STRUBLE, Isaac S.",0.312
+51,House,9122,4.0,IA,R,"SWENEY, Joseph Henry",0.335
+51,House,172,5.0,KS,R,"ANDERSON, John Alexander",0.214
+51,House,3414,2.0,KS,R,"FUNSTON, Edward Hogue",0.352
+51,House,5137,4.0,KS,R,"KELLEY, Harrison",0.162
+51,House,6695,1.0,KS,R,"MORRILL, Edmund Needham",0.408
+51,House,7342,3.0,KS,R,"PERKINS, Bishop Walden",0.43
+51,House,7369,7.0,KS,R,"PETERS, Samuel Ritter",0.383
+51,House,8157,4.0,KS,R,"RYAN, Thomas",
+51,House,9514,6.0,KS,R,"TURNER, Erastus Johnson",0.331
+51,House,996,7.0,KY,D,"BRECKINRIDGE, William Campbell Preston",0.464
+51,House,1509,6.0,KY,D,"CARLISLE, John Griffin",0.439
+51,House,1557,5.0,KY,D,"CARUTH, Asher Graham",0.37
+51,House,2563,6.0,KY,D,"DICKERSON, W. W. (William Worth)",0.528
+51,House,2928,2.0,KY,D,"ELLIS, William Thomas",0.459
+51,House,3155,11.0,KY,R,"FINLEY, Hugh Franklin",0.349
+51,House,3677,3.0,KY,D,"GOODNIGHT, Isaac Herschel",0.548
+51,House,6194,8.0,KY,D,"McCREARY, James Bennett",0.351
+51,House,6600,4.0,KY,D,"MONTGOMERY, Alexander Brooks",0.515
+51,House,7276,9.0,KY,D,"PAYNTER, Thomas Hanson",0.388
+51,House,8990,1.0,KY,D,"STONE, William Johnson",0.369
+51,House,10241,10.0,KY,R,"WILSON, John Henry",0.431
+51,House,781,4.0,LA,D,"BLANCHARD, Newton Crain",0.441
+51,House,813,5.0,LA,D,"BOATNER, Charles Jahleal",0.304
+51,House,1932,2.0,LA,R,"COLEMAN, Hamilton Dudley",0.337
+51,House,3511,3.0,LA,D,"GAY, Edward James",
+51,House,7609,3.0,LA,D,"PRICE, Andrew",0.326
+51,House,7964,6.0,LA,D,"ROBERTSON, Samuel Matthews",0.366
+51,House,10122,1.0,LA,D,"WILKINSON, Theodore Stark",0.291
+51,House,888,4.0,ME,R,"BOUTELLE, Charles Addison",0.638
+51,House,2606,2.0,ME,R,"DINGLEY, Nelson, Jr.",0.447
+51,House,6523,3.0,ME,R,"MILLIKEN, Seth Llewellyn",0.362
+51,House,7795,1.0,ME,R,"REED, Thomas Brackett",0.193
+51,House,1965,5.0,MD,D,"COMPTON, Barnes",0.35
+51,House,3557,1.0,MD,D,"GIBSON, Charles Hopper",0.292
+51,House,6165,6.0,MD,R,"McCOMAS, Louis Emory",0.302
+51,House,6777,5.0,MD,R,"MUDD, Sydney Emanuel",0.346
+51,House,8119,3.0,MD,D,"RUSK, Harry Welles",0.234
+51,House,8958,4.0,MD,R,"STOCKBRIDGE, Henry, Jr.",0.491
+51,House,9060,2.0,MD,D,"STUMP, Herman",0.314
+51,House,191,3.0,MA,D,"ANDREW, John Forrester",0.145
+51,House,409,5.0,MA,R,"BANKS, Nathaniel Prentice",0.585
+51,House,1474,9.0,MA,R,"CANDLER, John Wilson",0.318
+51,House,1910,7.0,MA,R,"COGSWELL, William",0.53
+51,House,3795,8.0,MA,R,"GREENHALGE, Frederic Thomas",0.455
+51,House,5738,6.0,MA,R,"LODGE, Henry Cabot",0.485
+51,House,6732,2.0,MA,R,"MORSE, Elijah Adams",0.738
+51,House,7075,4.0,MA,D,"O'NEIL, Joseph Henry",0.22
+51,House,7713,1.0,MA,R,"RANDALL, Charles Sturtevant",0.502
+51,House,8001,12.0,MA,R,"ROCKWELL, Francis Williams",0.386
+51,House,9750,10.0,MA,R,"WALKER, Joseph Henry",0.469
+51,House,9769,11.0,MA,R,"WALLACE, Rodney",0.617
+51,House,104,2.0,MI,R,"ALLEN, Edward Payson",0.309
+51,House,595,5.0,MI,R,"BELKNAP, Charles Eugene",0.623
+51,House,794,8.0,MI,R,"BLISS, Aaron Thomas",0.4
+51,House,1016,6.0,MI,R,"BREWER, Mark Spencer",0.377
+51,House,1310,4.0,MI,R,"BURROWS, Julius Caesar",0.52
+51,House,1704,1.0,MI,D,"CHIPMAN, John Logan",0.258
+51,House,2283,9.0,MI,R,"CUTCHEON, Byron M.",0.54
+51,House,7027,3.0,MI,R,"O'DONNELL, James",0.382
+51,House,8895,11.0,MI,R,"STEPHENSON, Samuel Merritt",0.579
+51,House,9987,10.0,MI,R,"WHEELER, Frank Willis",0.596
+51,House,10064,7.0,MI,D,"WHITING, Justin Rice",0.34
+51,House,1970,5.0,MN,R,"COMSTOCK, Solomon Gilman",0.331
+51,House,2778,1.0,MN,R,"DUNNELL, Mark Hill",0.234
+51,House,3935,3.0,MN,R,"HALL, Darwin Scott",0.453
+51,House,5672,2.0,MN,R,"LIND, John",0.149
+51,House,8722,4.0,MN,R,"SNIDER, Samuel Prather",0.346
+51,House,117,1.0,MS,D,"ALLEN, John Mills",0.567
+51,House,162,5.0,MS,D,"ANDERSON, Chapman Levy",0.497
+51,House,1595,3.0,MS,D,"CATCHINGS, Thomas Clendinen",0.427
+51,House,4553,7.0,MS,D,"HOOKER, Charles Edward",0.422
+51,House,5633,4.0,MS,D,"LEWIS, Clarke",0.383
+51,House,6680,2.0,MS,D,"MORGAN, James Bright",0.402
+51,House,8959,6.0,MS,D,"STOCKDALE, Thomas Ringland",0.433
+51,House,784,11.0,MO,D,"BLAND, Richard Parks",0.598
+51,House,2631,3.0,MO,D,"DOCKERY, Alexander Monroe",0.432
+51,House,3338,9.0,MO,R,"FRANK, Nathan",0.427
+51,House,4188,1.0,MO,D,"HATCH, William Henry",0.352
+51,House,4265,6.0,MO,D,"HEARD, John Taddeus",0.356
+51,House,5286,10.0,MO,R,"KINSEY, William Medcalf",0.6
+51,House,5969,2.0,MO,D,"MANSUR, Charles Harley",0.337
+51,House,6928,8.0,MO,R,"NIEDRINGHAUS, Frederick Gottlieb",0.625
+51,House,6976,7.0,MO,D,"NORTON, Richard Henry",0.48
+51,House,8989,12.0,MO,D,"STONE, William Joel",0.387
+51,House,9181,5.0,MO,D,"TARSNEY, John Charles",0.309
+51,House,9701,13.0,MO,R,"WADE, William Henry",0.302
+51,House,9746,14.0,MO,D,"WALKER, James Peter",0.401
+51,House,10057,14.0,MO,D,"WHITELAW, Robert Henry",0.553
+51,House,10250,4.0,MO,D,"WILSON, Robert Patterson Clark",0.345
+51,House,1550,1.0,MT,R,"CARTER, Thomas Henry",0.284
+51,House,1990,1.0,NE,R,"CONNELL, William James",0.161
+51,House,2676,3.0,NE,R,"DORSEY, George Washington Emery",0.59
+51,House,5409,2.0,NE,R,"LAIRD, James",
+51,House,5520,2.0,NE,R,"LAWS, Gilbert Lafayette",0.329
+51,House,483,1.0,NV,R,"BARTINE, Horace Franklin",0.258
+51,House,6644,2.0,NH,R,"MOORE, Orren Cheney",0.347
+51,House,6988,1.0,NH,R,"NUTE, Alonzo",0.582
+51,House,566,5.0,NJ,R,"BECKWITH, Charles Dyer",0.515
+51,House,662,1.0,NJ,R,"BERGEN, Christopher Augustus",0.381
+51,House,1187,2.0,NJ,R,"BUCHANAN, James",0.405
+51,House,3329,4.0,NJ,D,"FOWLER, Samuel",0.35
+51,House,3526,3.0,NJ,D,"GEISSENHAINER, Jacob Augustus",0.263
+51,House,5590,6.0,NJ,R,"LEHLBACH, Herman",0.259
+51,House,6118,7.0,NJ,D,"McADOO, William",0.224
+51,House,359,30.0,NY,R,"BAKER, Charles Simeon",0.546
+51,House,592,25.0,NY,R,"BELDEN, James Jerome",0.481
+51,House,1447,2.0,NY,D,"CAMPBELL, Felix",0.193
+51,House,1742,4.0,NY,D,"CLANCY, John Michael",0.241
+51,House,2096,1.0,NY,D,"COVERT, James Way",0.248
+51,House,2118,9.0,NY,D,"COX, Samuel Sullivan",
+51,House,2248,9.0,NY,D,"CUMMINGS, Amos Jay",0.158
+51,House,2480,26.0,NY,R,"DE LANO, Milton",0.529
+51,House,2779,7.0,NY,D,"DUNPHY, Edward John",0.214
+51,House,3066,32.0,NY,R,"FARQUHAR, John McCreath",0.467
+51,House,3176,13.0,NY,D,"FITCH, Ashbel Parmelee",0.175
+51,House,3181,6.0,NY,D,"FITZGERALD, Frank Thomas",0.86
+51,House,3227,28.0,NY,R,"FLOOD, Thomas Schmeck",0.351
+51,House,3231,12.0,NY,D,"FLOWER, Roswell Pettibone",0.171
+51,House,5219,16.0,NY,R,"KETCHAM, John Henry",0.494
+51,House,5330,17.0,NY,R,"KNAPP, Charles Junius",0.371
+51,House,5408,34.0,NY,R,"LAIDLAW, William Grant",0.449
+51,House,5467,22.0,NY,R,"LANSING, Frederick",0.548
+51,House,5911,5.0,NY,D,"MAGNER, Thomas Francis",0.206
+51,House,6135,8.0,NY,D,"McCARTHY, John Henry",0.26
+51,House,6583,21.0,NY,R,"MOFFITT, John Henry",0.558
+51,House,6989,27.0,NY,R,"NUTTING, Newton Wright",
+51,House,7273,27.0,NY,R,"PAYNE, Sereno Elisha",0.559
+51,House,7460,24.0,NY,D,"PINDAR, John Sigsbee",0.348
+51,House,7663,18.0,NY,R,"QUACKENBUSH, John Adam",0.411
+51,House,7677,11.0,NY,D,"QUINN, John",0.206
+51,House,7690,29.0,NY,R,"RAINES, John",0.462
+51,House,8208,20.0,NY,R,"SANFORD, John",0.499
+51,House,8236,31.0,NY,R,"SAWYER, John Gilbert",0.437
+51,House,8453,23.0,NY,R,"SHERMAN, James Schoolcraft",0.333
+51,House,8798,10.0,NY,D,"SPINOLA, Francis Barretto",0.138
+51,House,8826,14.0,NY,D,"STAHLNECKER, William Griggs",0.102
+51,House,8955,15.0,NY,R,"STIVERS, Moses Dunning",0.356
+51,House,9445,19.0,NY,D,"TRACEY, Charles",0.132
+51,House,9511,6.0,NY,D,"TURNER, Charles Henry",0.33
+51,House,9771,3.0,NY,R,"WALLACE, William Copeland",0.501
+51,House,10097,24.0,NY,R,"WILBER, David",
+51,House,10113,33.0,NY,D,"WILEY, John McClure",0.212
+51,House,1093,5.0,NC,R,"BROWER, John Morehead",0.374
+51,House,1240,4.0,NC,D,"BUNN, Benjamin Hickman",0.548
+51,House,1680,2.0,NC,R,"CHEATHAM, Henry Plummer",0.589
+51,House,2110,8.0,NC,D,"COWLES, William Henry Harrison",0.574
+51,House,3035,9.0,NC,R,"EWART, Hamilton Glover",0.328
+51,House,4312,7.0,NC,D,"HENDERSON, John Steele",0.152
+51,House,6143,3.0,NC,D,"McCLAMMY, Charles Washington",0.445
+51,House,8095,6.0,NC,D,"ROWLAND, Alfred",0.527
+51,House,8562,1.0,NC,D,"SKINNER, Thomas Gregory",0.362
+51,House,4042,1.0,ND,R,"HANSBROUGH, Henry Clay",0.469
+51,House,856,6.0,OH,R,"BOOTHMAN, Melvin Morella",0.344
+51,House,1322,21.0,OH,R,"BURTON, Theodore Elijah",0.368
+51,House,1360,1.0,OH,R,"BUTTERWORTH, Benjamin",0.318
+51,House,1408,2.0,OH,R,"CALDWELL, John Alexander",0.484
+51,House,2059,9.0,OH,R,"COOPER, William Craig",0.466
+51,House,3855,15.0,OH,R,"GROSVENOR, Charles Henry",0.338
+51,House,4240,10.0,OH,D,"HAYNES, William Elisha",0.218
+51,House,5185,8.0,OH,R,"KENNEDY, Robert Patterson",0.497
+51,House,6312,18.0,OH,R,"McKINLEY, William, Jr.",0.442
+51,House,6671,7.0,OH,R,"MOREY, Henry Lee",0.328
+51,House,7116,13.0,OH,D,"OUTHWAITE, Joseph Hodson",0.219
+51,House,7137,16.0,OH,D,"OWENS, James W.",0.222
+51,House,7649,12.0,OH,R,"PUGSLEY, Jacob Joseph",0.54
+51,House,8362,5.0,OH,D,"SENEY, George Ebbert",0.313
+51,House,8714,20.0,OH,R,"SMYSER, Martin Luther",0.486
+51,House,9206,19.0,OH,R,"TAYLOR, Ezra Booth",0.522
+51,House,9224,17.0,OH,R,"TAYLOR, Joseph Danner",0.439
+51,House,9314,11.0,OH,R,"THOMPSON, Albert Clifton",0.463
+51,House,10087,14.0,OH,R,"WICKHAM, Charles Preston",0.464
+51,House,10141,3.0,OH,R,"WILLIAMS, Elihu Stephen",0.348
+51,House,10427,4.0,OH,D,"YODER, Samuel S.",0.229
+51,House,4355,1.0,OR,R,"HERMANN, Binger",0.281
+51,House,285,18.0,PA,R,"ATKINSON, Louis Evans",0.624
+51,House,536,23.0,PA,R,"BAYNE, Thomas McKee",0.339
+51,House,715,1.0,PA,R,"BINGHAM, Henry Harrison",0.544
+51,House,1089,10.0,PA,R,"BROSIUS, Marriott",0.569
+51,House,1165,9.0,PA,D,"BRUNNER, David B.",0.414
+51,House,1200,17.0,PA,D,"BUCKALEW, Charles Rollin",0.264
+51,House,2136,21.0,PA,R,"CRAIG, Samuel Alfred",0.423
+51,House,2231,26.0,PA,R,"CULBERTSON, William Constantine",0.56
+51,House,2310,22.0,PA,R,"DALZELL, John",0.598
+51,House,2342,6.0,PA,R,"DARLINGTON, Smedley",0.511
+51,House,4080,5.0,PA,R,"HARMER, Alfred Crout",0.452
+51,House,5140,4.0,PA,R,"KELLEY, William Darrah",0.197
+51,House,5204,28.0,PA,D,"KERR, James",0.388
+51,House,5931,19.0,PA,D,"MAISH, Levi",0.344
+51,House,6178,16.0,PA,R,"McCORMICK, Henry Clay",0.327
+51,House,6834,8.0,PA,D,"MUTCHLER, William",0.306
+51,House,7076,2.0,PA,R,"O'NEILL, Charles",0.596
+51,House,7091,12.0,PA,R,"OSBORNE, Edwin Sylvanus",0.46
+51,House,7715,3.0,PA,D,"RANDALL, Samuel Jackson",
+51,House,7750,24.0,PA,R,"RAY, Joseph Warren",0.466
+51,House,7814,13.0,PA,D,"REILLY, James Bernard",0.199
+51,House,7827,4.0,PA,R,"REYBURN, John Edgar",0.48
+51,House,7902,14.0,PA,R,"RIFE, John Winebrenner",0.564
+51,House,8317,11.0,PA,R,"SCRANTON, Joseph Augustine",0.384
+51,House,8329,20.0,PA,R,"SCULL, Edward",0.483
+51,House,8975,27.0,PA,R,"STONE, Charles Warren",0.506
+51,House,9433,25.0,PA,R,"TOWNSEND, Charles Champlain",0.566
+51,House,9654,3.0,PA,D,"VAUX, Richard",0.371
+51,House,9876,27.0,PA,R,"WATSON, Lewis Findlay",0.431
+51,House,10395,15.0,PA,R,"WRIGHT, Myron Benjamin",0.447
+51,House,10415,7.0,PA,R,"YARDLEY, Robert Morris",0.444
+51,House,250,2.0,RI,R,"ARNOLD, Warren Otis",0.666
+51,House,8799,1.0,RI,R,"SPOONER, Henry Joshua",0.586
+51,House,2084,3.0,SC,D,"COTHRAN, James Sproull",0.481
+51,House,2337,6.0,SC,D,"DARGAN, George William",0.343
+51,House,2553,1.0,SC,D,"DIBBLE, Samuel",0.312
+51,House,2918,7.0,SC,D,"ELLIOTT, William",0.474
+51,House,4297,5.0,SC,D,"HEMPHILL, John James",0.391
+51,House,6511,7.0,SC,R,"MILLER, Thomas Ezekiel",0.335
+51,House,7359,4.0,SC,D,"PERRY, William Hayne",0.551
+51,House,9387,2.0,SC,D,"TILLMAN, George Dionysius",0.339
+51,House,3570,98.0,SD,R,"GIFFORD, Oscar Sherman",0.475
+51,House,7431,98.0,SD,R,"PICKLER, John Alfred",0.324
+51,House,2973,8.0,TN,D,"ENLOE, Benjamin Augustine",0.613
+51,House,3008,3.0,TN,R,"EVANS, Henry Clay",0.48
+51,House,4606,2.0,TN,R,"HOUK, Leonidas Campbell",0.38
+51,House,6359,4.0,TN,D,"McMILLIN, Benton",0.507
+51,House,7394,10.0,TN,D,"PHELAN, James",0.379
+51,House,7439,9.0,TN,D,"PIERCE, Rice Alexander",0.611
+51,House,7877,5.0,TN,D,"RICHARDSON, James Daniel",0.605
+51,House,9198,1.0,TN,R,"TAYLOR, Alfred Alexander",0.414
+51,House,9857,6.0,TN,D,"WASHINGTON, Joseph Edwin",0.449
+51,House,10076,7.0,TN,D,"WHITTHORNE, Washington Curran",0.398
+51,House,4,6.0,TX,D,"ABBOTT, Jo (Joseph)",0.603
+51,House,2141,7.0,TX,D,"CRAIN, William Henry",0.332
+51,House,2230,4.0,TX,D,"CULBERSON, David Browning",0.37
+51,House,4070,5.0,TX,D,"HARE, Silas",0.514
+51,House,5237,3.0,TX,D,"KILGORE, Constantine Buckley",0.672
+51,House,5460,11.0,TX,D,"LANHAM, Samuel Willis Tucker",0.54
+51,House,6043,2.0,TX,D,"MARTIN, William Harrison",0.721
+51,House,6531,9.0,TX,D,"MILLS, Roger Quarles",0.566
+51,House,6642,8.0,TX,D,"MOORE, Littleton Wilde",0.576
+51,House,8244,10.0,TX,D,"SAYERS, Joseph Draper",0.483
+51,House,8931,1.0,TX,D,"STEWART, Charles",0.474
+51,House,3858,2.0,VT,R,"GROUT, William Wallace",0.554
+51,House,8943,1.0,VT,R,"STEWART, John Wolcott",0.376
+51,House,892,2.0,VA,R,"BOWDEN, George Edwin",0.555
+51,House,1145,1.0,VA,R,"BROWNE, Thomas Henry Bayly",0.531
+51,House,1189,9.0,VA,D,"BUCHANAN, John Alexander",0.519
+51,House,2856,6.0,VA,D,"EDMUNDS, Paul Carrington",0.476
+51,House,5456,4.0,VA,R,"LANGSTON, John Mercer",0.584
+51,House,5572,8.0,VA,D,"LEE, William Henry Fitzhugh",0.371
+51,House,5619,5.0,VA,D,"LESTER, Posey Green",0.477
+51,House,7028,7.0,VA,D,"O'FERRALL, Charles Triplett",0.42
+51,House,9498,10.0,VA,D,"TUCKER, Henry St. George",0.483
+51,House,9660,4.0,VA,D,"VENABLE, Edward Carrington",0.351
+51,House,9696,3.0,VA,R,"WADDILL, Edmund, Jr.",0.332
+51,House,10285,3.0,VA,D,"WISE, George Douglas",0.333
+51,House,10242,1.0,WA,R,"WILSON, John Lockwood",0.451
+51,House,68,3.0,WV,D,"ALDERSON, John Duffy",0.434
+51,House,284,1.0,WV,R,"ATKINSON, George Wesley",0.592
+51,House,4856,4.0,WV,D,"JACKSON, James Monroe",0.623
+51,House,7321,1.0,WV,D,"PENDLETON, John Overton",0.199
+51,House,8606,4.0,WV,R,"SMITH, Charles Brooks",0.55
+51,House,10262,2.0,WV,D,"WILSON, William Lyne",0.279
+51,House,500,2.0,WI,D,"BARWIG, Charles",0.343
+51,House,1025,5.0,WI,D,"BRICKNER, George H.",0.351
+51,House,1593,1.0,WI,R,"CASWELL, Lucien Bonaparte",0.41
+51,House,1754,6.0,WI,R,"CLARK, Charles Benjamin",0.612
+51,House,4196,8.0,WI,R,"HAUGEN, Nils Pederson",0.326
+51,House,5401,3.0,WI,R,"LA FOLLETTE, Robert Marion",0.312
+51,House,6174,9.0,WI,R,"McCORD, Myron Hawley",0.282
+51,House,9305,7.0,WI,R,"THOMAS, Ormsby Brunson",0.373
+51,House,9634,4.0,WI,R,"VAN SCHAICK, Isaac Whitbeck",0.381
+51,House,1757,1.0,WY,R,"CLARK, Clarence Don",0.513
+51,Senate,6682,0.0,AL,D,"MORGAN, John Tyler",0.408
+51,Senate,7644,0.0,AL,D,"PUGH, James Lawrence",0.454
+51,Senate,674,0.0,AR,D,"BERRY, James Henderson",0.707
+51,Senate,5042,0.0,AR,D,"JONES, James Kimbrough",0.678
+51,Senate,4266,0.0,CA,D,"HEARST, George",0.254
+51,Senate,8836,0.0,CA,R,"STANFORD, Leland",0.222
+51,Senate,9246,0.0,CO,R,"TELLER, Henry Moore",0.204
+51,Senate,10302,0.0,CO,R,"WOLCOTT, Edward Oliver",0.134
+51,Senate,4220,0.0,CT,R,"HAWLEY, Joseph Roswell",0.34
+51,Senate,7482,0.0,CT,R,"PLATT, Orville Hitchcock",0.429
+51,Senate,3765,0.0,DE,D,"GRAY, George",0.401
+51,Senate,4397,0.0,DE,R,"HIGGINS, Anthony",0.394
+51,Senate,1425,0.0,FL,D,"CALL, Wilkinson",0.354
+51,Senate,7227,0.0,FL,D,"PASCO, Samuel",0.494
+51,Senate,1126,0.0,GA,D,"BROWN, Joseph Emerson",0.264
+51,Senate,1953,0.0,GA,D,"COLQUITT, Alfred Holt",0.452
+51,Senate,6170,0.0,ID,R,"McCONNELL, William John",0.487
+51,Senate,8489,0.0,ID,R,"SHOUP, George Laird",0.45
+51,Senate,2239,0.0,IL,R,"CULLOM, Shelby Moore",0.283
+51,Senate,3075,0.0,IL,R,"FARWELL, Charles Benjamin",0.258
+51,Senate,9526,0.0,IN,D,"TURPIE, David",0.391
+51,Senate,9685,0.0,IN,D,"VOORHEES, Daniel Wolsey",0.383
+51,Senate,141,0.0,IA,R,"ALLISON, William Boyd",0.321
+51,Senate,10234,0.0,IA,R,"WILSON, James Falconer",0.373
+51,Senate,4801,0.0,KS,R,"INGALLS, John James",0.194
+51,Senate,7489,0.0,KS,R,"PLUMB, Preston B.",0.14
+51,Senate,560,0.0,KY,D,"BECK, James Burnie",0.499
+51,Senate,751,0.0,KY,D,"BLACKBURN, Joseph Clay Stiles",0.555
+51,Senate,1509,0.0,KY,D,"CARLISLE, John Griffin",0.606
+51,Senate,3000,0.0,LA,D,"EUSTIS, James Biddle",0.425
+51,Senate,3565,0.0,LA,D,"GIBSON, Randall Lee",0.376
+51,Senate,3385,0.0,ME,R,"FRYE, William Pierce",0.402
+51,Senate,3917,0.0,ME,R,"HALE, Eugene",0.298
+51,Senate,3709,0.0,MD,D,"GORMAN, Arthur Pue",0.374
+51,Senate,10217,0.0,MD,D,"WILSON, Ephraim King",0.606
+51,Senate,2423,0.0,MA,R,"DAWES, Henry Laurens",0.369
+51,Senate,4462,0.0,MA,R,"HOAR, George Frisbie",0.328
+51,Senate,6352,0.0,MI,R,"McMILLAN, James",0.26
+51,Senate,8957,0.0,MI,R,"STOCKBRIDGE, Francis Brown",0.323
+51,Senate,2377,0.0,MN,R,"DAVIS, Cushman Kellogg",0.267
+51,Senate,9853,0.0,MN,R,"WASHBURN, William Drew",0.242
+51,Senate,3532,0.0,MS,D,"GEORGE, James Zachariah",0.472
+51,Senate,9793,0.0,MS,D,"WALTHALL, Edward Cary",0.481
+51,Senate,1892,0.0,MO,D,"COCKRELL, Francis Marion",0.505
+51,Senate,9665,0.0,MO,D,"VEST, George Graham",0.697
+51,Senate,7576,0.0,MT,R,"POWER, Thomas Charles",0.385
+51,Senate,8201,0.0,MT,R,"SANDERS, Wilbur Fiske",0.331
+51,Senate,5951,0.0,NE,R,"MANDERSON, Charles Frederick",0.291
+51,Senate,7148,0.0,NE,R,"PADDOCK, Algernon Sidney",0.268
+51,Senate,5046,0.0,NV,R,"JONES, John Percival",0.175
+51,Senate,8948,0.0,NV,R,"STEWART, William Morris",0.202
+51,Senate,765,0.0,NH,R,"BLAIR, Henry William",0.444
+51,Senate,1641,0.0,NH,R,"CHANDLER, William Eaton",0.457
+51,Senate,6011,0.0,NH,R,"MARSTON, Gilman",0.419
+51,Senate,799,0.0,NJ,D,"BLODGETT, Rufus",0.343
+51,Senate,6375,0.0,NJ,D,"McPHERSON, John Rhoderic",0.413
+51,Senate,3024,0.0,NY,R,"EVARTS, William Maxwell",0.276
+51,Senate,4452,0.0,NY,R,"HISCOCK, Frank",0.375
+51,Senate,7737,0.0,NC,D,"RANSOM, Matt Whitaker",0.401
+51,Senate,9601,0.0,NC,D,"VANCE, Zebulon Baird",0.566
+51,Senate,1576,0.0,ND,R,"CASEY, Lyman Rufus",0.355
+51,Senate,7436,0.0,ND,R,"PIERCE, Gilbert Ashville",0.287
+51,Senate,7272,0.0,OH,D,"PAYNE, Henry B.",0.213
+51,Senate,8454,0.0,OH,R,"SHERMAN, John",0.277
+51,Senate,2649,0.0,OR,R,"DOLPH, Joseph Norton",0.475
+51,Senate,6565,0.0,OR,R,"MITCHELL, John Hipple",0.337
+51,Senate,1435,0.0,PA,R,"CAMERON, James Donald",0.293
+51,Senate,7668,0.0,PA,R,"QUAY, Matthew Stanley",0.205
+51,Senate,71,0.0,RI,R,"ALDRICH, Nelson Wilmarth",0.338
+51,Senate,1613,0.0,RI,R,"CHACE, Jonathan",0.797
+51,Senate,2624,0.0,RI,R,"DIXON, Nathan Fellows",0.404
+51,Senate,1344,0.0,SC,D,"BUTLER, Matthew Calbraith",0.413
+51,Senate,4020,0.0,SC,D,"HAMPTON, Wade",0.485
+51,Senate,6614,0.0,SD,R,"MOODY, Gideon Curtis",0.5
+51,Senate,7379,0.0,SD,R,"PETTIGREW, Richard Franklin",0.192
+51,Senate,508,0.0,TN,D,"BATE, William Brimage",0.661
+51,Senate,4104,0.0,TN,D,"HARRIS, Isham Green",0.618
+51,Senate,1915,0.0,TX,D,"COKE, Richard",0.647
+51,Senate,7769,0.0,TX,D,"REAGAN, John Henninger",0.568
+51,Senate,2855,0.0,VT,R,"EDMUNDS, George Franklin",0.341
+51,Senate,6696,0.0,VT,R,"MORRILL, Justin Smith",0.398
+51,Senate,422,0.0,VA,D,"BARBOUR, John Strode, Jr.",0.43
+51,Senate,2325,0.0,VA,D,"DANIEL, John Warwick",0.451
+51,Senate,113,0.0,WA,R,"ALLEN, John Beard",0.347
+51,Senate,8819,0.0,WA,R,"SQUIRE, Watson Carvosso",0.308
+51,Senate,3081,0.0,WV,D,"FAULKNER, Charles James",0.386
+51,Senate,5173,0.0,WV,D,"KENNA, John Edward",0.406
+51,Senate,8239,0.0,WI,R,"SAWYER, Philetus",0.362
+51,Senate,8800,0.0,WI,R,"SPOONER, John Coit",0.254
+51,Senate,1502,0.0,WY,R,"CAREY, Joseph Maull",0.382
+51,Senate,9842,0.0,WY,R,"WARREN, Francis Emroy",0.394
