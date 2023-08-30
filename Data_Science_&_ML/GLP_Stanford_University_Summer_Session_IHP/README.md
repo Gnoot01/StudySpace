@@ -2,7 +2,7 @@ I went to Stanford University, California, United States as part of my Global Le
 
 I attained __ for [DATASCI 154](https://summer.stanford.edu/courses/datasci-154-solving-social-problems-data) (5 units) and __ for [SOC 128D](https://summer.stanford.edu/courses/soc-128d-mining-culture-through-text-data-introduction-social-data-science) (3 units)
 
-![transcript](transcript.jpg)
+![transcript](transcript.pdf)
 
 # DATASCI 154
 Explored the more theoretical side of Data Science
