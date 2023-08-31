@@ -42,7 +42,7 @@
 - IOS vs Android Dialog Responsiveness
 - Portrait vs Landscape Orientation Responsiveness
 - Futures (Promises)
-- Theming (.copyWith(...), .of(context))
+- Theming (.copyWith(...), .of(context) from ThemeData)
 - 3rd party (uuid (unique ids), intl (date formatter))
 
 - +Widgets used: showModalBottomSheet (Overlay), ScaffoldMessenger, SnackBar (Eg. Undo notification), AppBar (Row Toolbar at top), Chart, Expanded (use when 2 nested widgets are unconstrained by space), CupertinoAlertDialog (IOS native), AlertDialog (Android),  LayoutBuilder (constraints based on parent widget), DropdownButton, DropdownMenuItem, Navigator.pop(context) (Remove overlay), ListView.builder (Scrollable List, BUT only create when visible (scrolled into view) for performance), Dismissible, FractionallySizedBox
