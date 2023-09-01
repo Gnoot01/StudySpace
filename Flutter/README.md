@@ -19,7 +19,7 @@
 
 - Classes, StatelessWidgets, StatefulWidget, setState, "${}"
 
-- +Widgets used: Scaffold, Container, BoxDecoration, LinearGradient, Center, Column, TextButton
+- +Widgets used: Scaffold (Base screen), Container, BoxDecoration, LinearGradient, Center, Column, TextButton
 - Classes used: Alignment, MainAxisSize, Image, EdgeInsets, Colors, TextStyle, Text
 ```
 
