@@ -41,7 +41,7 @@
 - DateTime, Category, 
 - IOS vs Android Dialog Responsiveness
 - Portrait vs Landscape Orientation Responsiveness
-- Futures (Promises)
+- Futures (Promises), Async Await Eg. Adding item
 - Theming (.copyWith(...), .of(context) from ThemeData)
 - 3rd party (uuid (unique ids), intl (date formatter))
 
