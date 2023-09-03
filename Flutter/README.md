@@ -32,7 +32,7 @@
 - Getters: "getting a value", used as a property, internally is a method
 - .shuffle() to randomly shuffle mutate in-place, List.of(...) to create copy of list, .add(), .map(), .where(), Map<keyType, valueType>, Map typecasting as Dart doesn't know type of value in Map Eg. data["qn_index"] as int
 
-- +Widgets used: SizedBox (spacing), RoundedRectangleBorder, SizedBox + SingleChildScrollView (for scrollable window)
+- +Widgets used: SizedBox (spacing), RoundedRectangleBorder, SizedBox + SingleChildScrollView (for scrollable window, ensure all on screen is scrollable)
 - Classes used: BorderRadius, CrossAxisAlignment, Icons
 ```
 
