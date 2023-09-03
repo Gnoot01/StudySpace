@@ -69,5 +69,5 @@
 - 3rd party (http.get/post/put/patch/delete(...))
 
 - +Widgets used: CircularProgressIndicator (loading spinner), FutureBuilder (Updating UI based on state of Future), TextFormField/DropdownButtonFormField (TextField/DropdownButton for forms), 
-- Classes used: Uri.https(...), GlobalKey (for Forms, .currentState.validate/save/reset())
+- Classes used: Uri.https(...), GlobalKey (for Forms, to get content inside Forms by .currentState.validate/save/reset())
 ```
