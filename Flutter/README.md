@@ -65,8 +65,9 @@
 - Form
 - Backend & HTTP requests
 - json.decode/encode
+- !context.mounted (Check if referred context is outdated)
 - 3rd party (http.get/post/put/patch/delete(...))
 
-- +Widgets used: CircularProgressIndicator (loading spinner), FutureBuilder (Updating UI based on state of Future)
-- Classes used: Uri.https(...),
+- +Widgets used: CircularProgressIndicator (loading spinner), FutureBuilder (Updating UI based on state of Future), TextFormField/DropdownButtonFormField (TextField/DropdownButton for forms), 
+- Classes used: Uri.https(...), GlobalKey (for Forms, .currentState.validate/save/reset())
 ```
