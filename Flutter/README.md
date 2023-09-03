@@ -45,7 +45,7 @@
 - Theming (.copyWith(...), .of(context) from ThemeData)
 - 3rd party (uuid (unique ids), intl (date formatter))
 
-- +Widgets used: showModalBottomSheet (Overlay), ScaffoldMessenger, SnackBar (Eg. Undo notification), AppBar (Row Toolbar at top), Chart, Expanded (use when 2 nested widgets are unconstrained by space), CupertinoAlertDialog (IOS native), AlertDialog (Android),  LayoutBuilder (constraints based on parent widget), DropdownButton, DropdownMenuItem, Navigator.push/pushReplacement/pop(context, {...}) (Add/Replace/Remove overlay (return to prev screen) & pass info along),  ListView.builder (Scrollable List, BUT only create when visible (scrolled into view) for performance), Dismissible, FractionallySizedBox
+- +Widgets used: showModalBottomSheet (Overlay), ScaffoldMessenger, SnackBar (Eg. Undo notification), AppBar (Row Toolbar at top), Chart, Expanded (use when 2 nested widgets are unconstrained by space), CupertinoAlertDialog (IOS native), AlertDialog (Android),  LayoutBuilder (constraints based on parent widget), DropdownButton, DropdownMenuItem, Navigator.push/pushReplacement/pop(context, {...}) (Add/Replace/Remove overlay (return to prev screen) & pass info along),  ListView.builder (Scrollable List, BUT only create when visible (scrolled into view) for performance), Dismissible, FractionallySizedBox, TextField (input field)
 - Classes used: Enum, ColorScheme, Brightness, WidgetsFlutterBinding, SystemChrome, DeviceOrientation, ThemeData, CardTheme, ElevatedButtonThemeData, AppBarTheme, CardTheme, ThemeMode, MediaQuery, TextEditingController (manage memory storage of input field, .dispose()), Platform.is..., ValueKey, TextInputType (Keyboard type for email/numbers), MaterialPageRoute (Route into another screen)
 ```
 
