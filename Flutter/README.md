@@ -1,4 +1,6 @@
-[Flutter & Dart - The Complete Guide [2023 Edition]](https://nlbsg.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
+![certificate](certificate.jpg)
+
+This certificate above verifies that ANDREW YU MING XIN successfully completed the course [Flutter & Dart - The Complete Guide [2023 Edition]](https://nlbsg.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) on 09/04/2023 as taught by Academind by Maximilian Schwarzmüller, Maximilian Schwarzmüller on Udemy. The certificate indicates the entire course was completed as validated by the student. The course duration represents the total video hours of the course at time of most recent completion.
 
 - [exercise_1_dice_roll](exercise_1_dice_roll): 
 ```
