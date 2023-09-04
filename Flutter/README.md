@@ -19,8 +19,8 @@
 
 - Classes, setState, "${}"
 
-- +Widgets used: Scaffold (Base screen), Container, BoxDecoration, LinearGradient, Center, Column, TextButton
-- Classes used: StatelessWidgets, StatefulWidget, Alignment, MainAxisSize, Image (Show image from file), EdgeInsets, Colors, TextStyle, Text
+- +Widgets used: Scaffold (Base screen), Container, BoxDecoration, LinearGradient, Center, Column, TextButton, Image.file/network (Show image from file/url)
+- Classes used: StatelessWidgets, StatefulWidget, Alignment, MainAxisSize, EdgeInsets, Colors, TextStyle, Text
 ```
 
 - [exercise_2_quiz](exercise_2_quiz): 
