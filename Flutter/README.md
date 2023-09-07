@@ -22,7 +22,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - Classes, setState, "${}"
 
 - +Widgets used: Scaffold (Base screen), Container, BoxDecoration, LinearGradient, Center, Column, TextButton, Image.file/network (Show image from file/url)
-- Classes used: StatelessWidgets, StatefulWidget, Alignment, MainAxisSize, EdgeInsets, Colors, TextStyle, Text
+- Classes used: StatelessWidgets, StatefulWidget, Alignment, MainAxisSize, EdgeInsets, Colors.black/Color.fromARGB/Color(8-digit hexadecimal/FF...6-digit hexadecimal), TextStyle, Text
 ```
 
 - [exercise_2_quiz](exercise_2_quiz): 
