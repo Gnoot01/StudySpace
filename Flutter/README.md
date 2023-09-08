@@ -29,7 +29,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 ```
 - Opacity is performance-intensive! use alpha in Color.fromARGB(150, 255, 255, 255) instead
 - Alternative constructors Eg. OutlinedButton vs OutlinedButton.icon for icon
-- Margin vs Padding
+- Container(margin:...) vs Padding(padding:...) widget
 - Installing 3rd party packages (GoogleFonts)
 - Getters: "getting a value", used as a property, internally is a method
 - .shuffle() to randomly shuffle mutate in-place, List.of(...) to create copy of list, .add(), .map(), .where(), Map<keyType, valueType>, Map typecasting as Dart doesn't know type of value in Map Eg. data["qn_index"] as int
