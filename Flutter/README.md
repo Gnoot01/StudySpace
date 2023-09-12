@@ -88,7 +88,8 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 ```
 - Firebase Auth, Firestore, Cloud Storage, Messaging
 
-- +Widgets used: StreamBuilder (Takes a Stream (continuous flow of data Eg. real-time updates), subscribes+rebuilds UI with specified widget whenever any changes to Stream), 
+- +Widgets used: StreamBuilder (Takes a Stream (continuous flow of data Eg. real-time updates), subscribes+rebuilds UI with specified widget whenever any changes to Stream), MaterialApp(
+      debugShowCheckedModeBanner: false) (Not show "debug" banner on emulator)
 - Classes used: FirebaseAuth, FirebaseFirestore, FirebaseStorage, FirebaseMessaging
 ```
 
