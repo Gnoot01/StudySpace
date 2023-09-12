@@ -22,19 +22,19 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - Classes, setState, "${}"
 
 - +Widgets used: Scaffold (Base screen), Container, BoxDecoration, LinearGradient, Center, Column, TextButton, Image.file/network (Show image from file/url)
-- Classes used: StatelessWidgets, StatefulWidget, Alignment, MainAxisSize, EdgeInsets, Colors.black/Color.fromARGB/Color(8-digit hexadecimal/FF...6-digit hexadecimal), TextStyle, Text
+- Classes used: StatelessWidgets, StatefulWidget, Alignment, MainAxisSize, EdgeInsets (all, symmetric, LTRB, only), Colors.black/Color.fromARGB/Color(8-digit hexadecimal/FF...6-digit hexadecimal), TextStyle, Text
 ```
 
 - [exercise_2_quiz](exercise_2_quiz): 
 ```
 - Opacity is performance-intensive! use alpha in Color.fromARGB(150, 255, 255, 255) instead
 - Alternative constructors Eg. OutlinedButton vs OutlinedButton.icon for icon
-- Container(margin:...) vs Padding(padding:...) widget
+- Container(margin:...) vs Padding(padding:...) widget, 
 - Installing 3rd party packages (GoogleFonts)
 - Getters: "getting a value", used as a property, internally is a method
 - .shuffle() to randomly shuffle mutate in-place, List.of(...) to create copy of list, .add(), .map(), .where(), Map<keyType, valueType>, Map typecasting as Dart doesn't know type of value in Map Eg. data["qn_index"] as int
 
-- +Widgets used: SizedBox (spacing), RoundedRectangleBorder, SizedBox + SingleChildScrollView (for scrollable window, ensure all on screen is scrollable)
+- +Widgets used: SizedBox (spacing), RoundedRectangleBorder, SizedBox + SingleChildScrollView (for scrollable window, ensure all on screen is scrollable, physics: BouncingScrollPhysics() for bouncy effect)
 - Classes used: BorderRadius, CrossAxisAlignment, Icons
 ```
 
@@ -47,7 +47,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - Theming (.copyWith(...), .of(context) from ThemeData)
 - 3rd party (uuid (unique ids), intl (date formatter))
 
-- +Widgets used: showModalBottomSheet (Overlay), ScaffoldMessenger, SnackBar (Eg. Undo notification), AppBar (Row Toolbar at top), Chart, Expanded (use when 2 nested widgets are unconstrained by space), CupertinoAlertDialog (IOS native), AlertDialog (Android),  LayoutBuilder (constraints based on parent widget), DropdownButton, DropdownMenuItem, Navigator.push/pushReplacement/pop(context, {...}) (Add/Replace/Remove overlay (return to prev screen) & pass info along),  ListView.builder (Scrollable List, BUT only create when visible (scrolled into view) for performance), Dismissible, FractionallySizedBox, TextField (input field)
+- +Widgets used: showModalBottomSheet (Overlay), ScaffoldMessenger, SnackBar + SnackBarAction (Eg. Undo notification), AppBar (Row Toolbar at top), Chart, Expanded (use when 2 nested widgets are unconstrained by space), CupertinoAlertDialog (IOS native), AlertDialog (Android),  LayoutBuilder (constraints based on parent widget), DropdownButton, DropdownMenuItem, Navigator.push/pushReplacement/pop(context, {...}) (Add/Replace/Remove overlay (return to prev screen) & pass info along),  ListView.builder (Scrollable List, BUT only create when visible (scrolled into view) for performance), Dismissible, FractionallySizedBox, TextField (input field)
 - Classes used: Enum, ColorScheme.fromSeed(...), Brightness, WidgetsFlutterBinding, SystemChrome, DeviceOrientation, ThemeData, CardTheme, ElevatedButtonThemeData, AppBarTheme, CardTheme, ThemeMode, MediaQuery, TextEditingController (manage memory storage of input field, .text, .dispose/clear()), Platform.is..., ValueKey, TextInputType (Keyboard type for email/numbers), MaterialPageRoute (Route into another screen)
 ```
 
@@ -58,7 +58,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - Explicit, Implicit Animations
 - 3rd party (riverpod (Manage cross-widget state instead of passing states thru widgets that don't use it))
 
-- +Widgets used: Drawer (Hamburger icon Sidebar), BottomNavigationBar (Tab bar at bottom), BottomNavigationBarItem, Card, GestureDetector (just make tappable/listen to any taps), InkWell(make tappable + give visual feedback), Stack(Eg. text (child) on image (parent), starting with bottom (most background) layer), Hero (Animate widget across diff screens, need to be tagged same for connection), Positioned ( how child should be positioned RELATIVE to parent on stack), ListTile (Outputting any type List as a row), SwitchListTile (Row of switches), AnimatedSwitcher, GridView (similar to ListView, but grids)
+- +Widgets used: Drawer (Hamburger icon Sidebar), BottomNavigationBar (Tab bar at bottom), BottomNavigationBarItem, Card, GestureDetector (Screen actions Eg. make tappable, drag), InkWell(GestureDetector + give visual feedback), Stack(Eg. text (child) on image (parent), starting with bottom (most background) layer), Hero (Animate widget across diff screens, need to be tagged same for connection), Positioned ( how child should be positioned RELATIVE to parent on stack), ListTile (Outputting any type List as a row), SwitchListTile (Row of switches), AnimatedSwitcher, GridView (similar to ListView, but grids)
 - Classes used: ProviderScope, ConsumerStatefulWidget + ConsumerState, ref.watch(PROVIDER) (read again whenever value changes, like JS hooks), ref.read(PROVIDER.notifier)... (read once), StateNotifier(.state holds data, BUT cannot modify (.add/.remove) regardless, MUST alw create new data), StateNotifierProvider, FadeInImage (Fade in instead of popping in animation), MemoryImage (Image loaded from memory), NetworkImage (Image loaded from internet), BoxFit.cover (If image is too big to fit, it is cut off and zoomed in, not distorted), TextOverflow (What to replace with if text overflows, Eg. .ellipsis), RotationTransition (transition animation), Tween, WillPopScope (Detected when user taps back button (device/app)), AnimationController (late, .forward/.stop/.repeat, .dispose(), .value), AnimatedBuilder (Listen to animation), SliverGridDelegateWithFixedCrossAxisCount (Set no. of columns for GridView), CurvedAnimation (Non-linear animation)
 ```
 
@@ -93,3 +93,10 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - Classes used: FirebaseAuth, FirebaseFirestore, FirebaseStorage, FirebaseMessaging
 ```
 
+- [TikTokHackathon2023-TiktokShop](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop): 
+```
+- Get/Add/Update/Delete data: .then, Retrieve + use to build widget: FutureBuilder/StreamBuilder
+
+- +Widgets used: TabController (addListener if _tabController.index not updating in TabBarView for some reason), TabBar, TabBarView (for diff tabs), LinearProgressIndicator (Progress bar), ScrollablePositionedList (in widget>tribes>your_tribes for scrollable list, navigate to clicked), BottomAppBar (BottomNavigationBar), GestureDetector(onVerticalDragUpdate: (details) { if (details.delta.dy < -5) {..}}) (Action on swipe-up)
+- Classes used: BoxDecoration (Border/OutlineInputBorder, BorderRadius, clipBehavior, BoxShadow), InputDecoration (To decorate TextField input), FocusScope.of(context).requestFocus(FocusNode()) + FocusScope.of(context).unfocus() (Close keyboard Eg. when tapping out of focus areas), 
+```
