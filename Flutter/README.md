@@ -73,3 +73,22 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - +Widgets used: CircularProgressIndicator (loading spinner), FutureBuilder (Updating UI based on state of Future), TextFormField/DropdownButtonFormField (TextField/DropdownButton for forms), 
 - Classes used: Uri.https(...), GlobalKey (for Forms, to get content inside Forms by .currentState.validate/save/reset())
 ```
+
+- [exercise_6_fav_places_app](exercise_6_fav_places_app): 
+```
+- Native Device Features (Camera, Device Storage, GPS location)
+- Google Maps API
+- Pathing + SQLite Database
+
+- +Widgets used: FutureBuilder (Takes a Future, returns single value, subscribes+rebuilds UI once with specified widget & ends)
+- Classes used: ImagePicker (Native Camera/Gallery)
+```
+
+- [exercise_7_chat_app](exercise_7_chat_app): 
+```
+- Firebase Auth, Firestore, Cloud Storage, Messaging
+
+- +Widgets used: StreamBuilder (Takes a Stream (continuous flow of data Eg. real-time updates), subscribes+rebuilds UI with specified widget whenever any changes to Stream), 
+- Classes used: FirebaseAuth, FirebaseFirestore, FirebaseStorage, FirebaseMessaging
+```
+
