@@ -30,7 +30,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [StatefulWidget, Alignment, MainAxisSize, EdgeInsets (all, symmetric, LTRB, only), Colors.black/Color.fromARGB/Color(8-digit hexadecimal/FF...6-digit hexadecimal), TextStyle, Text](exercise_1_dice_roll/lib/dice_roller.dart)
 
 
-- [exercise_2_quiz](exercise_2_quiz): 
+### [exercise_2_quiz](exercise_2_quiz): 
 ```
 - Opacity is performance-intensive! use alpha in Color.fromARGB(150, 255, 255, 255) instead
 - Alternative constructors Eg. OutlinedButton vs OutlinedButton.icon for icon
@@ -50,7 +50,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [Icons](exercise_2_quiz/lib/results_screen.dart)
 
 
-- [exercise_3_expense_tracker](exercise_3_expense_tracker): 
+### [exercise_3_expense_tracker](exercise_3_expense_tracker): 
 ```
 - DateTime, Category, 
 - IOS vs Android Dialog Responsiveness
@@ -72,7 +72,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [ValueKey](exercise_3_expense_tracker/lib/widgets/expenses_list/expenses_list.dart)
 
 
-- [exercise_4_meals_app](exercise_4_meals_app): 
+### [exercise_4_meals_app](exercise_4_meals_app): 
 ```
 - late
 - Cross-widget/App-wide state
@@ -94,7 +94,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [MaterialPageRoute (Route into another screen), Rotation/SlideTransition (transition animation), Tween, AnimationController (late, .forward/.stop/.repeat, .dispose(), .value), AnimatedBuilder (Listen to animation), SliverGridDelegateWithFixedCrossAxisCount (Set no. of columns for GridView), CurvedAnimation (Non-linear animation)](exercise_4_meals_app/lib/screens/categories.dart)
 
 
-- [exercise_5_shopping_list](exercise_5_shopping_list): 
+### [exercise_5_shopping_list](exercise_5_shopping_list): 
 ```
 - Form
 - Backend & HTTP requests
@@ -109,7 +109,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [Uri.https(...), GlobalKey (for Forms, to get content inside Forms by .currentState.validate/save/reset())](exercise_5_shopping_list/lib/widgets/new_item.dart)
 
 
-- [exercise_6_fav_places_app](exercise_6_fav_places_app): 
+### [exercise_6_fav_places_app](exercise_6_fav_places_app): 
 ```
 - Native Device Features (Camera, Device Storage, GPS location)
 - Google Maps API
@@ -121,7 +121,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [ImagePicker (Native Camera/Gallery)](exercise_6_fav_places_app/widgets/image_input.dart)
 
 
-- [exercise_7_chat_app](exercise_7_chat_app): 
+### [exercise_7_chat_app](exercise_7_chat_app): 
 ```
 - Firebase Auth, Firestore, Cloud Storage, Messaging
 ```
@@ -136,7 +136,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [FirebaseMessaging](exercise_7_chat_app/screens/chat.dart)
 
 
-- [TikTokHackathon2023-TiktokShop](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop): 
+### [TikTokHackathon2023-TiktokShop](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop): 
 ```
 - Get/Add/Update/Delete data: .then, Retrieve + use to build widget: FutureBuilder/StreamBuilder
 ```
