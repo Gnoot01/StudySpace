@@ -34,7 +34,7 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 ```
 - Opacity is performance-intensive! use alpha in Color.fromARGB(150, 255, 255, 255) instead
 - Alternative constructors Eg. OutlinedButton vs OutlinedButton.icon for icon
-- Container(margin:...) vs Padding(padding:...) widget, 
+- Container(padding:..., margin:...) = Padding(padding:...) widget, 
 - Installing 3rd party packages (GoogleFonts)
 - Getters: "getting a value", used as a property, internally is a method
 - .shuffle() to randomly shuffle mutate in-place, List.of(...) to create copy of list, .add(), .map(), .where(), Map<keyType, valueType>, Map typecasting as Dart doesn't know type of value in Map Eg. data["qn_index"] as int
@@ -145,7 +145,13 @@ This certificate above verifies that ANDREW YU MING XIN successfully completed t
 - [LinearProgressIndicator (Progress bar)](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/widgets/quests/quest.dart)
 - [ScrollablePositionedList (Scrollable list, navigate to clicked)](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/widgets/tribes/your_tribes.dart)
 - [GestureDetector(onVerticalDragUpdate: (details) { if (details.delta.dy < -5) {..}}) (Action on swipe-up)](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/models/product_grid.dart)
+- [VideoPlayerController, ChewieController](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/screens/tribes/video_posts.dart)
+- [Scaffold(extendBodyBehindAppBar: true) (Image behind Scaffold, esp Appbar part), BottomNavigationBar (Bottom tabs)](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/screens/home/home.dart)
+- [Divider (Like Container(color: ...))](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/widgets/home/inbox_tab.dart)
 #### Classes used: 
 - BoxDecoration (Border/OutlineInputBorder, BorderRadius, clipBehavior, BoxShadow), InputDecoration (To decorate TextField input)
 - [FocusScope.of(context).requestFocus(FocusNode()) + FocusScope.of(context).unfocus() (Close keyboard Eg. when tapping out of focus areas)](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/screens/socialhub/fulfil_wishlist_selection.dart)
+#### Async Await Firebase:
+- [StreamBuilder QuerySnapshot + DocumentSnapshot](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/models/product_grid.dart)
+- [Updating value, nested QuerySnapshot -> DocumentSnapshot](https://github.com/Gnoot01/TikTokHackathon2023-TiktokShop/blob/main/lib/screens/socialhub/fulfil_wishlist_selection.dart)
 
