@@ -24,5 +24,5 @@ toDo: Graphs, check out below
 [Fast Frontend Mockup w/o backend server](https://jsfiddle.net/)
 
 ## Slide Templates:
-[SlidesGo](https://slidesgo.com/)
-[SlidesCarnival](https://slidescarnival.com/)
+- [SlidesGo](https://slidesgo.com/)
+- [SlidesCarnival](https://slidescarnival.com/)
