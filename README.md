@@ -22,3 +22,7 @@ toDo: Graphs, check out below
 [Documentation & Best Practices 2](https://developer.mozilla.org/en-US/)
 
 [Fast Frontend Mockup w/o backend server](https://jsfiddle.net/)
+
+## Slide Templates:
+[SlidesGo](https://slidesgo.com/)
+[SlidesCarnival](https://slidescarnival.com/)
