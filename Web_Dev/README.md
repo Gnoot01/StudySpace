@@ -1,9 +1,11 @@
-[The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp)
+All web development courses and projects I have completed thus far:
 
-- [Extra: About Me](Extra_About_Me): 
-- [Extra: CV](Extra_CV): 
-- [Extra: TinDog](Extra_TinDog): Learnt CSS advanced concepts,ordering & Bootstrap
-<hr>
+![cert1](cert1.jpg)
+
+
+This certificate above verifies that Andrew Yu Ming Xin successfully completed the course [The Modern Javascript Bootcamp Course (2022)](https://www.udemy.com/course/javascript-beginners-complete-tutorial/) on 07/03/2022 as taught by Colt Steele, Stephen Grider on Udemy.
+The certificate indicates the entire course was completed as validated by the student.
+The course duration represents the total video hours of the course at time of most recent completion.
 
 - [Section_8_Challenge_1](Section_8_Challenge_1): functions, De Morgan's Law, .includes
 - [Section_8_Challenge_2](Section_8_Challenge_2): for...of (iterable)
@@ -118,6 +120,14 @@ document.addEventListener("click", (e) => {
 ```
 <hr>
 
+![cert2](cert2.jpg)
+
+This certificate above verifies that ANDREW YU MING XIN successfully completed the course [The Complete 2023 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) on 12/14/2023 as taught by Dr. Angela Yu on Udemy. The certificate indicates the entire course was completed as validated by the student. The course duration represents the total video hours of the course at time of most recent completion.
+
+- [Extra: About Me](Extra_About_Me): 
+- [Extra: CV](Extra_CV): 
+- [Extra: TinDog](Extra_TinDog): Learnt CSS advanced concepts,ordering & Bootstrap
+
 - [Exercise_1_Life_Left](Exercise_1_Life_Left): let, \`${}\`
 - [Exercise_2_BMI_Calc](Exercise_2_BMI_Calc): let VAR; (undefined)
 - [Exercise_3_FibonacciGenerator](Exercise_3_FibonacciGenerator): const for arrays, array methods
@@ -174,6 +184,8 @@ useState Hooks
 Array, Object Destructuring
 Arrow funcs () => {} for delayed execution
 ```
+<hr>
+
 ## Hosting website on Github:
 1. make repo public
 2. Settings>Pages>Source (main), save>if error 404, wait ~30 mins & try again 
@@ -237,12 +249,4 @@ UI - Perception Hierarchy via 1.colors 2.size 3.weight 4.layout (eg. 40-60 chars
 UX - 1.Simplicity 2.Consistency(navbar) 3.Reading Patterns(F pattern generally, Z pattern for more sparse, more img/vid content)
      4.Responsiveness 5.X Dark Patterns (Trickery to get ppl to do sth they didn't mean/want to) Eg. Shopee, Amazon auto selecting express delivery & making it stand out to profit/Curved line as a hair on mobile to click on website & profit/Purposely confusing checkboxes for email newsletter, etc
 ```
-
-![certificate](certificate.jpg)
-
-
-This certificate above verifies that Andrew Yu Ming Xin successfully completed the course [The Modern Javascript Bootcamp Course (2022)](https://www.udemy.com/course/javascript-beginners-complete-tutorial/) on 07/03/2022 as taught by Colt Steele, Stephen Grider on Udemy.
-The certificate indicates the entire course was completed as validated by the student.
-The course duration represents the total video hours of the course at time of most recent completion.
-<hr>
 
