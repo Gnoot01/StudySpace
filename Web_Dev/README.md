@@ -122,7 +122,9 @@ document.addEventListener("click", (e) => {
 
 ![cert2](cert2.jpg)
 
-This certificate above verifies that ANDREW YU MING XIN successfully completed the course [The Complete 2023 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) on 12/14/2023 as taught by Dr. Angela Yu on Udemy. The certificate indicates the entire course was completed as validated by the student. The course duration represents the total video hours of the course at time of most recent completion.
+This certificate above verifies that ANDREW YU MING XIN successfully completed the course [The Complete 2023 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) on 12/14/2023 as taught by Dr. Angela Yu on Udemy. 
+The certificate indicates the entire course was completed as validated by the student. 
+The course duration represents the total video hours of the course at time of most recent completion.
 
 - [Extra: About Me](Extra_About_Me): 
 - [Extra: CV](Extra_CV): 
