@@ -1,0 +1,78 @@
+{
+    "knn": {
+        "param_distributions": {
+            "n_neighbors": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "p": [1, 2]
+        },
+        "n_iter": 1000,
+        "cv": 10
+    },
+    "svm": {
+        "param_distributions": {
+            "C": [0.5, 0.8, 1],
+            "kernel": ["linear", "poly", "rbf", "sigmoid"],
+            "degree": [2, 3, 4, 5]
+        },
+        "n_iter": 1000,
+        "cv": 10
+    },
+    "nb": {
+        "var_smoothing": [
+            0.894263565033255, 0.7992134460445487, 0.7138675420657795,
+            0.6373934849177725, 0.5690086296874497, 0.5079927354297776,
+            0.45369075009581354, 0.40550735908574525, 0.3629011042718753,
+            0.32537936558466293, 0.2924950356361505, 0.26384202290876264,
+            0.239051721768097, 0.217790126623877, 0.19975504621785182,
+            0.18467255271792455, 0.17229467669498286, 0.162398302045494,
+            0.15478325980265945, 0.14927162084856912, 0.14570617350141956,
+            0.14395013351169777, 0.14388606876425826, 0.14540571868545644
+        ],
+        "n_iter": 1000,
+        "cv": 10
+    },
+    "catboost": {
+        "param_distributions": {}
+    },
+    "xgboost": {
+        "param_distributions": {}
+    },
+    "bagging": {
+        "param_distributions": {
+            "n_estimators": [10, 15, 20, 25, 30, 35, 40, 45, 50],
+            "max_samples": [0.2, 0.5, 0.8],
+            "max_features": [0.2, 0.5, 0.8],
+            "bootstrap": [true, false]
+        },
+        "n_iter": 1000,
+        "cv": 10
+    },
+    "random_forest": {
+        "param_distributions": {
+            "n_estimators": [
+                10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150
+            ],
+            "max_depth": [15, 17, 19, 21, 23, 25],
+            "min_samples_split": [2, 4, 6, 8, 10],
+            "min_samples_leaf": [2, 4, 6, 8, 10],
+            "max_features": [0.2, 0.5, 0.7]
+        },
+        "n_iter": 1000,
+        "cv": 10
+    },
+    "voting_ensemble": {
+        "param_distributions": {
+            "voting": ["hard", "soft"],
+            "flatten_transform": ["auto", true, false]
+        },
+        "n_iter": 1000,
+        "cv": 10
+    },
+    "neural_network": {
+        "units": [40, 35, 28, 18, 8],
+        "dropout": [0.2, 0.1, 0.1],
+        "learning_rate": 0.01,
+        "batch_size": 32,
+        "epochs": 140,
+        "patience": 2
+    }
+}
