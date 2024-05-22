@@ -122,7 +122,7 @@ Rationale:
 Below are the Confusion Matrices for each model and finally the Accuracy vs Recall metrics for all the models, of which the Naive Bayes model has the highest recall of 0.97, and Random Forest has the highest accuracy of 0.86.
 
 ![cm_knn](cm_knn.png)
-![cm_svc](cm_svc.png)
+![cm_svc](cm_svm.png)
 ![cm_nb](cm_nb.png)
 ![cm_catboost](cm_catboost.png)
 ![cm_xgboost](cm_xgboost.png)
