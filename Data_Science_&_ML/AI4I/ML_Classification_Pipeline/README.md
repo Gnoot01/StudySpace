@@ -25,7 +25,7 @@ There are synthetic features in the dataset. Therefore, I stated and verified an
 ### Structure
 
 ```
-ML_Pipeline/
+ML_Classification_Pipeline/
 ├── README.md
 ├── eda.ipynb
 ├── requirements.txt
