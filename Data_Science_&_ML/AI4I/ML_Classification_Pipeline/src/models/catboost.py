@@ -9,7 +9,7 @@ def catboost(config={"param_distributions": {}}) -> tuple:
     preprocessor = Preprocessor()
     X_train, X_validate, X_test, y_train, y_validate, y_test = preprocessor.preprocess()
 
-    classifier = CatBoostClassifier(config["param_distributions"])
+    classifier = CatBoostClassifier(**config["param_distributions"])
     classifier.fit(X_train, y_train.values.ravel())
     y_pred_validate = classifier.predict(X_validate)
     y_pred_test = classifier.predict(X_test)
