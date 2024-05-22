@@ -17,3 +17,7 @@ Human-out-of-the-loop: Human cannot easily override, AI takes full control
 ![Foundations_in_AI_certificate](Foundations_in_AI_certificate.jpg)
 
 Learnt about ...
+
+![Machine Learning Pipeline for Classification of Scam Calls](ML_Classification_Pipeline)
+
+
