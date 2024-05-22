@@ -1,4 +1,5 @@
-If "distribution not found" due to different environment and therefore different versions of libraries while installing requirements.txt, specify versions as >= as less strict
+## Overview
+A comprehensive end-to-end Machine Learning Pipeline capable of classifying Scam Calls, employing a meticulously outlined process encompassing 9 distinct models, from Exploratory Data Analysis to Ready-for-Deployment.
 
 ### Learning Outcomes
 
@@ -13,12 +14,13 @@ There are synthetic features in the dataset. Therefore, I stated and verified an
 5. Generate clear, meaningful, and understandable visualizations that support your findings
 6. Organise the notebook so that is it clear and easy to understand
 
-7. Appropriate data preprocessing and feature engineering
-8. Appropriate use and optimization of algorithms/models
-9. Appropriate explanation for the choice of algorithms/models
-10. Appropriate use of evaluation metrics
-11. Appropriate explanation for the choice of evaluation metrics
-12. Understanding of the different components in the machine learning pipeline
+
+1. Appropriate data preprocessing and feature engineering
+2. Appropriate use and optimization of algorithms/models
+3. Appropriate explanation for the choice of algorithms/models
+4. Appropriate use of evaluation metrics
+5. Appropriate explanation for the choice of evaluation metrics
+6. Understanding of the different components in the machine learning pipeline
 
 ### Structure
 
@@ -53,6 +55,8 @@ ML_Pipeline/
 ```
 
 ### Execution Instructions
+
+If "distribution not found" due to different environment and therefore different versions of libraries while installing requirements.txt, specify versions as >= as less strict
 
 Paste the following command on your bash terminal to download dependencies
 
