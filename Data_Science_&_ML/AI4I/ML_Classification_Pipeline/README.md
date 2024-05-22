@@ -1,6 +1,6 @@
 If "distribution not found" due to different environment and therefore different versions of libraries while installing requirements.txt, specify versions as >= as less strict
 
-#### Learning Outcomes
+### Learning Outcomes
 
 Within this project, I believe I have exhibited the following
 
@@ -20,7 +20,7 @@ There are synthetic features in the dataset. Therefore, I stated and verified an
 11. Appropriate explanation for the choice of evaluation metrics
 12. Understanding of the different components in the machine learning pipeline
 
-#### Structure
+### Structure
 
 ```
 ML_Pipeline/
@@ -52,7 +52,7 @@ ML_Pipeline/
 │   └── main.py
 ```
 
-#### Execution Instructions
+### Execution Instructions
 
 Paste the following command on your bash terminal to download dependencies
 
@@ -66,13 +66,13 @@ Paste the following command on the bash terminal to run the programme
 
 `./run.sh`
 
-#### Flow
+### Flow
 
 ![flowchart](flowchart.jpg)
 
 When an instance is created, data is retrieved from `calls.db` using SQLite. Upon calling `analyze_results()` on the instance, the `preprocess()` method is first invoked to modify the data. This involves removing duplicates, imputing missing values, eliminating features with low correlation, splitting the data into 64% training, 16% validation, and 20% test sets, and scaling numeric features while encoding categorical features. Subsequently, each model among `KNeighborsClassifier`, `SVC`, `GaussianNB`, `CatBoostClassifier`, `XGBClassifier`, `BaggingClassifier`, `RandomForestClassifier`, `VotingClassifier` and finally `Artificial Neural Network` are run using `RandomizedSearchCV`, and metrics are saved to `self.validation_scores` and `self.test_scores`. Confusion matrices are then plotted, and accuracy and recall are visualized to compare model performance on the test set.
 
-#### Insights from EDA
+### Insights from EDA
 
 -   Errors in data entries in columns "Financial Loss" and "Call Duration" rectified by taking absolute values
 -   2500 duplicate values to be removed, leaving exactly 10000 unique entries
@@ -80,11 +80,11 @@ When an instance is created, data is retrieved from `calls.db` using SQLite. Upo
 -   "ID", "Timestamp", "Device Battery" are irrelevant, and they were removed in the pipeline.
 -   "Financial Loss", followed by "Call Frequency", then "Country Prefix" are the better indicators of a "Scam Call"
 
-#### Feature Processing
+### Feature Processing
 
 ![processed_table](processed_table.jpg)
 
-#### Choice of models
+### Choice of models
 
 -   KNN
     Fast and efficient, it uses distance to find K nearest neighbours. It is excellent as it assumes no assumptions betweent the feature & the target
@@ -110,7 +110,7 @@ When an instance is created, data is retrieved from `calls.db` using SQLite. Upo
 -   Artificial Neural Network
     ANNs are capable of learning complex nonlinear relationships in the dataset. However, the dataset is particularly small, thus when increasing neurons or layers, it is prone to overfitting and thus perform worse than other models.
 
-#### Evaluation
+### Evaluation
 
 Chosen Metrics for performance: Accuracy and Recall
 Rationale:
@@ -132,7 +132,7 @@ Below are the Confusion Matrices for each model and finally the Accuracy vs Reca
 ![cm_ann](cm_ann.png)
 ![classifier_performance](classifier_performance.jpg)
 
-#### Additional considerations for deployment
+### Additional considerations for deployment
 
 -   Requires model persistence, thus need to save the model first using either Pickle, or joblib. This ensures the models can be loaded and reused without retraining each time
 -   Models need to be monitored over time especially when they have been deployed to detect any degradation in performance over time. This could involve setting up alerts for significant deviations from expected performance
