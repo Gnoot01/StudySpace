@@ -21,3 +21,6 @@ This is also where I always come back to consolidate and reflect upon my ongoing
 ### Slide Templates
 - [SlidesGo](https://slidesgo.com/)
 - [SlidesCarnival](https://slidescarnival.com/)
+
+### Others (or until I have enough for a category)
+- [Neural Network Visualizer](https://playground.tensorflow.org/)
